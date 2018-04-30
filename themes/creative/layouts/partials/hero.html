@@ -1,5 +1,14 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
+    <div class="header-hours">
+        {{ with .Site.Params.hero.businessHours }}
+        <div>{{ . | markdownify  }}</div>
+        {{ end }}
+        {{ with .Site.Params.hero.altBusinessHours }}
+        <div>{{ . | markdownify  }}</div>
+        {{ end }}
+    </div>
+
     <div class="header-content">
         <div class="header-content-inner">
             {{ with .Site.Params.hero.slogan }}

@@ -31,11 +31,11 @@ googleAnalytics = ""
 	[params.navigation]
 		brand = "<img src='../img/SMALogo.png'>"
 
-		[params.navigation.links]
-			about     = "About"
-			services  = "Services"
-			portfolio = "Portfolio"
-			contact   = "Contact"
+	[params.navigation.links]
+		about     = "About"
+		services  = "Services"
+		portfolio = "Portfolio"
+		contact   = "Contact"
 
 
 	# Hero section
@@ -44,6 +44,8 @@ googleAnalytics = ""
 		slogan     = "Learn To Fly Today!"
 		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
 		buttonText = "Find out more"
+		businessHours = "Open 7 days a week from 7 AM to 5 PM"
+        altBusinessHours = "Open until 7 PM from Memorial Day through Labor Day"
 
 
 	# About section
@@ -63,11 +65,11 @@ googleAnalytics = ""
             description = "There is so much more than we can fit here, so please give us a call or stop by."
 
         [[params.services.list]]
-						icon = "fa-binoculars"
-						title = "Scenic Flights"
-						description = "Make great Gifts, and are memorable experiences."
+			icon = "fa-binoculars"
+			title = "Scenic Flights"
+			description = "Make great Gifts, and are memorable experiences."
 
-				[[params.services.list]]
+		[[params.services.list]]
             icon = "fa-wrench"
             title = "Aircraft Maintenance"
             description = "Our award-winning mechanics can help give you the peace of mind that comes from knowing that your aircraft is in top notch condition and has been inspected thoroughly and professionally. "

@@ -203,7 +203,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 100vh;
     text-align: center;
     color: #fff;
     background-image: url(../img/header.jpg);
@@ -219,6 +219,16 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+}
+
+header .header-hours {
+    padding: 10px 20px;
+    position: relative;
+    top: 51px;
+    border-radius: 0;
+    background-color: #f98a14;
+    z-index: 100;
+    width: 100%;
 }
 
 header .header-content .header-content-inner h1 {
@@ -244,7 +254,17 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 100%;
+        min-height: 500px;
+        height: 100%;
+    }
+
+    header .header-hours {
+        position: absolute;
+        padding: 10px 20px;
+        top: 51px;
+        right: 10px;
+        border-radius: 0 0 20px 20px;
+        width: auto;
     }
 
     header .header-content {
