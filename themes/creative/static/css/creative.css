@@ -229,8 +229,25 @@ header .header-hours {
     top: 51px;
     border-radius: 0;
     background-color: #f98a14;
+    color: #FFFFFF;
     z-index: 100;
     width: 100%;
+    font-size: 16px;
+}
+
+header .header-hours a {
+    color: #FFFFFF;
+}
+
+header .header-hours a:hover {
+    text-decoration: underline;
+}
+
+header .header-hours i {
+    color: #FFFFFF;
+    font-size: 20px;
+    top: 2px;
+    position: relative;
 }
 
 header .header-content .header-content-inner h1 {
@@ -276,6 +293,12 @@ header .header-content .header-content-inner p {
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+    }
+
+    @media(max-height:650px) {
+        header .header-content {
+            top: 320px;
+        }
     }
 
     header .header-content .header-content-inner {
@@ -538,4 +561,10 @@ body {
     height: 300px;
     overflow: visible;
     position: relative;
+}
+
+@media(min-width:768px) {
+    .contact-address {
+        margin-top: 30px;
+    }
 }

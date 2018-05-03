@@ -31,6 +31,19 @@
                     <p><a href="{{ .Site.Params.contact.facebook }}'">Facebook</a></p>
                 </div>
             {{ end }}
+            {{ if .Site.Params.contact.streetAddressLine1 }}
+            <div class="col-lg-12 text-center contact-address">
+                <i class="fa fa-map-marker fa-3x wow bounceIn"></i>
+                <p>{{ .Site.Params.contact.streetAddressLine1 | markdownify }}
+                {{ if .Site.Params.contact.streetAddressLine2 }}
+                    <br \>{{ .Site.Params.contact.streetAddressLine2 | markdownify }}
+                {{ end }}
+                </p>
+                {{ if .Site.Params.contact.gmapsAddress }}
+                <p><a href="https://www.google.com/maps/dir/?api=1&destination={{ .Site.Params.contact.gmapsAddress }}'" target="_blank">Get directions...</a></p>
+                {{ end }}
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>

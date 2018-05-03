@@ -1,6 +1,9 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
     <div class="header-hours">
+        {{ with .Site.Params.hero.phoneNumber }}
+        <i class="fa fa-phone"></i> Phone: <a href="tel:{{.}}">{{ . }}</a>
+        {{ end }}
         {{ with .Site.Params.hero.businessHours }}
         <div>{{ . | markdownify  }}</div>
         {{ end }}

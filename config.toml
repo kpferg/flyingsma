@@ -46,6 +46,7 @@ googleAnalytics = ""
 		buttonText = "Find out more"
 		businessHours = "Open 7 days a week from 7 AM to 5 PM"
         altBusinessHours = "Open until 7 PM Memorial Day - Labor Day"
+        phoneNumber = "207-324-8919"
 
 
 	# About section
@@ -119,6 +120,9 @@ The cost will be $225.00"""
 		phone = "207-324-8919"
 		email = "fly@flyingsma.com"
 		facebook = "https://www.facebook.com/SouthernMaineAviation/"
+		streetAddressLine1 = "199 Airport Road"
+		streetAddressLine2 = "Sanford, Maine 04073"
+		gmapsAddress = "Southern Maine Aviation, 199 Airport Rd, Sanford, ME 04073, USA"
 
 	# Google Maps section
 	# [params.location]
