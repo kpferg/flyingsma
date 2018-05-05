@@ -42,7 +42,10 @@
                 {{ end }}
                 </p>
                 {{ if .Site.Params.contact.gmapsAddress }}
-                <p><a href="https://www.google.com/maps/dir/?api=1&destination={{ .Site.Params.contact.gmapsAddress }}'" target="_blank">Get directions...</a></p>
+                    <p><a href="https://www.google.com/maps/dir/?api=1&destination={{ .Site.Params.contact.gmapsAddress }}'" target="_blank">Get directions...</a></p>
+                {{ end }}
+                {{ with .Site.Params.contact.gmapsEmbedURL }}
+                    <iframe src="{{ . | safeURL }}" width="400" height="400" frameborder="0" style="border:0;max-width:100%;" allowfullscreen></iframe>
                 {{ end }}
             </div>
             {{ end }}

@@ -31,10 +31,6 @@ a {
     transition: all .35s;
 }
 
-/*a i {*/
-    /*color: #000;*/
-/*}*/
-
 a:hover,
 a:focus {
     color: #eb3812;
@@ -125,6 +121,8 @@ aside {
     font-size: 13px;
     font-weight: 700;
     color: #222;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -578,4 +576,35 @@ body {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+
+#footer {
+    min-height: 0;
+    padding: 10px 5px;
+    border-color: rgba(255,255,255,.3);
+    background-color: rgba(0, 0, 0, .75);
+    color: #eeeeee;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.footer-copyright {
+    flex: 0 1 auto;
+}
+
+.footer-copyright span {
+    white-space: nowrap;
+}
+
+.footer-created-by {
+    flex: 0 1 auto;
+    white-space: nowrap;
+}
+
+.footer-created-by a {
+    color: #5cb85c;
 }
