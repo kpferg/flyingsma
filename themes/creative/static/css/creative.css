@@ -31,9 +31,9 @@ a {
     transition: all .35s;
 }
 
-a i {
-    color: #000;
-}
+/*a i {*/
+    /*color: #000;*/
+/*}*/
 
 a:hover,
 a:focus {
@@ -567,4 +567,15 @@ body {
     .contact-address {
         margin-top: 30px;
     }
+}
+
+.color-black {
+    color: #000000;
+}
+
+.hover-orange:hover {
+    color: #f98a14;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
 }
