@@ -46,13 +46,21 @@ googleAnalytics = ""
 	# Hero section
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Learn To Fly Today!"
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
-		buttonText = "Find out more"
 		businessHours = "Open 7 days a week from 7 AM to 5 PM"
         altBusinessHours = "Open until 7 PM Memorial Day - Labor Day"
         phoneNumber = "207-324-8919"
 
+	[[params.hero.list]]
+		# To change the background of the hero section, replace the '1.jpg' at './static/img/hero' with your own.
+		slogan     = "Learn To Fly Today!"
+		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		buttonText = "Find out more"
+
+	[[params.hero.list]]
+		# To change the background of the hero section, replace the '2.jpg' at './static/img/hero' with your own.
+		slogan     = "We're Here For You!"
+		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1!"
+		buttonText = "Learn More About Us"
 
 	# About section
 	[params.about]

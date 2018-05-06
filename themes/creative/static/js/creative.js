@@ -45,4 +45,13 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    $(document).ready(function(){
+        $('.slick-carousel').slick({
+            autoplay: true,
+            autoplaySpeed: 5000,
+            dots: true,
+            fade: true,
+        });
+    });
+
 })(jQuery); // End of use strict

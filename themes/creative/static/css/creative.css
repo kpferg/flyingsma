@@ -219,6 +219,7 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+    background-color: rgba(0, 0, 0, .25);
 }
 
 header .header-hours {
@@ -269,6 +270,13 @@ header .header-content .header-content-inner p {
     padding: 10px;
 }
 
+@media(max-width:767px) {
+    header .header-content {
+        min-height: 100vh;
+    }
+
+}
+
 @media(min-width:768px) {
     header {
         min-height: 500px;
@@ -285,12 +293,13 @@ header .header-content .header-content-inner p {
     }
 
     header .header-content {
-        position: absolute;
+        position: relative;
         top: 50%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
+        background-color: transparent;
     }
 
     @media(max-height:650px) {
@@ -607,4 +616,87 @@ body {
 
 .footer-created-by a {
     color: #5cb85c;
+}
+
+.slick-carousel {
+    height: 100vh;
+    width: 100%;
+}
+
+@media(max-width:767px) {
+    .slick-carousel {
+        height: calc(100vh - 86px);
+        width: 100%;
+    }
+}
+
+.hero-slide {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #2e6da4;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.slick-slide,
+.slick-track,
+.slick-list {
+    height:100%;
+}
+
+.slick-slide > div {
+    height: 100%;
+}
+
+.slick-dots {
+    bottom: 15px;
+}
+
+.slick-next {
+    right: 35px;
+    width: 48px;
+    height: 48px;
+}
+.slick-prev {
+    left: 35px;
+    z-index: 1;
+    width: 48px;
+    height: 48px;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    font-size: 48px;
+}
+
+@media(max-width:768px) {
+    .slick-next,
+    .slick-prev {
+        display: none !important;
+    }
+}
+
+.slick-dots li button:before {
+    width: 100px;
+    height: 6px;
+    content: ' ';
+    background-color: #ffffff;
+    border-radius: 3px;
+    opacity: 0.5;
+}
+
+.slick-dots li button {
+    width: 100px;
+}
+
+.slick-dots li {
+    width: 100px;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
 }

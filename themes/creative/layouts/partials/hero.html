@@ -12,20 +12,27 @@
         {{ end }}
     </div>
 
-    <div class="header-content">
-        <div class="header-content-inner">
-            {{ with .Site.Params.hero.slogan }}
-                <h1>{{ . | markdownify  }}</h1>
-            {{ end }}
-            {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
-                <hr>
-            {{ end }}
-            {{ with .Site.Params.hero.subtitle }}
-                <p>{{ . | markdownify }}</p>
-            {{ end }}
-            {{ with .Site.Params.hero.buttonText }}
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
-            {{ end }}
-        </div>
+
+    <div class="slick-carousel">
+        {{ range $index, $element := .Site.Params.hero.list }}
+            <div class="hero-slide" style="background-image: url(../img/hero/{{ add $index 1 }}.jpg);">
+                <div class="header-content">
+                    <div class="header-content-inner">
+                        {{ with $element.slogan }}
+                            <h1>{{ . | markdownify  }}</h1>
+                        {{ end }}
+                        {{ if and $element.slogan $element.subtitle }}
+                            <hr>
+                        {{ end }}
+                        {{ with $element.subtitle }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                        {{ with $element.buttonText }}
+                            <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        {{ end }}
     </div>
 </header>
