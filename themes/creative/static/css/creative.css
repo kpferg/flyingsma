@@ -75,12 +75,12 @@ p {
 
 section {
     padding: 100px 0;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 aside {
     padding: 50px 0;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 }
 
 .no-padding {
@@ -631,7 +631,7 @@ body {
 }
 
 .hero-slide {
-    display: block;
+    display: none;
     width: 100%;
     height: 100%;
     background-color: #2e6da4;
@@ -699,4 +699,24 @@ body {
 
 .slick-dotted.slick-slider {
     margin-bottom: 0;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-item {
+    flex: 1;
+    min-width: 50%;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+@media(max-width:768px) {
+    .about-item {
+        flex: auto;
+        min-width: 100%;
+        padding: 10px;
+    }
 }

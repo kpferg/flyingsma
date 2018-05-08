@@ -63,7 +63,39 @@ googleAnalytics = ""
 		buttonText = "Learn More About Us"
 
 	# About section
-	[params.about]
+	[[params.about.list]]
+		icon = "plane"
+		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started"
+
+	# About section
+	[[params.about.list]]
+		icon = "plane"
+		headline    = "Summer Ground School Is Starting!"
+		description = """Our summer private pilot ground school is starting on Saturday June 9th and runs for ten weeks.
+        The ground school is FAA Approved and covers all of the knowledge areas that you will need to pass the FAA
+        Knowledge Test with flying colors! The classes are also a great way to refresh your memory and get back into
+        flying if you have been on the ground too long. Many folks attend the ground school and fly on the same day. We
+        have a great community of people attending these classes already. please contact us with questions:
+        Andrew Button, Chief Instructor
+        480-721-7064
+        Private Pilot Ground School
+        Saturdays 8:00-12:00 pm (June 9 - August 18th)
+        $325
+        We have great options available for books and supplies. Please inquire."""
+		buttonText  = "Get started"
+
+	# About section
+	[[params.about.list]]
+		icon = "plane"
+		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started"
+
+	# About section
+	[[params.about.list]]
+		icon = "plane"
 		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
 		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
 		buttonText  = "Get started"

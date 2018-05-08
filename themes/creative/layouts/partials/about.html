@@ -1,21 +1,26 @@
 {{ "<!-- ABOUT -->" | safeHTML }}
 <section class="bg-primary" id="about">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                {{ with .Site.Params.about.headline }}
-                    <h2 class="section-heading">{{ . }}</h2>
-                {{ end }}
-                {{ if and .Site.Params.about.headline .Site.Params.about.description }}
-                    <hr class="light">
-                {{ end }}
-                {{ with .Site.Params.about.description }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
-                {{ end }}
-                {{ with .Site.Params.about.buttonText }}
-                    <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
-                {{ end }}
-            </div>
+        <div class="about-container">
+            {{ range .Site.Params.about.list }}
+                <div class="about-item text-center">
+                    {{ if .icon }}
+                        <i class="fa fa-{{ .icon }} fa-4x wow bounceIn"></i>
+                    {{ end }}
+                    {{ with .headline }}
+                        <h2 class="section-heading">{{ . }}</h2>
+                    {{ end }}
+                    {{ if and .headline .description }}
+                        <hr class="light">
+                    {{ end }}
+                    {{ with .description }}
+                        <p class="text-faded">{{ . | markdownify }}</p>
+                    {{ end }}
+                    {{ with .buttonText }}
+                        <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
+                    {{ end }}
+                </div>
+            {{ end }}
         </div>
     </div>
 </section>
