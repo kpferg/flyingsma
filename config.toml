@@ -55,6 +55,7 @@ googleAnalytics = ""
 		slogan     = "Learn To Fly Today!"
 		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
 		buttonText = "Find out more"
+        buttonAction = "#contact"
 
 	[[params.hero.list]]
 		# To change the background of the hero section, replace the '2.jpg' at './static/img/hero' with your own.
@@ -62,43 +63,51 @@ googleAnalytics = ""
 		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1!"
 		buttonText = "Learn More About Us"
 
-	# About section
-	[[params.about.list]]
-		icon = "plane"
-		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started"
+#	# About section
+#	[[params.about.list]]
+#		icon = "plane"
+#		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
+#		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+#		buttonText  = "Get started"
 
 	# About section
 	[[params.about.list]]
-		icon = "plane"
+		icon = "graduation-cap"
 		headline    = "Summer Ground School Is Starting!"
 		description = """Our summer private pilot ground school is starting on Saturday June 9th and runs for ten weeks.
         The ground school is FAA Approved and covers all of the knowledge areas that you will need to pass the FAA
         Knowledge Test with flying colors! The classes are also a great way to refresh your memory and get back into
         flying if you have been on the ground too long. Many folks attend the ground school and fly on the same day. We
-        have a great community of people attending these classes already. please contact us with questions:
-        Andrew Button, Chief Instructor
-        480-721-7064
-        Private Pilot Ground School
-        Saturdays 8:00-12:00 pm (June 9 - August 18th)
-        $325
-        We have great options available for books and supplies. Please inquire."""
-		buttonText  = "Get started"
+        have a great community of people attending these classes already. Please contact us with questions:
 
-	# About section
-	[[params.about.list]]
-		icon = "plane"
-		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started"
+Andrew Button, Chief Instructor<br>
+[480-721-7064](tel:480-721-7064)
 
-	# About section
-	[[params.about.list]]
-		icon = "plane"
-		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started"
+<h2>Private Pilot Ground School</h2>
+
+Saturdays 8:00-12:00 pm (June 9 - August 18th)
+
+$325
+
+We have great options available for books and supplies. Please inquire."""
+		buttonText  = "Contact Us"
+		buttonAction = "#contact"
+
+#	# About section
+#	[[params.about.list]]
+#		icon = "book"
+#		headline    = "Lorem ipsum dolor sit amet"
+#		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+#		buttonText  = "Lorem ipsum"
+#		buttonAction = "#"
+#
+#	# About section
+#	[[params.about.list]]
+#		icon = "facebook-square"
+#		headline    = "Lorem ipsum dolor sit amet"
+#		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+#		buttonText  = "Lorem ipsum"
+#		buttonAction = "#"
 
 
 	# Service section
