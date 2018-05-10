@@ -11,13 +11,13 @@
                         <h2 class="section-heading">{{ . }}</h2>
                     {{ end }}
                     {{ if and .headline .description }}
-                        <hr class="light">
+                        <hr class="primary">
                     {{ end }}
                     {{ with .description }}
                         <p class="text-faded">{{ . | markdownify }}</p>
                     {{ end }}
                     {{ if and .buttonText .buttonAction }}
-                        <a href="{{ .buttonAction }}" class="btn btn-default btn-xl">{{ .buttonText }}</a>
+                        <a href="{{ .buttonAction }}" class="btn btn-primary btn-xl">{{ .buttonText }}</a>
                     {{ end }}
                 </div>
             {{ end }}
