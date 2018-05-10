@@ -63,12 +63,21 @@ googleAnalytics = ""
 		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1!"
 		buttonText = "Learn More About Us"
 
-#	# About section
-#	[[params.about.list]]
-#		icon = "plane"
-#		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
-#		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-#		buttonText  = "Get started"
+	# About section
+	[[params.about.list]]
+		icon = "plane"
+		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started"
+
+
+	# About section
+	[[params.about.list]]
+		icon = "book"
+		headline    = "Lorem ipsum dolor sit amet"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Lorem ipsum"
+		buttonAction = "#"
 
 	# About section
 	[[params.about.list]]
@@ -93,14 +102,7 @@ We have great options available for books and supplies. Please inquire."""
 		buttonText  = "Contact Us"
 		buttonAction = "#contact"
 
-#	# About section
-#	[[params.about.list]]
-#		icon = "book"
-#		headline    = "Lorem ipsum dolor sit amet"
-#		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-#		buttonText  = "Lorem ipsum"
-#		buttonAction = "#"
-#
+
 #	# About section
 #	[[params.about.list]]
 #		icon = "facebook-square"
