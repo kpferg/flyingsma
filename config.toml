@@ -55,13 +55,14 @@ googleAnalytics = ""
 		slogan     = "Learn To Fly Today!"
 		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
 		buttonText = "Find out more"
-        buttonAction = "#contact"
+        buttonAction = "/fly"
 
 	[[params.hero.list]]
 		# To change the background of the hero section, replace the '2.jpg' at './static/img/hero' with your own.
 		slogan     = "We're Here For You!"
 		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1!"
 		buttonText = "Learn More About Us"
+		buttonAction = "/about"
 
 	# About section
 	[[params.about.list]]
@@ -181,10 +182,69 @@ The cost will be $225.00"""
 		gmapsAddress = "Southern Maine Aviation, 199 Airport Rd, Sanford, ME 04073, USA"
 		gmapsEmbedURL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.8488587129677!2d-70.71279048432662!3d43.40108837671419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb2b440a2eb5a67%3A0xa3a092f530c9d102!2sSouthern+Maine+Aviation!5e0!3m2!1sen!2spe!4v1525538071837"
 
-	# Fo0ter
+	# Footer
 	[params.footer.copyright]
 		name = "Southern Maine Aviation LLC"
 		year = "2018"
+
+	# Fly
+	[params.fly]
+		title = "Fly with Souther Maine Aviation"
+
+	# Fleet
+	[[params.fleet.list]]
+		title = "C172SP G1000 N11682"
+		description = """New to our fleet! 2006 Skyhawk G1000 glass panel is here!
+IFR certified with KAP 140 auto pilot will make an easy transation from our other SPs.
+For students seeking to become a professional pilot, the G1000 is the most widely used glass trainer platform.
+
+<a href='/PDF/G1000 Checkout Policy sheet.pdf' target='_blank')>G1000 Checkout Policy</a>"""
+		imageUrl = "5416387017d7321743dfdac4abdbc060.jpg"
+		pricing = "$160/hour"
+
+	# Fleet
+	[[params.fleet.list]]
+		title = "C172 SP N53468"
+		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with KAP140 autopilot, King KLN94 GPS, and 180hp."""
+		imageUrl = "N1006V-ext.jpg"
+		pricing = "$140/hour"
+
+	# Fleet
+	[[params.fleet.list]]
+		title = "C172 SP N916BA"
+		description = """Our 2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with KAP140 autopilot, King KLN94 GPS, and 180hp."""
+		imageUrl = "Skyhawk916BAExterior.jpg"
+		pricing = "$140/hour"
+
+	# Fleet
+	[[params.fleet.list]]
+		title = "C172 SP N172TG"
+		description = """2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with KAP140 autopilot, King KLN94 GPS, and 180hp. and JPI-701."""
+		imageUrl = "N172TG.jpg"
+		showImage = true
+		pricing = "$140/hour"
+
+	# Fleet
+	[[params.fleet.list]]
+		title = "C182 RG N7131S"
+		description = """Wow -- HSI, DME, KAP/KFC 200 autopilot w/ flight director, traffic, King KLN94 GPS and 150 kt cruise! Retractable gear and 235hp."""
+		imageUrl = "7131soutsideborder_3.jpg"
+		pricing = "$175/hour"
+
+	# Fleet
+	[[params.fleet.list]]
+		title = "Citabria 7GCBC N291CA"
+		description = """Our 2004 Citabria 7GCBC is a great taildragger, with awesome responsiveness and visibility. It is available for solo rental, tailwheel instruction and spin training endorsements
+                          Garmin 250XL manual."""
+	  	imageUrl = "N291CA_plane.jpg"
+	  	pricing = "$135/hour"
+
+  	# Fleet
+	[[params.fleet.list]]
+		title = "Redbird Motion Simulator"
+		description = """Our FAA-approved advanced training device simulates a traditional Skyhawk as well as a G1000 Skyhawk. Check out our Simulator Page for more information."""
+		imageUrl = "rbexterior.jpg"
+		pricing = "$70/hour"
 
 	# Google Maps section
 	# [params.location]
