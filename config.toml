@@ -204,6 +204,14 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 
 	# Fleet
 	[[params.fleet.list]]
+		title = "Citabria 7GCBC N291CA"
+		description = """Our 2004 Citabria 7GCBC is a great taildragger, with awesome responsiveness and visibility. It is available for solo rental, tailwheel instruction and spin training endorsements
+  Garmin 250XL manual."""
+		imageUrl = "N291CA_plane.jpg"
+		pricing = "$135/hour"
+
+	# Fleet
+	[[params.fleet.list]]
 		title = "C172 SP N53468"
 		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with KAP140 autopilot, King KLN94 GPS, and 180hp."""
 		imageUrl = "N1006V-ext.jpg"
@@ -231,13 +239,6 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		imageUrl = "7131soutsideborder_3.jpg"
 		pricing = "$175/hour"
 
-	# Fleet
-	[[params.fleet.list]]
-		title = "Citabria 7GCBC N291CA"
-		description = """Our 2004 Citabria 7GCBC is a great taildragger, with awesome responsiveness and visibility. It is available for solo rental, tailwheel instruction and spin training endorsements
-                          Garmin 250XL manual."""
-	  	imageUrl = "N291CA_plane.jpg"
-	  	pricing = "$135/hour"
 
   	# Fleet
 	[[params.fleet.list]]
