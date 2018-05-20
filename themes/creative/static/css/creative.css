@@ -78,6 +78,10 @@ section {
     /*min-height: 100vh;*/
 }
 
+.full-height {
+    min-height: calc(100vh - 37px);
+}
+
 aside {
     padding: 50px 0;
     /*min-height: 100vh;*/
@@ -812,4 +816,54 @@ body {
 
 .pricing .price {
     color: #66afe9;
+}
+
+.pilot-pathway {
+    min-height: calc(100vh - 37px);
+}
+
+.pilot-pathway .step {
+    display: none;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 30px;
+    color: #444;
+    font-size: 16px;
+    text-align: center;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 80px auto;
+}
+
+.pilot-pathway .step--start {
+    display: block;
+}
+
+.pilot-pathway .step-back {
+    color: #444;
+    display: none;
+}
+
+.thanks {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    min-height: calc(100vh - 37px);
+}
+
+.thanks .content {
+    position: absolute;
+    top: 50%;
+    padding: 0 50px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.thanks .message {
+    margin: 30px 0;
+    font-size: 32px;
 }

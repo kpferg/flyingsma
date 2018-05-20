@@ -1,0 +1,65 @@
+<section class="pilot-pathway bg-primary">
+
+    {{ range .Site.Params.pilotPathway.list }}
+    <div class="step {{ if .start }}step--start{{ end }} step--{{ .step }}">
+        <i class="fa fa-4x fa-{{ .icon }} wow bounceIn text-primary"></i>
+        <div class="question">{{ .question | markdownify }}</div>
+        {{ $question := .question }}
+        {{ range .answers.list }}
+            <div class="answer btn btn-primary" onclick="step({{ .nextStep }},{{ $question }},{{ .answerText }})">{{ .answerText | markdownify }}</div>
+        {{ end }}
+        <div class="step-back" onclick="stepBack()"><- Back</div>
+    </div>
+    {{ end }}
+
+    <div class="step step--last">
+        {{ with .Site.Params.pilotPathway.form }}
+        {{ .message }}
+        <form id="interest-form" method="POST" action="https://formspree.io/{{ .email }}">
+            <label>Name:<input type="text" name="name"></label>
+            <label>Email:<input type="email" name="email"></label>
+            <label>Phone:<input type="tel" name="telephone"></label>
+            <input type="hidden" name="responses" class="response-data">
+            <input type="hidden" name="_subject" value="{{ .subject }}" />
+            {{ if .cc }}<input type="hidden" name="_cc" value="{{ .cc }}" />{{ end }}
+            <input type="hidden" name="_next" value="{{ .Site.Params.baseurl }}/thanks.html" />
+            <div class="submit-button"><button class="btn btn-primary" type="submit">Submit</button></div>
+        </form>
+        {{ end }}
+        <div class="step-back" onclick="stepBack()"><- Back</div>
+    </div>
+</section>
+
+<script>
+    currentStep = 1;
+    stepCache = [1];
+    responses=[];
+
+    step = function(nextStep, currentQuestion, currentAnswer) {
+        console.log("step: " + nextStep + ", " + currentQuestion + ": " + currentAnswer);
+        $('.step').hide();
+        $('.step--'+(nextStep)).show();
+        $('.step-back').show();
+        this.currentStep = nextStep;
+        this.stepCache.push(this.currentStep);
+        this.responses.push({'question':currentQuestion,'answer':currentAnswer});
+
+        if(nextStep=='last'){
+            var responseString = "";
+            this.responses.forEach(function(element) {
+                responseString+=element.question+' '+element.answer+' \n';
+            });
+            $('.response-data').val(responseString);
+        }
+    }
+
+    stepBack = function() {
+        this.stepCache.pop(); // discard current step
+        var lastStep = this.stepCache.pop(); // redo last step
+        this.responses.pop();
+        step(lastStep, null);
+        if(this.stepCache.length <= 1){
+            $('.step-back').hide();
+        }
+    }
+</script>

@@ -1,0 +1,9 @@
+{{ "<!-- THANKS -->" | safeHTML }}
+<section class="bg-primary full-height thanks">
+    {{ with .Site.Params.thanks }}
+        <div class="content">
+            <div class="message">{{ .message }}</div>
+            {{ with .button }}<div><a href="{{ .url }}" class="btn btn-primary btn-xl page-scroll">{{ .text }}</a></div>{{ end }}
+        </div>
+    {{ end }}
+</section>
