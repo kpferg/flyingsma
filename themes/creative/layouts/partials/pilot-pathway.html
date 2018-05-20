@@ -22,7 +22,7 @@
             <input type="hidden" name="responses" class="response-data">
             <input type="hidden" name="_subject" value="{{ .subject }}" />
             {{ if .cc }}<input type="hidden" name="_cc" value="{{ .cc }}" />{{ end }}
-            <input type="hidden" name="_next" value="{{ .Site.Params.baseurl }}/thanks.html" />
+            <input type="hidden" name="_next" value="{{ .Site.Params.baseurl }}/thanks" />
             <div class="submit-button"><button class="btn btn-primary" type="submit">Submit</button></div>
         </form>
         {{ end }}
