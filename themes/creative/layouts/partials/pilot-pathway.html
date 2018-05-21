@@ -1,32 +1,46 @@
 <section class="pilot-pathway bg-primary">
 
+    <div class="step step--default">
+        <div class="pilot-pathway__image"></div>
+        <div class="question question-placeholder"></div>
+        <div class="answer answer-placeholder btn btn-primary">&nbsp;</div>
+        <div class="answer answer-placeholder btn btn-primary">&nbsp;</div>
+    </div>
+
+
     {{ range .Site.Params.pilotPathway.list }}
-    <div class="step {{ if .start }}step--start{{ end }} step--{{ .step }}">
-        <i class="fa fa-4x fa-{{ .icon }} wow bounceIn text-primary"></i>
+    <div class="step {{ if .start }}step--start{{ else }}step--hidden{{ end }} step--{{ .step }}">
+        {{ if .image }}<div class="pilot-pathway__image" style="background-image: url('../img/pilot-pathway/{{ .image }}')"></div>{{ end }}
+        {{ if and .icon (not .image) }}<i class="pilot-pathway__icon fa fa-4x fa-{{ .icon }} wow bounceIn text-primary"></i>{{ end }}
+
         <div class="question">{{ .question | markdownify }}</div>
         {{ $question := .question }}
         {{ range .answers.list }}
             <div class="answer btn btn-primary" onclick="step({{ .nextStep }},{{ $question }},{{ .answerText }})">{{ .answerText | markdownify }}</div>
         {{ end }}
-        <div class="step-back" onclick="stepBack()"><- Back</div>
+        <div class="step-back btn" onclick="stepBack()"><i class="fa fa-angle-left"></i> Back</div>
     </div>
     {{ end }}
 
-    <div class="step step--last">
+    <div class="step step--last step--hidden">
         {{ with .Site.Params.pilotPathway.form }}
-        {{ .message }}
-        <form id="interest-form" method="POST" action="https://formspree.io/{{ .email }}">
-            <label>Name:<input type="text" name="name"></label>
-            <label>Email:<input type="email" name="email"></label>
-            <label>Phone:<input type="tel" name="telephone"></label>
-            <input type="hidden" name="responses" class="response-data">
-            <input type="hidden" name="_subject" value="{{ .subject }}" />
-            {{ if .cc }}<input type="hidden" name="_cc" value="{{ .cc }}" />{{ end }}
-            <input type="hidden" name="_next" value="{{ .Site.Params.baseurl }}/thanks" />
-            <div class="submit-button"><button class="btn btn-primary" type="submit">Submit</button></div>
-        </form>
+        {{ if .image }}<div class="pilot-pathway__image" style="background-image: url('../img/pilot-pathway/{{ .image }}')"></div>{{ end }}
+        {{ if and .icon (not .image) }}<i class="pilot-pathway__icon fa fa-4x fa-{{ .icon }} wow bounceIn text-primary"></i>{{ end }}
+        <div class="message">{{ .message }}</div>
+        <div class="form">
+            <form id="interest-form" method="POST" action="https://formspree.io/{{ .email }}">
+                <div><label><input type="text" name="name" placeholder="Name"></label></div>
+                <div><label><input type="email" name="email" placeholder="Email"></label></div>
+                <div><label><input type="tel" name="telephone" placeholder="Phone"></label></div>
+                <input type="hidden" name="responses" class="response-data">
+                <input type="hidden" name="_subject" value="{{ .subject }}" />
+                {{ if .cc }}<input type="hidden" name="_cc" value="{{ .cc }}" />{{ end }}
+                <input type="hidden" name="_next" value="{{ .Site.Params.baseurl }}/thanks" />
+                <div class="submit-button"><button class="btn btn-primary" type="submit">Submit</button></div>
+            </form>
+        </div>
         {{ end }}
-        <div class="step-back" onclick="stepBack()"><- Back</div>
+        <div class="step-back btn" onclick="stepBack()"><i class="fa fa-angle-left"></i> Back</div>
     </div>
 </section>
 
@@ -37,8 +51,9 @@
 
     step = function(nextStep, currentQuestion, currentAnswer) {
         console.log("step: " + nextStep + ", " + currentQuestion + ": " + currentAnswer);
-        $('.step').hide();
-        $('.step--'+(nextStep)).show();
+        $('.step').addClass('step--hidden');
+        $('.step--default').removeClass('step--hidden');
+        $('.step--'+(nextStep)).removeClass('step--hidden');
         $('.step-back').show();
         this.currentStep = nextStep;
         this.stepCache.push(this.currentStep);
