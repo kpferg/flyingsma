@@ -14,26 +14,26 @@
     </div>
     <div class="fleet-items">
         {{ range .Site.Params.fleet.list }}
-            <div class="fleet-item">
-                {{ with .title }}
-                    <div class="fleet-item__title">{{ . | markdownify }}</div>
-                {{ end }}
-                {{ if and .imageUrl (not (eq .showImage false)) }}
-                    <div class="fleet-item__photo"><img src="../img/fleet/{{ .imageUrl }}"></div>
-                {{ end }}
-                {{ if or .title .description }}
-                    <div class="fleet-item__details">
-                        {{ with .description }}
-                            <div class="fleet-item__description">{{ . | markdownify }}</div>
-                        {{ end }}
-                    </div>
-                {{ end }}
-                {{ with .pricing }}
-                <div class="pricing">
-                    Pricing: <span class="price">{{ . | markdownify }}</span>
-                </div>
+        <div class="fleet-item">
+            {{ with .title }}
+            <div class="fleet-item__title">{{ . | markdownify }}</div>
+            {{ end }}
+            {{ if and .imageUrl (not (eq .showImage false)) }}
+            <div class="fleet-item__photo"><img src="../img/fleet/{{ .imageUrl }}"></div>
+            {{ end }}
+            {{ if or .title .description }}
+            <div class="fleet-item__details">
+                {{ with .description }}
+                <div class="fleet-item__description">{{ . | markdownify }}</div>
                 {{ end }}
             </div>
+            {{ end }}
+            {{ with .pricing }}
+            <div class="pricing">
+                Pricing: <span class="price">{{ . | markdownify }}</span>
+            </div>
+            {{ end }}
+        </div>
         {{ end }}
     </div>
 </section>

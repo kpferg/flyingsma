@@ -596,6 +596,21 @@ body {
     transition: all .35s;
 }
 
+.hover-black:hover {
+    color: #000000;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.hover-red:hover {
+    color: #eb3812;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+
 #footer {
     min-height: 0;
     padding: 10px 5px;
@@ -999,4 +1014,23 @@ body {
 
 .pilot-pathway-promo__text {
     margin-bottom: 10px;
+}
+
+.dropdown-item {
+    color: #444;
+    font-size: 15px;
+    padding: 0 5px;
+    line-height: 25px;
+}
+
+.dropdown-item:hover {
+    color: #888;
+}
+
+.dropdown-menu {
+    padding: 7px 0;
+}
+
+.corporate-arrivals {
+    padding-top: 100px;
 }

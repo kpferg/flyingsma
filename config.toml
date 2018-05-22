@@ -34,6 +34,7 @@ googleAnalytics = ""
 	[params.navigation.links]
 		about     = "About"
 		services  = "Services"
+		all_services  = "All Services"
 		portfolio = "Portfolio"
 		contact   = "Contact"
 
@@ -117,10 +118,17 @@ We have great options available for books and supplies. Please inquire."""
 	[params.services]
 		headline = "At your service"
 
+		[[params.services.list]]
+			icon = "fa-briefcase"
+			title = "Corporate Arrivals"
+			description = "We can make sure everything you need is here waiting upon your arrival."
+			link = "/corporate-arrivals"
+
         [[params.services.list]]
             icon = "fa-plane"
             title = "Learn To Fly"
             description = "There is so much more than we can fit here, so please give us a call or stop by."
+            link = "fly"
 
         [[params.services.list]]
 			icon = "fa-binoculars"
