@@ -39,11 +39,11 @@
                 {{ if and .Site.Params.services.list .Site.Params.navigation.links.services }}
                     <li class="nav-item dropdown">
                         {{ if .IsHome }}
-                            <a class="nav-link dropdown-toggle page-scroll" href="#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ .Site.Params.navigation.links.services }} <i class="fa fa-caret-down"></i>
                             </a>
                         {{ else }}
-                            <a class="nav-link dropdown-toggle" href="/#services" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 {{ .Site.Params.navigation.links.services }} <i class="fa fa-caret-down"></i>
                             </a>
                         {{ end }}
