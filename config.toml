@@ -63,7 +63,7 @@ googleAnalytics = ""
 		slogan     = "We're Here For You!"
 		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1!"
 		buttonText = "Learn More About Us"
-		buttonAction = "/about"
+		buttonAction = "#about"
 
 	# About section
 	[[params.about.list]]
@@ -128,7 +128,7 @@ We have great options available for books and supplies. Please inquire."""
             icon = "fa-plane"
             title = "Learn To Fly"
             description = "There is so much more than we can fit here, so please give us a call or stop by."
-            link = "fly"
+            link = "/fly"
 
         [[params.services.list]]
 			icon = "fa-binoculars"
