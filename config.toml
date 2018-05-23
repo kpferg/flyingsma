@@ -21,7 +21,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Southern Maine Aviation"
-	description = "Flight Training, Instruction and Services in Southern Maine"
+	description = "Flight Training, Instruction and Services in Southern Maine FBO, Scenic Flights, Learn to Fly, Pilot Pathway, Sanford, Maine"
 
 	# The path must be relative to the static folder
 	favicon = "favicon_1.0.ico"
