@@ -32,7 +32,7 @@ googleAnalytics = ""
 		brand = "<img src='../img/SMALogo.png'>"
 
 	[params.navigation.links]
-		about     = "About"
+		about     = "News"
 		services  = "Services"
 		all_services  = "All Services"
 		portfolio = "Portfolio"
@@ -64,6 +64,9 @@ googleAnalytics = ""
 		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1!"
 		buttonText = "Learn More About Us"
 		buttonAction = "#about"
+
+	[params.about]
+		headline = "News & Events"
 
 	# About section
 	[[params.about.list]]
@@ -152,37 +155,31 @@ We have great options available for books and supplies. Please inquire."""
 				 title = "Learn More"
 
 
-    # Portfolio modals
-	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
-        buttonText = "Close"
 
-    # Aside section
-	[params.aside]
-		headline = "Upcoming Events"
-    	description = """The next Drone class will be taught by Southern Maine Aviation Instructors at the Portland Campus of Southern Maine Community College!
-To register go to the SMCC website and go to the Continuing Studies section or use this link:
-
-[Register Here](//google.com)
-
-Look for this:
-Intro to sUAS - Drone 101
-(AVIA 800 01)
-
-
-4 nights
-03/13/18 - 03/22/18
-Tuesdays 5:30PM-8PM
-Thursdays 5:30PM-8PM
-
-
-The cost will be $225.00"""
-
-		[params.aside.button]
-			text = "Contact Us"
-			link = "mailto:fly@flyingsma.com"
+#    # Aside section
+#	[params.aside]
+#		headline = "Upcoming Events"
+#    	description = """The next Drone class will be taught by Southern Maine Aviation Instructors at the Portland Campus of Southern Maine Community College!
+#To register go to the SMCC website and go to the Continuing Studies section or use this link:
+#
+#[Register Here](//google.com)
+#
+#Look for this:
+#Intro to sUAS - Drone 101
+#(AVIA 800 01)
+#
+#
+#4 nights
+#03/13/18 - 03/22/18
+#Tuesdays 5:30PM-8PM
+#Thursdays 5:30PM-8PM
+#
+#
+#The cost will be $225.00"""
+#
+#		[params.aside.button]
+#			text = "Contact Us"
+#			link = "mailto:fly@flyingsma.com"
 
 	# Contact section
 	[params.contact]
@@ -190,7 +187,7 @@ The cost will be $225.00"""
 		description = "Ready to start flying with us? That's great! Give us a call or send us an email and we will get back to you soon!"
 		phone = "207-324-8919"
 		email = "fly@flyingsma.com"
-		facebook = "https://www.facebook.com/SouthernMaineAviation"
+		facebook = "https://www.facebook.com/SouthernMaineAviation/"
 		streetAddressLine1 = "199 Airport Road"
 		streetAddressLine2 = "Sanford, Maine 04073"
 		gmapsAddress = "Southern Maine Aviation, 199 Airport Rd, Sanford, ME 04073, USA"
