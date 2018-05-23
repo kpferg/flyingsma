@@ -17,7 +17,7 @@
                         <p class="text-faded">{{ . | markdownify }}</p>
                     {{ end }}
                     {{ if and .buttonText .buttonAction }}
-                        <a href="{{ .buttonAction }}" class="btn btn-primary btn-xl">{{ .buttonText }}</a>
+                        <a href="{{ .buttonAction }}" class="btn btn-primary btn-xl wow bounceIn">{{ .buttonText }}</a>
                     {{ end }}
                 </div>
             {{ end }}

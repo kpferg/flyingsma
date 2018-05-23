@@ -117,33 +117,39 @@ We have great options available for books and supplies. Please inquire."""
 	# Service section
 	[params.services]
 		headline = "At your service"
+		description = "We offer a full range of services for General Aviation and corporate aircraft, plus an active flight training program. The FBO offers free computer usage and Wi-Fi, as well as a comfortable lounge and beverages for purchase."
 
 		[[params.services.list]]
 			icon = "fa-briefcase"
 			title = "Corporate Arrivals"
 			description = "We can make sure everything you need is here waiting upon your arrival."
-			link = "/corporate-arrivals"
+			[params.services.list.link]
+				 url = "/corporate-arrivals"
+				 title = "Learn More"
 
         [[params.services.list]]
             icon = "fa-plane"
             title = "Learn To Fly"
             description = "There is so much more than we can fit here, so please give us a call or stop by."
-            link = "/fly"
+            [params.services.list.link]
+             	url = "/fly"
+             	title = "Learn More"
 
         [[params.services.list]]
 			icon = "fa-binoculars"
 			title = "Scenic Flights"
 			description = "Make great Gifts, and are memorable experiences."
+			[params.services.list.link]
+				 url = "/scenic-flights"
+				 title = "Learn More"
 
 		[[params.services.list]]
             icon = "fa-wrench"
             title = "Aircraft Maintenance"
             description = "Our award-winning mechanics can help give you the peace of mind that comes from knowing that your aircraft is in top notch condition and has been inspected thoroughly and professionally. "
-
-        [[params.services.list]]
-            icon = "fa-flag"
-            title = "FBO"
-            description = "Southern Maine Aviation is open 7 days a week from 7 am to 5pm, with extended evening hours until 7pm from Memorial Day through Labor Day and after hours available upon request."
+			[params.services.list.link]
+				 url = "/aircraft-maintenance"
+				 title = "Learn More"
 
 
     # Portfolio modals
@@ -184,7 +190,7 @@ The cost will be $225.00"""
 		description = "Ready to start flying with us? That's great! Give us a call or send us an email and we will get back to you soon!"
 		phone = "207-324-8919"
 		email = "fly@flyingsma.com"
-		facebook = "https://www.facebook.com/SouthernMaineAviation/"
+		facebook = "https://www.facebook.com/SouthernMaineAviation"
 		streetAddressLine1 = "199 Airport Road"
 		streetAddressLine2 = "Sanford, Maine 04073"
 		gmapsAddress = "Southern Maine Aviation, 199 Airport Rd, Sanford, ME 04073, USA"
