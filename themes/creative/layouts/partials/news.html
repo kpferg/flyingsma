@@ -1,6 +1,6 @@
-{{ "<!-- ABOUT -->" | safeHTML }}
-<section class="bg-primary" id="about">
-    {{ with .Site.Params.about }}
+{{ "<!-- NEWS -->" | safeHTML }}
+<section class="bg-primary" id="news">
+    {{ with .Site.Params.news }}
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -11,9 +11,9 @@
     </div>
     {{ end }}
     <div class="container">
-        <div class="about-container">
-            {{ range .Site.Params.about.list }}
-                <div class="about-item text-center">
+        <div class="news-container">
+            {{ range .Site.Params.news.list }}
+                <div class="news-item text-center">
                     {{ if .icon }}
                         <i class="fa fa-{{ .icon }} fa-4x wow bounceIn"></i>
                     {{ end }}

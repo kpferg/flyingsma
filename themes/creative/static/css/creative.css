@@ -36,12 +36,12 @@ a:focus {
     color: #eb3812;
 }
 
-#about a:hover,
-#about a:focus {
+#news a:hover,
+#news a:focus {
     color: rgb(52, 52, 52);
 }
 
-#about p {
+#news p {
     color: rgba(255,255,255,.7);
 }
 
@@ -729,13 +729,13 @@ body {
     margin-bottom: 0;
 }
 
-.about-container,
+.news-container,
 .service-container {
     display: flex;
     flex-wrap: wrap;
 }
 
-.about-item,
+.news-item,
 .service-item {
     flex: 1;
     min-width: 50%;
@@ -743,7 +743,7 @@ body {
 }
 
 @media(max-width:768px) {
-    .about-item,
+    .news-item,
     .service-item {
         flex: auto;
         min-width: 100%;

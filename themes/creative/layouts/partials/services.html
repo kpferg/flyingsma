@@ -16,8 +16,9 @@
             {{ range .Site.Params.services.list }}
             <div class="service-item text-center">
                 <div class="service-box">
-                    <i class="fa fa-4x {{ .icon }} wow bounceIn text-primary"></i>
+                    <i class="fa fa-4x {{ .icon }} wow bounceIn"></i>
                     <h3 class="color-black">{{ .title }}</h3>
+                    <hr class="primary">
                     {{ with .description }}
                         <p class="text-muted">{{ . }}</p>
                     {{ end }}
