@@ -1065,7 +1065,8 @@ body {
     width: calc(50% + 110px);
     position: relative;
     margin: 0;
-
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
 }
 
 .scenic-flights .hero-half__container--left {
