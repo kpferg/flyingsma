@@ -69,6 +69,11 @@ p {
     background-color: #222;
 }
 
+.bg-white {
+    color: #222;
+    background-color: #fff;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -1037,4 +1042,193 @@ body {
 
 .corporate-arrivals {
     padding-top: 100px;
+}
+
+.scenic-flights {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.scenic-flights .split-hero {
+    display: flex;
+    width: 100vw;
+    position: relative;
+    left: 0;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.scenic-flights .hero-half__container {
+    overflow: hidden;
+    transform: skewX(-20deg);
+    height: 600px;
+    width: calc(50% + 110px);
+    position: relative;
+    margin: 0;
+
+}
+
+.scenic-flights .hero-half__container--left {
+    left: -110px;
+    border-right: 10px solid white;
+}
+
+.scenic-flights .hero-half__container--right {
+    position: absolute;
+    right: -110px;
+}
+
+.scenic-flights .hero-half--left,
+.scenic-flights .hero-half--right {
+    height: 100%;
+    color: #fff;
+    background-color: #444;
+    background-position: center;
+    background-size: cover;
+    width: calc(100% + 110px);
+    transform: skewX(20deg);
+    position: absolute;
+    text-align: center;
+}
+
+.scenic-flights .hero-half--left {
+    background-image: url(../img/scenic-flights/scenic.jpg);
+    padding-left: 110px;
+
+}
+
+.scenic-flights .hero-half--right {
+    background-image: url(../img/scenic-flights/discovery.jpg);
+    width: 100%;
+    left: -110px;
+}
+
+.scenic-flights .hero-half__content-container {
+    background-color: rgba(0, 0, 0, .80);
+}
+
+.scenic-flights .hero-half__content-container--left {
+    position: absolute;
+    top: 35px;
+    right: -50px;
+    margin-left: calc(100% - 450px);
+    width: 450px;
+    padding-right: 50px;
+    border-radius: 20px 0 0 20px;
+}
+
+.scenic-flights .hero-half__content-container--right {
+    position: absolute;
+    bottom: 35px;
+    left: -150px;
+    padding-left: 200px;
+    padding-right: 65px;
+    border-radius: 0 20px 20px 0;
+}
+
+.scenic-flights .hero-half__content {
+    background: transparent;
+    opacity: 1;
+    padding: 10px;
+}
+
+.scenic-flights .hero-half__content--left {
+    right: 20px;
+}
+
+.scenic-flights .hero-half__content--right {
+    left: 20px;
+}
+
+.scenic-flights .hero-title {
+    font-size: 42px;
+    padding-bottom: 7px;
+}
+
+.scenic-flights .scenic-flights-details,
+.scenic-flights .discovery-flights-details {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.scenic-flights .down-button {
+    text-align: center;
+    margin-top: 50px;
+    min-height: calc(100vh - 800px);
+}
+
+.scenic-flights .flight-img {
+    max-width: 33%;
+    padding: 20px;
+}
+
+@media(max-width:768px) {
+    .scenic-flights {
+        padding-top: 47px;
+    }
+
+    .scenic-flights .flight-img {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .scenic-flights .flight-img--extra {
+        display: none;
+    }
+
+    .scenic-flights .split-hero {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .hero-half {
+        margin: 5px 0;
+    }
+
+    .scenic-flights .hero-half__content-container--left,
+    .scenic-flights .hero-half__content-container--right {
+        position: relative;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 0 0 0 0;
+    }
+
+    .scenic-flights .hero-half__container {
+        transform: none;
+        width: 100%;
+        height: 300px;
+    }
+
+    .scenic-flights .hero-half__container--right {
+        position: relative;
+        right: 0;
+    }
+
+    .scenic-flights .hero-half__container--left {
+        left: 0;
+        border: none;
+    }
+
+    .scenic-flights .hero-half--left,
+    .scenic-flights .hero-half--right {
+        transform: none;
+        padding: 0;
+        width: 100%;
+        right: 0;
+        left: 0;
+    }
+
+    .scenic-flights .down-button {
+        margin: 25px 0;
+        min-height: calc(100vh - 650px);
+    }
+}
+
+.scenic-flights .images {
+    margin: 20px -20px;
 }
