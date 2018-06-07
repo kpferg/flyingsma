@@ -714,7 +714,7 @@ body {
 }
 
 .slick-dots li button:before {
-    width: 100px;
+    width: 80px;
     height: 6px;
     content: ' ';
     background-color: #ffffff;
@@ -723,11 +723,11 @@ body {
 }
 
 .slick-dots li button {
-    width: 100px;
+    width: 80px;
 }
 
 .slick-dots li {
-    width: 100px;
+    width: 80px;
 }
 
 .slick-dotted.slick-slider {

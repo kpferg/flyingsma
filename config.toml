@@ -54,16 +54,30 @@ googleAnalytics = ""
 	[[params.hero.list]]
 		# To change the background of the hero section, replace the '1.jpg' at './static/img/hero' with your own.
 		slogan     = "Learn To Fly Today!"
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
-		buttonText = "Find out more"
+		subtitle   = "Whether you are a beginner or advanced, just starting out on your aviation journey or looking to enhance your skills we can work with you to create the perfect program. We have a wide range of planes and programs to give you the education experience you can't find anywhere else."
+		buttonText = "Find Out More"
         buttonAction = "/fly"
 
 	[[params.hero.list]]
 		# To change the background of the hero section, replace the '2.jpg' at './static/img/hero' with your own.
 		slogan     = "We're Here For You!"
-		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1!"
+		subtitle   = "We are a family oriented company providing services from small planes all the way to Airforce 1! We look forward to making your experience #1."
 		buttonText = "Learn More About Us"
 		buttonAction = "#news"
+
+	[[params.hero.list]]
+		# To change the background of the hero section, replace the '3.jpg' at './static/img/hero' with your own.
+		slogan     = "Try a Scenic Flight!"
+		subtitle   = "Scenic and Discovery Flights at Southern Maine Aviation are a truly memorable experience and a great introduction to flight. They also make great gifts!"
+		buttonText = "Learn More Today"
+		buttonAction = "/scenic-flights"
+
+	[[params.hero.list]]
+		# To change the background of the hero section, replace the '4.jpg' at './static/img/hero' with your own.
+		slogan     = "Everything Aviation"
+		subtitle   = "Southern Maine Aviation offers a full range of services, from beginner, advanced and custom tailored [flight training](/fly), [aircraft maintenance and storage](/aircraft-maintenance), and [corporate arrivals](/corporate-arrivals). We can exceed all your aviation needs."
+		buttonText = "Find Out More"
+		buttonAction = "#services"
 
 	[params.news]
 		headline = "News & Events"
