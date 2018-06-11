@@ -1045,20 +1045,40 @@ body {
 }
 
 .scenic-flights {
-    padding-top: 100px;
+    padding-top: 150px;
     text-align: center;
 }
 
-.scenic-flights .split-hero {
+.scenic-flights .hero-half--left {
+    background-image: url(../img/scenic-flights/scenic.jpg);
+}
+
+.scenic-flights .hero-half--right {
+    background-image: url(../img/scenic-flights/discovery.jpg);
+}
+
+.fly .hero-half--nw {
+    background-image: url(../img/fly/private-pilot-training.jpg);
+}
+.fly .hero-half--ne {
+    background-image: url(../img/fly/instrument-training.jpg);
+}
+.fly .hero-half--sw {
+    background-image: url(../img/fly/commercial-training.jpg);
+}
+.fly .hero-half--se {
+    background-image: url(../img/fly/backcountry-training.jpg);
+}
+
+.split-hero {
     display: flex;
     width: 100vw;
     position: relative;
     left: 0;
     overflow: hidden;
-    padding-top: 50px;
 }
 
-.scenic-flights .hero-half__container {
+.hero-half__container {
     overflow: hidden;
     transform: skewX(-20deg);
     height: 600px;
@@ -1069,18 +1089,26 @@ body {
     border-bottom: 5px solid white;
 }
 
-.scenic-flights .hero-half__container--left {
+.split-hero--reverse .hero-half__container {
+    transform: skewX(20deg);
+}
+
+.hero-half__container--half-height {
+    height: 300px;
+}
+
+.hero-half__container--left {
     left: -110px;
     border-right: 10px solid white;
 }
 
-.scenic-flights .hero-half__container--right {
+.hero-half__container--right {
     position: absolute;
     right: -110px;
 }
 
-.scenic-flights .hero-half--left,
-.scenic-flights .hero-half--right {
+.hero-half--left,
+.hero-half--right {
     height: 100%;
     color: #fff;
     background-color: #444;
@@ -1092,56 +1120,82 @@ body {
     text-align: center;
 }
 
-.scenic-flights .hero-half--left {
-    background-image: url(../img/scenic-flights/scenic.jpg);
-    padding-left: 110px;
-
+.split-hero--reverse .hero-half--left,
+.split-hero--reverse .hero-half--right {
+    transform: skewX(-20deg);
 }
 
-.scenic-flights .hero-half--right {
-    background-image: url(../img/scenic-flights/discovery.jpg);
+.hero-half--left {
+    padding-left: 110px;
+}
+
+.hero-half--right {
     width: 100%;
     left: -110px;
 }
 
-.scenic-flights .hero-half__content-container {
+.hero-half__container--half-height .hero-half--left,
+.hero-half__container--half-height .hero-half--right {
+    width: calc(100% + 55px);
+}
+
+.hero-half__container--half-height .hero-half--left {
+    padding-left: 55px;
+}
+
+.hero-half__container--half-height .hero-half--right {
+    left: -55px;
+}
+
+.hero-half__content-container {
     background-color: rgba(0, 0, 0, .80);
 }
 
-.scenic-flights .hero-half__content-container--left {
+.hero-half__content-container--left {
     position: absolute;
     top: 35px;
     right: -50px;
     margin-left: calc(100% - 450px);
-    width: 450px;
     padding-right: 50px;
     border-radius: 20px 0 0 20px;
+    width: 75%;
 }
 
-.scenic-flights .hero-half__content-container--right {
+.split-hero--reverse .hero-half__content-container--left {
+    bottom: 35px;
+    top: auto;
+}
+
+.hero-half__content-container--right {
     position: absolute;
     bottom: 35px;
     left: -150px;
     padding-left: 200px;
     padding-right: 65px;
     border-radius: 0 20px 20px 0;
+    width: calc(75% + 150px);
 }
 
-.scenic-flights .hero-half__content {
+.split-hero--reverse .hero-half__content-container--right {
+    top: 35px;
+    bottom: auto;
+}
+
+.hero-half__content {
     background: transparent;
     opacity: 1;
     padding: 10px;
 }
 
-.scenic-flights .hero-half__content--left {
+.hero-half__content--left {
     right: 20px;
 }
 
-.scenic-flights .hero-half__content--right {
+.hero-half__content--right {
     left: 20px;
 }
 
-.scenic-flights .hero-title {
+.hero-title {
     font-size: 42px;
     padding-bottom: 7px;
 }
@@ -1152,7 +1206,7 @@ body {
     padding-bottom: 50px;
 }
 
-.scenic-flights .down-button {
+.down-button {
     text-align: center;
     margin-top: 50px;
     min-height: calc(100vh - 800px);
@@ -1177,7 +1231,7 @@ body {
         display: none;
     }
 
-    .scenic-flights .split-hero {
+    .split-hero {
         flex-direction: column;
         padding: 0;
     }
@@ -1186,8 +1240,11 @@ body {
         margin: 5px 0;
     }
 
-    .scenic-flights .hero-half__content-container--left,
-    .scenic-flights .hero-half__content-container--right {
+
+    .hero-half__content-container--left,
+    .hero-half__content-container--right,
+    .split-hero--reverse .hero-half__content-container--left,
+    .split-hero--reverse .hero-half__content-container--right {
         position: relative;
         top: 0;
         bottom: 0;
@@ -1199,24 +1256,29 @@ body {
         border-radius: 0 0 0 0;
     }
 
-    .scenic-flights .hero-half__container {
+    .hero-half__container,
+    .split-hero--reverse .hero-half__container {
         transform: none;
         width: 100%;
         height: 300px;
     }
 
-    .scenic-flights .hero-half__container--right {
+    .hero-half__container--right {
         position: relative;
         right: 0;
     }
 
-    .scenic-flights .hero-half__container--left {
+    .hero-half__container--left {
         left: 0;
         border: none;
     }
 
-    .scenic-flights .hero-half--left,
-    .scenic-flights .hero-half--right {
+    .hero-half--left,
+    .hero-half--right,
+    .hero-half__container--half-height .hero-half--left,
+    .hero-half__container--half-height .hero-half--right,
+    .split-hero--reverse .hero-half--left,
+    .split-hero--reverse .hero-half--right {
         transform: none;
         padding: 0;
         width: 100%;
@@ -1224,7 +1286,7 @@ body {
         left: 0;
     }
 
-    .scenic-flights .down-button {
+    .down-button {
         margin: 25px 0;
         min-height: calc(100vh - 650px);
     }
