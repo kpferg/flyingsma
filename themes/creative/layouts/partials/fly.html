@@ -1,80 +1,114 @@
 {{ "<!-- SERVICES -->" | safeHTML }}
-<section class="fly">
-    <div class="pilot-pathway-promo">
-        <div class="pilot-pathway-promo__image"><a  href="/pilot-pathway"><div class="pilot-pathway__image" style="background-image:url('../img/pilot-pathway/pilot-pathway-4.jpg');"></div></a></div>
-        <div class="pilot-pathway-promo__description">
-            <div class="pilot-pathway-promo__title">Pilot Pathway</div>
-            <div class="pilot-pathway-promo__text">Take out Pilot Pathway quiz to see all the ways Southern Maine Aviation can bring your aviation training to the next level!</div>
-            <a class="btn btn-primary" href="/pilot-pathway">Pilot Pathway</a>
+<div class="fly">
+    <div class="pilot-pathway-promo-wrapper">
+        <div class="pilot-pathway-promo">
+            <div class="pilot-pathway-promo__image"><a  href="/pilot-pathway"><div class="pilot-pathway__image" style="background-image:url('../img/pilot-pathway/pilot-pathway-4.jpg');"></div></a></div>
+            <div class="pilot-pathway-promo__description">
+                <div class="pilot-pathway-promo__title">Pilot Pathway</div>
+                <div class="pilot-pathway-promo__text">Take out Pilot Pathway quiz to see all the ways Southern Maine Aviation can bring your aviation training to the next level!</div>
+                <a class="btn btn-primary" href="/pilot-pathway">Pilot Pathway</a>
+            </div>
         </div>
     </div>
-    <div class="split-hero split-hero--reverse">
-        <a class="hero-half__container hero-half__container--half-height hero-half__container--left" href="#private-pilot-training">
-            <div class="hero-half hero-half--left hero-half--nw">
-                <div class="hero-half__content-container hero-half__content-container--left">
-                    <div class="hero-half__content hero-half__content--left">
-                        <h2 class="hero-title">Private Pilot Training</h2>
+    <section class="fly-hero bg-dark">
+        <div class="split-hero split-hero--reverse">
+            <a class="hero-half__container hero-half__container--half-height hero-half__container--left" href="#private-pilot-training">
+                <div class="hero-half hero-half--left hero-half--nw">
+                    <div class="hero-half__content-container hero-half__content-container--left">
+                        <div class="hero-half__content hero-half__content--left">
+                            <h2 class="hero-title">Private Pilot Training</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
-        <a class="hero-half__container hero-half__container--half-height hero-half__container--right" href="#instrument-training">
-            <div class="hero-half hero-half--right hero-half--ne">
-                <div class="hero-half__content-container hero-half__content-container--right">
-                    <div class="hero-half__content hero-half__content--right">
-                        <h2 class="hero-title">Instrument Training</h2>
+            </a>
+            <a class="hero-half__container hero-half__container--half-height hero-half__container--right" href="#instrument-training">
+                <div class="hero-half hero-half--right hero-half--ne">
+                    <div class="hero-half__content-container hero-half__content-container--right">
+                        <div class="hero-half__content hero-half__content--right">
+                            <h2 class="hero-title">Instrument Training</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
-    </div>
-    <div class="split-hero">
-        <a class="hero-half__container hero-half__container--half-height hero-half__container--left" href="#commercial-training">
-            <div class="hero-half hero-half--left hero-half--sw">
-                <div class="hero-half__content-container hero-half__content-container--left">
-                    <div class="hero-half__content hero-half__content--left">
-                        <h2 class="hero-title">Commercial Training</h2>
+            </a>
+        </div>
+        <div class="split-hero">
+            <a class="hero-half__container hero-half__container--half-height hero-half__container--left" href="#commercial-training">
+                <div class="hero-half hero-half--left hero-half--sw">
+                    <div class="hero-half__content-container hero-half__content-container--left">
+                        <div class="hero-half__content hero-half__content--left">
+                            <h2 class="hero-title">Commercial Training</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
-        <a class="hero-half__container hero-half__container--half-height hero-half__container--right" href="#backcountry-training">
-            <div class="hero-half hero-half--right hero-half--se">
-                <div class="hero-half__content-container hero-half__content-container--right">
-                    <div class="hero-half__content hero-half__content--right">
-                        <h2 class="hero-title">Backcountry Training</h2>
+            </a>
+            <a class="hero-half__container hero-half__container--half-height hero-half__container--right" href="#backcountry-training">
+                <div class="hero-half hero-half--right hero-half--se">
+                    <div class="hero-half__content-container hero-half__content-container--right">
+                        <div class="hero-half__content hero-half__content--right">
+                            <h2 class="hero-title">Backcountry Training</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </a>
-    </div>
-    <div class="down-button"><a href="#scenic-flights" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
-    <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Our Fleet</h2>
-        <hr class="primary">
-    </div>
-    <div class="fleet-items">
-        {{ range .Site.Params.fleet.list }}
-        <div class="fleet-item">
-            {{ with .title }}
-            <div class="fleet-item__title">{{ . | markdownify }}</div>
-            {{ end }}
-            {{ if and .imageUrl (not (eq .showImage false)) }}
-            <div class="fleet-item__photo"><img src="../img/fleet/{{ .imageUrl }}"></div>
-            {{ end }}
-            {{ if or .title .description }}
-            <div class="fleet-item__details">
-                {{ with .description }}
-                <div class="fleet-item__description">{{ . | markdownify }}</div>
+            </a>
+        </div>
+        <div class="down-button"><a href="#private-pilot-training" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
+    </section>
+    <section id="private-pilot-training" class="full-height">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Private Pilot Training</h2>
+            <hr class="primary">
+        </div>
+        <div class="down-button"><a href="#instrument-training" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
+    </section>
+    <section id="instrument-training" class="bg-primary full-height">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Instrument Training</h2>
+            <hr class="primary">
+        </div>
+        <div class="down-button"><a href="#commercial-training" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
+    </section>
+    <section id="commercial-training" class="full-height">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Commercial Training</h2>
+            <hr class="primary">
+        </div>
+        <div class="down-button"><a href="#backcountry-training" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
+    </section>
+    <section id="backcountry-training" class="bg-dark full-height">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Backcountry Training</h2>
+            <hr class="primary">
+        </div>
+        <div class="down-button"><a href="#fleet" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
+    </section>
+    <section class="fleet" id="fleet">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Our Fleet</h2>
+            <hr class="primary">
+        </div>
+        <div class="fleet-items">
+            {{ range .Site.Params.fleet.list }}
+            <div class="fleet-item">
+                {{ with .title }}
+                <div class="fleet-item__title">{{ . | markdownify }}</div>
+                {{ end }}
+                {{ if and .imageUrl (not (eq .showImage false)) }}
+                <div class="fleet-item__photo"><img src="../img/fleet/{{ .imageUrl }}"></div>
+                {{ end }}
+                {{ if or .title .description }}
+                <div class="fleet-item__details">
+                    {{ with .description }}
+                    <div class="fleet-item__description">{{ . | markdownify }}</div>
+                    {{ end }}
+                </div>
+                {{ end }}
+                {{ with .pricing }}
+                <div class="pricing">
+                    Pricing: <span class="price">{{ . | markdownify }}</span>
+                </div>
                 {{ end }}
             </div>
             {{ end }}
-            {{ with .pricing }}
-            <div class="pricing">
-                Pricing: <span class="price">{{ . | markdownify }}</span>
-            </div>
-            {{ end }}
         </div>
-        {{ end }}
-    </div>
-</section>
+    </section>
+</div>

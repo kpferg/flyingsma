@@ -757,7 +757,7 @@ body {
 }
 
 .fly {
-
+    margin-top: 100px;
 }
 
 .fleet-items {
@@ -995,6 +995,12 @@ body {
     color: #eee;
 }
 
+.pilot-pathway-promo-wrapper {
+    background-color: #007FAC;
+    width: 100%;
+    margin-bottom: -20px;
+}
+
 @media(max-width:600px) {
     .pilot-pathway-promo {
         border-radius: 0px;
@@ -1218,6 +1224,15 @@ body {
 }
 
 @media(max-width:768px) {
+    .fly {
+        margin-top: 50px;
+    }
+
+    .fly-hero {
+        padding-top: 0;
+        margin-top: -20px;
+    }
+
     .scenic-flights {
         padding-top: 47px;
     }
