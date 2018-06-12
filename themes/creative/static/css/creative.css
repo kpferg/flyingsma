@@ -80,6 +80,7 @@ p {
 
 section {
     padding: 100px 0;
+    position: relative;
 }
 
 @media(max-width:768px) {
@@ -1055,12 +1056,22 @@ body {
     text-align: center;
 }
 
+.scenic-flights-hero {
+    min-height: calc(100vh - 250px);
+    padding-bottom: 150px;
+}
+
 .scenic-flights .hero-half--left {
     background-image: url(../img/scenic-flights/scenic.jpg);
 }
 
 .scenic-flights .hero-half--right {
     background-image: url(../img/scenic-flights/discovery.jpg);
+}
+
+.fly-hero {
+    min-height: calc(100vh - 290px);
+    padding-bottom: 150px;
 }
 
 .fly .hero-half--nw {
@@ -1215,7 +1226,9 @@ body {
 .down-button {
     text-align: center;
     margin-top: 50px;
-    min-height: calc(100vh - 800px);
+    position: absolute;
+    bottom: 20px;
+    left: calc(50% - 30px);
 }
 
 .scenic-flights .flight-img {
@@ -1303,7 +1316,6 @@ body {
 
     .down-button {
         margin: 25px 0;
-        min-height: calc(100vh - 650px);
     }
 }
 
