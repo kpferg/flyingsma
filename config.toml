@@ -190,7 +190,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours for emergency contact
 			title = "Restaurants"
 			description = "Area dining options."
 			[params.corporate_services.list.link]
-				 url = "#dining"
+				 url = "#restaurants"
 				 title = "Learn More"
 
 		[[params.corporate_services.list]]
