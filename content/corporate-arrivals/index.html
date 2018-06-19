@@ -8,9 +8,14 @@
 	{{ partial "nav.html" . }}
 {{ end }}
 
-{{ if .Site.Params.fly }}
-	{{ partial "corporate-arrivals.html" . }}
+{{ if .Site.Params.corporate_services }}
+	{{ partial "corporate-services.html" . }}
 {{ end }}
+
+{{ partial "fuel.html" . }}
+{{ partial "lodging.html" . }}
+{{ partial "restaurants.html" . }}
+{{ partial "maintenance.html" . }}
 
 {{ if .Site.Params.footer }}
 	{{ partial "footer.html" . }}

@@ -1,10 +1,12 @@
 {{ "<!-- CORPORATE-ARRIVALS -->" | safeHTML }}
-<section class="corporate-arrivals full-height">
+<section class="corporate-arrivals">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Corporate Arrivals</h2>
+                {{ with .Site.Params.corporate_arrivals.title }}
+                <h2 class="section-heading">{{ . }}</h2>
                 <hr class="primary">
+                {{ end }}
             </div>
         </div>
     </div>

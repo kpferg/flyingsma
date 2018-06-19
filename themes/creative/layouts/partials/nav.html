@@ -83,3 +83,14 @@
     </div>
     {{ "<!-- /.container-fluid -->" | safeHTML }}
 </nav>
+<div class="header-hours">
+    {{ with .Site.Params.hero.phoneNumber }}
+    <i class="fa fa-phone"></i> Phone: <a href="tel:{{.}}">{{ . }}</a>
+    {{ end }}
+    {{ with .Site.Params.hero.businessHours }}
+    <div>{{ . | markdownify  }}</div>
+    {{ end }}
+    {{ with .Site.Params.hero.altBusinessHours }}
+    <div>{{ . | markdownify  }}</div>
+    {{ end }}
+</div>

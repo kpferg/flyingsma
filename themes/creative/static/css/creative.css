@@ -218,7 +218,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    mmin-height: calc(100% - 86px);
     text-align: center;
     color: #fff;
     background-image: url(../img/header.jpg);
@@ -237,7 +237,7 @@ header .header-content {
     background-color: rgba(0, 0, 0, .25);
 }
 
-header .header-hours {
+.header-hours {
     padding: 10px 20px;
     position: relative;
     top: 51px;
@@ -249,15 +249,15 @@ header .header-hours {
     font-size: 16px;
 }
 
-header .header-hours a {
+.header-hours a {
     color: #FFFFFF;
 }
 
-header .header-hours a:hover {
+.header-hours a:hover {
     text-decoration: underline;
 }
 
-header .header-hours i {
+.header-hours i {
     color: #FFFFFF;
     font-size: 20px;
     top: 2px;
@@ -288,6 +288,7 @@ header .header-content .header-content-inner p {
 @media(max-width:767px) {
     header .header-content {
         min-height: 100vh;
+        height: 100%;
     }
 
 }
@@ -295,16 +296,11 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     header {
         min-height: 500px;
-        height: 100%;
+        height: calc(100% - 86px);
     }
 
-    header .header-hours {
-        position: absolute;
-        padding: 10px 20px;
-        top: 51px;
-        right: 10px;
-        border-radius: 0 0 20px 20px;
-        width: auto;
+    .header-hours {
+        text-align: right;
     }
 
     header .header-content {
@@ -362,7 +358,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 0;
 }
 
-#services .call-to-action-button {
+.call-to-action-button {
     margin-top: 20px;
 }
 
@@ -653,8 +649,9 @@ body {
 }
 
 .slick-carousel {
-    height: 100vh;
+    height: calc(100vh - 86px);
     width: 100%;
+    min-height: 550px;
 }
 
 @media(max-width:767px) {
@@ -758,7 +755,7 @@ body {
 }
 
 .fly {
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .fleet-items {
@@ -999,7 +996,7 @@ body {
 .pilot-pathway-promo-wrapper {
     background-color: #007FAC;
     width: 100%;
-    margin-bottom: -20px;
+    margin-bottom: -16px;
 }
 
 @media(max-width:600px) {
@@ -1047,12 +1044,11 @@ body {
     padding: 7px 0;
 }
 
-.corporate-arrivals {
+.corporate-services {
     padding-top: 100px;
 }
 
 .scenic-flights {
-    padding-top: 150px;
     text-align: center;
 }
 
@@ -1072,6 +1068,7 @@ body {
 .fly-hero {
     min-height: calc(100vh - 290px);
     padding-bottom: 150px;
+    padding-top: 0;
 }
 
 .fly .hero-half--nw {
@@ -1171,7 +1168,7 @@ body {
 .hero-half__content-container--left {
     position: absolute;
     top: 35px;
-    right: -50px;
+    right: 0;
     margin-left: calc(100% - 450px);
     padding-right: 50px;
     border-radius: 20px 0 0 20px;
@@ -1321,4 +1318,34 @@ body {
 
 .scenic-flights .images {
     margin: 20px -20px;
+}
+
+.fuel-table {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.fuel-table table {
+    margin: 30px auto;
+}
+
+.fuel-table table td {
+    border-bottom: solid 1px #999;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.fuel-table table td:first-of-type {
+    text-align: right;
+}
+
+.fuel-table table th {
+    border-bottom: solid 2px #f98a14;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+table {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 17px;
 }
