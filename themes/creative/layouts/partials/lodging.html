@@ -1,10 +1,45 @@
 {{ "<!-- LODGING -->" | safeHTML }}
-<section id="lodging" class="lodging full-height">
+<section id="lodging" class="lodging">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Lodging</h2>
                 <hr class="primary">
+                <div class="lodging-content">
+                    {{ range .Site.Params.lodging.list }}
+                    <div class="lodging-item">
+                        <div class="lodging-details">
+                            {{ with .title }}
+                            <div class="lodging-item__title">{{ . | markdownify }}</div>
+                            {{ end }}
+                            {{ with .address }}
+                            <div class="lodging-item__address">{{ . | markdownify }}</div>
+                            {{ end }}
+                            {{ with .phone }}
+                            <div class="lodging-item__phone"><a href="tel:{{ . }}">{{ . | markdownify }}</a></div>
+                            {{ end }}
+                            {{ if or .title .description }}
+                            <div class="lodging-item__details">
+                                {{ with .description }}
+                                <div class="lodging-item__description">{{ . | markdownify }}</div>
+                                {{ end }}
+                            </div>
+                            {{ end }}
+                            {{ with .pricing }}
+                            <div class="lodging-item__pricing">
+                                <span class="price">{{ . | markdownify }}</span>
+                            </div>
+                            {{ end }}
+                        </div>
+                        {{ with .imageUrl }}
+                        <div class="lodging-item__photo" style="background-image: url('../img/lodging/{{ . }}');"></div>
+                        {{ end }}
+                        {{ with .gmapsEmbedURL }}
+                        <iframe src="{{ . | safeURL }}" width="250" height="250" frameborder="0" style="border:0;max-width:100%;" allowfullscreen></iframe>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>

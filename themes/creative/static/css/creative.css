@@ -1349,3 +1349,25 @@ table {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 17px;
 }
+
+.lodging-item {
+    margin-bottom: 40px;
+}
+
+.lodging-item__title {
+    font-size: 20px;
+}
+
+.lodging-item__photo {
+    display: inline-block;
+    vertical-align: top;
+    height: 250px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lodging-item__photo img {
+    height: 250px;
+}
