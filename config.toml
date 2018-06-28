@@ -422,11 +422,6 @@ Saco, Maine 04072"""
 		title = "Lords Clam Box"
 		url = "http://lordsclambox.com/"
 
-	# Restaurants
-	[[params.restaurants.list]]
-		title = "Applebees"
-		url = "https://restaurants.applebees.com/me/sanford-83073.html"
-
 	# Catering
 	[[params.catering.list]]
 		title = "Jonathan's"
@@ -441,7 +436,7 @@ Saco, Maine 04072"""
 	[[params.catering.list]]
 		title = "CockPit Cafe"
 		phone = "207-324-7332"
-		phone2 = "207-324-5717"
+#		phone2 = "207-324-5717"
 
 
 

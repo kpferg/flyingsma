@@ -1229,8 +1229,22 @@ body {
 }
 
 .scenic-flights .flight-img {
-    max-width: 33%;
-    padding: 20px;
+    display: inline-block;
+    height: 250px;
+    width: calc(33% - 40px);
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 3px 15px #444444;
+}
+
+.scenic-flights .bg-primary .flight-img {
+    box-shadow: 0px 3px 15px #222222;
+}
+
+.scenic-flights .bg-dark .flight-img {
+    box-shadow: none;
 }
 
 @media(max-width:768px) {
@@ -1248,9 +1262,15 @@ body {
     }
 
     .scenic-flights .flight-img {
-        max-width: 100%;
-        padding: 20px;
+        width: calc(100% - 40px);
+        margin: 0;
+        box-shadow: none;
     }
+
+    .scenic-flights .bg-primary .flight-img {
+        box-shadow: none;
+    }
+
 
     .scenic-flights .flight-img--extra {
         display: none;
