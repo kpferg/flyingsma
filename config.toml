@@ -163,11 +163,26 @@ We have great options available for books and supplies. Please inquire."""
 	 # Corporate Service section
 	[params.corporate_services]
 		headline = "Corporate Arrival Services"
-		description = """After hours are available on request at 75.00 per hour.
+		description = """After hours available on request, $75.00/hour.
 
-Call <a href='tel:2073248919'>207-324-8919</a> during regular business hours.<br/>
-Call <a href='tel:2076519308'>207-651-9308</a> after hours for emergency contact<br/>
-- Mark Damuth - General Manager -"""
+Call <a href='tel:2073248919'>207-324-8919</a> during business hours.<br/>
+Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span style='white-space:nowrap;'> Mark Damuth - General Manager</span>"""
+
+		[[params.corporate_services.list]]
+			icon = "fa-usd"
+			title = "Fees"
+			description = "Reasonable rates on aviation services."
+			[params.corporate_services.list.link]
+				 url = "#fees"
+				 title = "Learn More"
+
+	 	[[params.corporate_services.list]]
+			icon = "fa-cutlery"
+			title = "Dining"
+			description = "Area dining options."
+			[params.corporate_services.list.link]
+				 url = "#restaurants"
+				 title = "Learn More"
 
 		[[params.corporate_services.list]]
 			icon = "fa-tachometer"
@@ -177,7 +192,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours for emergency contact
 				 url = "#fuel"
 				 title = "Learn More"
 
-		 [[params.corporate_services.list]]
+	 	[[params.corporate_services.list]]
 			 icon = "fa-building"
 			 title = "Lodging"
 			 description = "Area lodging."
@@ -185,12 +200,12 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours for emergency contact
 				url = "#lodging"
 				title = "Learn More"
 
-		 [[params.corporate_services.list]]
-			icon = "fa-cutlery"
-			title = "Restaurants"
-			description = "Area dining options."
+	 	[[params.corporate_services.list]]
+			icon = "fa-car"
+			title = "Transportation"
+			description = "Getting around once you get here."
 			[params.corporate_services.list.link]
-				 url = "#restaurants"
+				 url = "#ground-transportation"
 				 title = "Learn More"
 
 		[[params.corporate_services.list]]
@@ -369,7 +384,7 @@ Wells, Maine 04090"""
 		pricing = "call for seasonal pilot discounts"
 		gmapsEmbedURL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.660121788136!2d-70.59013548451374!3d43.30043887913499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7561240bc72bb6a5!2sHampton+Inn+%26+Suites+Wells-Ogunquit!5e0!3m2!1sen!2spe!4v1530108729724"
 
-# Lodging
+	# Lodging
 	[[params.lodging.list]]
 		title = "Holiday Inn Express Biddeford"
 		address = """45 Barra Road
@@ -380,7 +395,7 @@ Biddeford, Maine 04005"""
 		pricing = "call for pilot discounts"
 		gmapsEmbedURL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2894.88749237339!2d-70.49381454878161!3d43.48381827128233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb2a53cc8537ae9%3A0x93a45743b49d5b5d!2sHoliday+Inn+Express+Biddeford!5e0!3m2!1sen!2spe!4v1530111828730"
 
-# Lodging
+	# Lodging
 	[[params.lodging.list]]
 		title = "Hampton Inn Saco / Biddeford"
 		address = """48 Industrail Park Road
@@ -391,6 +406,74 @@ Saco, Maine 04072"""
 		pricing = "call and mention Southern Maine Aviation for pilot discount program"
 		gmapsEmbedURL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2892.892697804521!2d-70.44839324878065!3d43.5254302685986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb2a36314549eb5%3A0xacf954d1696ec797!2sHampton+Inn+Saco%2FBiddeford!5e0!3m2!1sen!2spe!4v1530111962446"
 
+	# Dining
+	# Restaurants
+	[[params.restaurants.list]]
+		title = "Cockpit Cafe (on the field)"
+		url = "https://www.facebook.com/pages/Cockpit-Cafe/150465441662943"
+
+	# Restaurants
+	[[params.restaurants.list]]
+		title = "Shains of Maine"
+		url = "http://www.shainsofmaine.com/"
+
+	# Restaurants
+	[[params.restaurants.list]]
+		title = "Lords Clam Box"
+		url = "http://lordsclambox.com/"
+
+	# Restaurants
+	[[params.restaurants.list]]
+		title = "Applebees"
+		url = "https://restaurants.applebees.com/me/sanford-83073.html"
+
+	# Catering
+	[[params.catering.list]]
+		title = "Jonathan's"
+		phone = "207-646-4777"
+
+	# Catering
+	[[params.catering.list]]
+		title = "Day Tripper Catering"
+		phone = "603-380-6079"
+
+	# Catering
+	[[params.catering.list]]
+		title = "CockPit Cafe"
+		phone = "207-324-7332"
+		phone2 = "207-324-5717"
+
+
+
+	# Ground Transport
+	# rental cars
+	[[params.rental_cars.list]]
+		title = "Enterprise"
+		phone = "207-324-8122"
+
+	# rental cars
+	[[params.rental_cars.list]]
+		title = "Hertz"
+		phone = "207-324-7368"
+
+	# rental cars
+	[[params.rental_cars.list]]
+		title = "Avis"
+		phone = "207-874-7501"
+
+	# taxis
+	[[params.taxis.list]]
+		title = "Frontline Taxi"
+		name = "William \"Bucky\" Collins owner operator"
+		description = "7 passengar Dodge Caravans"
+		phone = "207-490-1214"
+
+	# taxis
+	[[params.taxis.list]]
+		title = "J&M Taxi"
+		name = "Mark Bshara owner operator"
+		description = "7 passengar Dodge Caravans"
+		phone = "207-490-2222"
 
 
 	# Google Maps section

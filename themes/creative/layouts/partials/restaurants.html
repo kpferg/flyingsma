@@ -1,10 +1,39 @@
 {{ "<!-- RESTAURANTS -->" | safeHTML }}
-<section id="restaurants" class="restaurants bg-primary full-height">
+<section id="restaurants" class="restaurants">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Restaurants</h2>
+                <h2 class="section-heading">Dining</h2>
                 <hr class="primary">
+                <div class="dining-description">
+                    <p>The highly-acclaimed <a href="https://www.facebook.com/pages/Cockpit-Cafe/150465441662943" target="_blank">Cockpit Cafe</a> is in the main terminal building right next door to the FBO, with a great patio to enjoy the flower and vegetable garden while watching airplanes. </p>
+                </div>
+                <div class="restaurants-content">
+                    <h3>Restaurants</h3>
+                    {{ range .Site.Params.restaurants.list }}
+                    <div class="dining-item">
+                        {{ if .title }}
+                        <div class="dining__title">{{ if .url }}<a href="{{ .url }}" target="_blank">{{ end }}{{ .title | markdownify }}{{ if .url }}</a>{{ end }}
+                            {{ with .phone }} - <a href="tel:{{ . }}">{{ . }}</a>{{ end }}
+                            {{ with .phone2 }} or <a href="tel:{{ . }}">{{ . }}</a>{{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="catering-content">
+                    <h3>Catering</h3>
+                    {{ range .Site.Params.catering.list }}
+                    <div class="dining-item">
+                        {{ if .title }}
+                        <div class="dining__title">{{ if .url }}<a href="{{ .url }}" target="_blank">{{ end }}{{ .title | markdownify }}{{ if .url }}</a>{{ end }}
+                            {{ with .phone }} - <a href="tel:{{ . }}">{{ . }}</a>{{ end }}
+                            {{ with .phone2 }} or <a href="tel:{{ . }}">{{ . }}</a>{{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
             </div>
         </div>
     </div>

@@ -1,0 +1,50 @@
+{{ "<!-- TRANSPORTATION -->" | safeHTML }}
+<section id="ground-transportation" class="ground-transportation bg-primary">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Transportation</h2>
+                <hr class="primary">
+                <div class="rental-cars-content">
+                    <h3>Rental Cars</h3>
+                    {{ range .Site.Params.rental_cars.list }}
+                    <div class="transport-item">
+                        {{ if .title }}
+                            {{ if or .name .description }}
+                                <div class="transport__title">{{ .title | markdownify }}</div>
+                                {{ with .name }}<div class="transport__name">{{ . }}</div>{{ end }}
+                                {{ with .description }}<div class="transport__description">{{ . }}</div>{{ end }}
+                                {{ with .phone }}<div class="transport__phone"><a href="tel:{{ . }}">{{ . }}</a></div>{{ end }}
+                            {{ else }}
+                                <div class="transport__title" style="margin-bottom:-30px;">{{ .title | markdownify }}
+                                {{ with .phone }} - <a href="tel:{{ . }}">{{ . }}</a>{{ end }}</div>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="taxis-content">
+                    <h3>Taxis</h3>
+                    {{ range .Site.Params.taxis.list }}
+                    <div class="transport-item">
+                        {{ if .title }}
+                            {{ if or .name .description }}
+                                <div class="transport__title">{{ .title | markdownify }}</div>
+                                {{ with .name }}<div class="transport__name">{{ . }}</div>{{ end }}
+                                {{ with .description }}<div class="transport__description">{{ . }}</div>{{ end }}
+                                {{ with .phone }}<div class="transport__phone"><a href="tel:{{ . }}">{{ . }}</a></div>{{ end }}
+                            {{ else }}
+                                <div class="transport__title" style="margin-bottom:-30px;">{{ .title | markdownify }}
+                                {{ with .phone }} - <a href="tel:{{ . }}">{{ . }}</a>{{ end }}</div>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                <div>
+                    <p>We also have a crew car which may be available for short excursions to check out some of the local attractions.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

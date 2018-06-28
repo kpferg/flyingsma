@@ -1358,6 +1358,10 @@ table {
     font-size: 20px;
 }
 
+.lodging-item__phone {
+    font-size: 16px;
+}
+
 .lodging-item__photo {
     display: inline-block;
     vertical-align: top;
@@ -1370,4 +1374,35 @@ table {
 
 .lodging-item__photo img {
     height: 250px;
+}
+
+.restaurants-content,
+.catering-content,
+.rental-cars-content,
+.taxis-content {
+    margin-bottom: 75px;
+    margin-top: 35px;
+}
+
+.restaurants-content h3,
+.catering-content h3,
+.rental-cars-content h3,
+.taxis-content h3 {
+    text-decoration: underline;
+}
+
+.transport-item {
+    margin-bottom: 30px;
+}
+
+.dining__title {
+    font-size: 20px;
+}
+
+.transport__title {
+    font-size: 20px;
+}
+
+.transport__phone {
+    font-size: 16px;
 }
