@@ -272,7 +272,7 @@ IFR certified with KAP 140 auto pilot will make an easy transation from our othe
 For students seeking to become a professional pilot, the G1000 is the most widely used glass trainer platform.
 
 <a href='/PDF/G1000 Checkout Policy sheet.pdf' target='_blank')>G1000 Checkout Policy</a>"""
-		imageUrl = "5416387017d7321743dfdac4abdbc060.jpg"
+		imageUrl = "N11682.jpg"
 		pricing = "$160/hour"
 
 	# Fleet
@@ -287,7 +287,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 	[[params.fleet.list]]
 		title = "C172 SP N53468"
 		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with KAP140 autopilot, King KLN94 GPS, and 180hp."""
-		imageUrl = "N1006V-ext.jpg"
+		imageUrl = "N53468.jpg"
 		pricing = "$140/hour"
 
 	# Fleet
@@ -309,15 +309,15 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 	[[params.fleet.list]]
 		title = "C182 RG N7131S"
 		description = """Wow -- HSI, DME, KAP/KFC 200 autopilot w/ flight director, traffic, King KLN94 GPS and 150 kt cruise! Retractable gear and 235hp."""
-		imageUrl = "7131soutsideborder_3.jpg"
+		imageUrl = "N7131S.jpg"
 		pricing = "$175/hour"
 
 
   	# Fleet
 	[[params.fleet.list]]
 		title = "Redbird Motion Simulator"
-		description = """Our FAA-approved advanced training device simulates a traditional Skyhawk as well as a G1000 Skyhawk. Check out our Simulator Page for more information."""
-		imageUrl = "rbexterior.jpg"
+		description = """Our FAA-approved advanced training device simulates a traditional Skyhawk as well as a G1000 Skyhawk."""
+		imageUrl = "rbinterior.jpg"
 		pricing = "$70/hour"
 
 
