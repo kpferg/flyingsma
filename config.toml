@@ -84,25 +84,9 @@ googleAnalytics = ""
 
 	# News section
 	[[params.news.list]]
-		icon = "plane"
-		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started"
-
-
-	# News section
-	[[params.news.list]]
-		icon = "book"
-		headline    = "Lorem ipsum dolor sit amet"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Lorem ipsum"
-		buttonAction = "#"
-
-	# News section
-	[[params.news.list]]
 		icon = "graduation-cap"
-		headline    = "Summer Ground School Is Starting!"
-		description = """Our summer private pilot ground school is starting on Saturday June 9th and runs for ten weeks.
+		headline    = "Fall Ground School Is Starting!"
+		description = """Our Fall private pilot ground school is starting on Saturday September 8th and runs for ten weeks.
         The ground school is FAA Approved and covers all of the knowledge areas that you will need to pass the FAA
         Knowledge Test with flying colors! The classes are also a great way to refresh your memory and get back into
         flying if you have been on the ground too long. Many folks attend the ground school and fly on the same day. We
@@ -111,14 +95,22 @@ googleAnalytics = ""
 Andrew Button, Chief Instructor<br>
 [480-721-7064](tel:480-721-7064)
 
-<h2>Private Pilot Ground School</h2>
+<h3>Private Pilot Ground School</h3>
 
-Saturdays 8:00-12:00 pm (June 9 - August 18th)
+Saturdays 8:00-12:00 pm (September 8 - November 17th)
 
-$325
+$325 (25% off for high school students)
 
 We have great options available for books and supplies. Please inquire."""
 		buttonText  = "Contact Us"
+		buttonAction = "#contact"
+
+	# News section
+	[[params.news.list]]
+		icon = "plane"
+		headline    = "Southern Maine Aviation is Hiring Part Time Flight Instructors!"
+		description = "Call [480-721-7064](tel:480-721-7064) to inquire"
+		buttonText  = "Get started"
 		buttonAction = "#contact"
 
 
@@ -349,7 +341,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		image = "pilot-pathway-2.jpg"
 		[[params.pilotPathway.list.answers.list]]
 			nextStep = 3
-			answerText = "The movie \"Top Gun\""
+			answerText = "I've always been interested in aviation"
 		[[params.pilotPathway.list.answers.list]]
 			nextStep = 3
 			answerText = "Friends and family"
