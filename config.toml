@@ -315,7 +315,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 
 	[params.pilotPathway.form]
 		email = "kevin@greenhopperdesign.com"
-		message = "Great! We can help set up a program that will fit your interests perfectly! Submit the form below or contact us at 207-324-8919 and we'll start working with you to set up the perfect program for you today."
+		message = """Great! We can help set up a program that will fit your interests perfectly! Submit the form below or contact us at <a href='tel:2073248919'>207-324-8919</a> and we'll start working with you to set up the perfect program today."""
 		subject = "Pilot Pathway Interest"
 		cc = "kevin@greenhopperdesign.com"
 		icon = "plane"
