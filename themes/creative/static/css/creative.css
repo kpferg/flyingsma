@@ -120,6 +120,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand > img {
     max-height: 35px;
+    max-width: 250px;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -167,7 +168,10 @@ aside {
     }
 
     .navbar-default .navbar-header .navbar-brand > img {
+        padding: 10px 5px;
         max-height: 80px;
+        max-width: 350px;
+        background: white;
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
