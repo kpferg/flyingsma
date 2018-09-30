@@ -1075,17 +1075,23 @@ body {
     padding-top: 0;
 }
 
-.fly .hero-half--nw {
+.fly .hero-half--one-left {
     background-image: url(../img/fly/private-pilot-training.jpg);
 }
-.fly .hero-half--ne {
+.fly .hero-half--one-right {
     background-image: url(../img/fly/instrument-training.jpg);
 }
-.fly .hero-half--sw {
+.fly .hero-half--two-left {
     background-image: url(../img/fly/commercial-training.jpg);
 }
-.fly .hero-half--se {
+.fly .hero-half--two-right {
     background-image: url(../img/fly/backcountry-training.jpg);
+}
+.fly .hero-half--three-left {
+    background-image: url(../img/fly/tailwheel-training.jpg);
+}
+.fly .hero-half--three-right {
+    background-image: url(../img/fly/instructors.jpg);
 }
 
 .split-hero {
