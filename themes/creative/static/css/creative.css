@@ -910,15 +910,24 @@ body {
 }
 
 .pilot-pathway__image {
-    width: 150px;
+    width: 100%;
     height: 150px;
-    border-radius: 50%;
+    border-radius: 5px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     position: relative;
     margin: 20px auto;
     background-color: #fff;
+}
+
+.pilot-pathway__image--square {
+    width: 150px;
+}
+
+.pilot-pathway__image--round {
+    width: 150px;
+    border-radius: 50%;
 }
 
 .pilot-pathway .question {
