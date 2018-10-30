@@ -140,6 +140,9 @@ For more information call us at [207-324-8919](tel:207-324-8919)
 		buttonAction = "tel:2073248919"
 		buttonTarget = "_blank"
 
+	[params.instagram]
+		headline = "Instagram"
+
 
 	# Service section
 	[params.services]
