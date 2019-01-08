@@ -529,6 +529,147 @@ Saco, Maine 04072"""
 		phone = "207-490-2222"
 
 
+	# FAQ
+	[[params.questions.list]]
+	question = "WHAT AGE SHOULD I BE TO LEARN TO FLY?"
+	answer = "We have had students as young as 12 and as old as 92. It is a good idea to be tall enough to be able to reach the rudder pedals. The FAA requires a pilot to be at least 16 years of age to solo and 17 years of age to take the practical test."
+
+
+	# FAQ
+	[[params.questions.list]]
+	question = "WHAT IS A “DISCOVERY FLIGHT”?"
+    answer = "A Discovery Flight is your first flight \
+				lesson. It is your introduction to the airplane \
+				and the world of flight. Actual flight time is \
+				about 30 minutes, during which the student \
+				takes the controls for some basic flight \
+				maneuvers. The instructor handles the take \
+				off and landing, with the student following \
+				along on the controls. At the end of the flight \
+				there will be a debriefing to go over the flight \
+				and to plan for your next lesson. Allow \
+				about one and a half hours. The cost is $99 \
+				and includes your first logbook."
+
+	# FAQ
+	[[params.questions.list]]
+	question = "WHAT DAYS AND TIMES ARE LESSONS SCHEDULED?"
+    answer = "We are open 7 days a week, 7 am to 5 pm. \
+				In the summer we are open until 7pm. You \
+				can arrange for a lesson any time in that \
+				block, or after hours by prior arrangement \
+				with your instructor."
+
+
+ 	# FAQ
+	[[params.questions.list]]
+	question = "WHAT DO I NEED TO START FLYING LESSONS?"
+	answer = "We supply the airplane and headset. You’ll \
+				need to be comfortably and appropriately \
+				dressed for seasonal weather. Sunglasses \
+				are a nice accessory on sunny days, but not \
+				required."
+
+
+    # FAQ
+	[[params.questions.list]]
+	question = "HOW LONG DOES IT TAKE TO GET A PRIVATE PILOT CERTIFICATE?"
+    answer = "The FAA requires a minimum of 40 hours of \
+				instruction and experience for a private pilot \
+				certificate. Most pilots require 60 or more \
+				flight hours to prepare them for their practical \
+				test. A lesson usually includes one hour of \
+				flying. We recommend 3 to 4 lessons a \
+				week, but some students pace it at one or \
+				two lessons a month."
+
+
+
+    # FAQ
+	[[params.questions.list]]
+	question = "HOW MUCH DOES IT COST?"
+    answer = "Aircraft Rental $8,400 \
+				60 hrs @140.00/hr \
+				Flight Instructor Time $1,500 \
+				30 hours @$50/hr \
+				Books, test fees, misc. $800 \
+				Total $10,700 \
+				Note: Cost shown are estimates and are based on typical \
+				hours, not minimum requirements. Prices are subject to \
+				change."
+
+    # FAQ
+	[[params.questions.list]]
+	question = "WHEN DO I GET TO FLY BY MYSELF?"
+ 	answer = "This will happen after both you and your \
+				instructor feel you are ready. The FAA \
+				requires you to have passed your flight \
+				physical, be 16 years of age, and your \
+				instructor has signed an endorsement in \
+				your logbook that you are ready. That first \
+				flight alone is referred to as your “Solo” and \
+				generally happens after 12 to 20 hours of \
+				instruction."
+
+
+    # FAQ
+	[[params.questions.list]]
+	question = "SHOULD I TAKE GROUND SCHOOL BEFORE I START FLYING?"
+    answer = "There is no need for any bookwork before \
+				you take your first flight. There is some \
+				studying involved in flying, to learn the \
+				regulations and the inner workings of an \
+				airplane, but that can be done as you work \
+				on developing your flying skills. The FAA \
+				has a required written test, but it’s multiple \
+				choice and they tell you the questions and \
+				possible answers beforehand, so don’t \
+				sweat it. There are a lot of study aids, \
+				videos and classes available to help you \
+				learn the material. We can help you find one \
+				that works for your learning style."
+
+
+    # FAQ
+	[[params.questions.list]]
+	question = "WHAT CAN I DO WITH A PRIVATE PILOT CERTIFICATE?"
+    answer = "We make our aircraft available for rent to \
+				licensed pilots for anything from a quick flight \
+				along the coast to a month long trip to \
+				explore the west. There are thousands of \
+				public airports in the United States hoping \
+				you’ll stop by."
+
+
+ 	# FAQ
+	[[params.questions.list]]
+	question = "WHAT TYPE OF AIRCRAFT WILL I BE FLYING?"
+    answer = "Most of our students start their lessons in \
+				one of our Cessna 172’s. These high wing \
+				four seat aluminum airplanes are known as \
+				“Skyhawks”. They are comfortable, \
+				predictable and very well built, making them \
+				one of the most popular – and safe – training \
+				aircraft ever built. \
+				Some pilots really love to fly tailwheel \
+				airplanes and for them we have a Citabria. \
+				Ours was built in 2004, though the design \
+				dates back to Grandpa’s time. It is truly \
+				“stick and rudder” flying, with fantastic \
+				visibility."
+
+
+    # FAQ
+	[[params.questions.list]]
+	question = "WHAT HAPPENS IF THE WEATHER IS BAD?"
+    answer = "We want flight training to be safe AND fun. It \
+				isn’t safe if thunderstorms are in the area or \
+				the clouds are low. It isn’t fun if it is really \
+				windy or turbulent or cold. Book your lesson \
+				when you can and if the weather is outside \
+				your comfort zone (or ours), we’ll just cancel \
+				the lesson and fly on another day."
+
 	# Google Maps section
 	# [params.location]
 	# 	latitude  = "34.007850"

@@ -87,9 +87,10 @@
                 </div>
                 <div>
                     <p>Has the time come for you to live out your dream of learning to fly? We do this every day!</p>
-                    <p style="text-align: left;">We can help you work out a feasible and effective way to earn your private pilot certificate and have a great time doing it. We can formulate a plan around your schedule so that you can work, attend school, and make flying a part of your life too.  We have a diverse population of students and renters from all walks of life and we take pride in working with each individual to successfully achieve their private pilot certificate. Give the gift of flight, students can start as young as 16!</p>
+                    <p>We can help you work out a feasible and effective way to earn your private pilot certificate and have a great time doing it. We can formulate a plan around your schedule so that you can work, attend school, and make flying a part of your life too.  We have a diverse population of students and renters from all walks of life and we take pride in working with each individual to successfully achieve their private pilot certificate. Give the gift of flight, students can start as young as 16!</p>
 
                     <p>Formulating a plan around your schedule creates a feasible and effective way to earn your private pilots certificate. We take pride in working with each individual to successfully achieve their private pilots license.</p>
+                    <div class="text-center"><a href="/PDF/SMA-brochure.pdf" target="_blank" class="btn btn-primary" style="margin: 10px auto;">Check out this fun flier for some details!</a></div>
                     <p  style="text-align: left; margin: 0 auto; width: fit-content;">
                         <br/>✈ Two FAA approved training options available
                         <br/>✈ Self-study internet ground training available
@@ -108,11 +109,22 @@
         </div>
     </section>
     <section id="instrument-training" class="bg-primary full-height">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Instrument Training</h2>
-            <hr class="primary">
+        <div class="container" style="padding-bottom: 90px;">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Instrument Training</h2>
+                    <hr class="primary">
+                </div>
+                <div>
+                    <p>Clouds?  Weather?  Enhance your skills and experience level.  We can plan a course of instrument training that works for you. We offer both part 61 or 141 instrument training based on your experience level and what makes the most sense for you.</p>
+
+                    <p style="font-size:28px; font-style:italic; color:lightgray; width: 60%; min-width: 300px; margin: 40px auto;">The Sanford Seacoast is a great instrument training location! And if the weather is just too awful to fly then we can always utilize our AATD Redbird simulator to keep your instrument progress going.</p></p>
+
+                    <p>Our ATTD Redbird simulator can help you attune your skills on the ground and for when weather doesn’t allow for airplane use.</p>
+                </div>
+                <div class="down-button"><a href="#commercial-training" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
+            </div>
         </div>
-        <div class="down-button"><a href="#commercial-training" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
     </section>
     <section id="commercial-training" class="full-height">
         <div class="col-lg-12 text-center">
@@ -193,9 +205,29 @@
         <div class="down-button"><a href="#questions" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
     </section>
     <section class="questions bg-dark full-height" id="questions">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Commonly Asked Questions</h2>
-            <hr class="primary">
+        <div class="container" style="padding-bottom: 90px;">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Commonly Asked Questions</h2>
+                    <hr class="primary">
+                    <div class="question-items">
+                        {{ range .Site.Params.questions.list }}
+                        <div class="question-and-answer">
+                            {{ with .question }}
+                            <div class="question">
+                                {{ . | markdownify }}
+                            </div>
+                            {{ end }}
+                            {{ with .answer }}
+                            <div class="answer">
+                                {{ . | markdownify }}
+                            </div>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="down-button"><a href="#top" class="btn"><i class="fa fa-arrow-circle-up fa-4x wow bounceInUp page-scroll"></i></a></div>
     </section>

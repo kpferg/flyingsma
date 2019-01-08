@@ -1533,3 +1533,30 @@ table {
     display: inline-block;
     font-size: 16px;
 }
+
+.question-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.question-and-answer {
+    flex-basis: calc(33% - 60px);
+    margin: 30px;
+}
+
+.question {
+    margin-bottom: 15px;
+    border-bottom: solid 1px lightgray;
+}
+
+.answer {
+    text-align: left;
+}
+
+@media(max-width:768px) {
+    .question-and-answer {
+        flex-basis: 100%;
+        margin: 30px 0;
+    }
+}
