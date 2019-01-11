@@ -1178,10 +1178,10 @@ body {
     background-image: url(../img/fly/backcountry-training.jpg);
 }
 .fly .hero-half--three-left {
-    background-image: url(../img/fly/tailwheel-training.jpg);
+    background-image: url(../img/fly/instructors.jpg);
 }
 .fly .hero-half--three-right {
-    background-image: url(../img/fly/instructors.jpg);
+    background-image: url(../img/fly/tailwheel-training.jpg);
 }
 
 .split-hero {
@@ -1328,15 +1328,27 @@ body {
     left: calc(50% - 30px);
 }
 
+.images {
+    text-align: center;
+}
+
 .flight-img {
     display: inline-block;
     height: 250px;
-    width: calc(33% - 40px);
+    width: calc(33% - 45px);
     margin: 20px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     box-shadow: 0px 3px 15px #444444;
+}
+
+.flight-img--4 {
+    width: calc(25% - 45px);
+}
+
+.flight-img--single-wide {
+    width: calc(75% - 40px);
 }
 
 .bg-primary .flight-img {
