@@ -13,7 +13,7 @@
     <div class="container">
         <div class="news-container">
             {{ range .Site.Params.news.list }}
-                <div class="news-item text-center">
+                <div class="news-item text-center {{ if .imageURL }}news-item--wide{{ end }}">
                     {{ if .icon }}
                         <i class="fa fa-{{ .icon }} fa-4x wow bounceIn"></i>
                     {{ end }}
@@ -25,6 +25,11 @@
                     {{ end }}
                     {{ with .description }}
                         <p class="text-faded">{{ . | markdownify }}</p>
+                    {{ end }}
+                    {{ if .imageURL }}
+                        {{ if .imageLink }}<a href="{{ .imageLink }}" target="_blank">{{ end }}
+                            <img class="news-item__image" src="{{ .imageURL }}"/>
+                        {{ if .imageLink }}</a>{{ end }}
                     {{ end }}
                     {{ if and .buttonText .buttonAction }}
                         <a href="{{ .buttonAction | safeURL }}" target="{{ .buttonTarget }}" class="btn btn-primary btn-xl wow bounceIn">{{ .buttonText }}</a>

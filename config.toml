@@ -83,27 +83,27 @@ googleAnalytics = ""
 		headline = "News & Events"
 
 	# News section
-	[[params.news.list]]
-		icon = "book"
-		headline    = "Fall Ground School Is Starting!"
-		description = """Our Fall private pilot ground school is starting on Saturday September 8th and runs for ten weeks.
-        The ground school is FAA Approved and covers all of the knowledge areas that you will need to pass the FAA
-        Knowledge Test with flying colors! The classes are also a great way to refresh your memory and get back into
-        flying if you have been on the ground too long. Many folks attend the ground school and fly on the same day. We
-        have a great community of people attending these classes already. Please contact us with questions:
-
-Andrew Button, Chief Instructor<br>
-[480-721-7064](tel:480-721-7064)
-
-<h3>Private Pilot Ground School</h3>
-
-Saturdays 8:00-12:00 pm (September 8 - November 17th)
-
-$325 (25% off for high school students)
-
-We have great options available for books and supplies. Please inquire."""
-		buttonText  = "Contact Us"
-		buttonAction = "#contact"
+#	[[params.news.list]]
+#		icon = "book"
+#		headline    = "Fall Ground School Is Starting!"
+#		description = """Our Fall private pilot ground school is starting on Saturday September 8th and runs for ten weeks.
+#        The ground school is FAA Approved and covers all of the knowledge areas that you will need to pass the FAA
+#        Knowledge Test with flying colors! The classes are also a great way to refresh your memory and get back into
+#        flying if you have been on the ground too long. Many folks attend the ground school and fly on the same day. We
+#        have a great community of people attending these classes already. Please contact us with questions:
+#
+#Andrew Button, Chief Instructor<br>
+#[480-721-7064](tel:480-721-7064)
+#
+#<h3>Private Pilot Ground School</h3>
+#
+#Saturdays 8:00-12:00 pm (September 8 - November 17th)
+#
+#$325 (25% off for high school students)
+#
+#We have great options available for books and supplies. Please inquire."""
+#		buttonText  = "Contact Us"
+#		buttonAction = "#contact"
 
 #	# News section
 #	[[params.news.list]]
@@ -114,31 +114,45 @@ We have great options available for books and supplies. Please inquire."""
 #		buttonAction = "#contact"
 
 	# News section
-	[[params.news.list]]
-		icon = "graduation-cap"
-		headline    = "Southern Maine Aviation will be teaching a drone class"
-		description = "\"Drone 101 (AVIA 800 01)\", at Southern Maine Community College in South Portland during the first two weeks of November from 6:00pm - 8:30pm on Tuesdays and Thursdays: 6th, 8th, 13th, and 15th. The cost is $250. You can register through the [SMCC Class Continuing Education website](https://www.smccme.edu/business-community/continuing-studies/continuing-studies-browse-register/)."
-		buttonText  = "Register"
-		buttonAction = "https://www.smccme.edu/business-community/continuing-studies/continuing-studies-browse-register/"
-		buttonTarget = "_blank"
+#	[[params.news.list]]
+#		icon = "graduation-cap"
+#		headline    = "Southern Maine Aviation will be teaching a drone class"
+#		description = "\"Drone 101 (AVIA 800 01)\", at Southern Maine Community College in South Portland during the first two weeks of November from 6:00pm - 8:30pm on Tuesdays and Thursdays: 6th, 8th, 13th, and 15th. The cost is $250. You can register through the [SMCC Class Continuing Education website](https://www.smccme.edu/business-community/continuing-studies/continuing-studies-browse-register/)."
+#		buttonText  = "Register"
+#		buttonAction = "https://www.smccme.edu/business-community/continuing-studies/continuing-studies-browse-register/"
+#		buttonTarget = "_blank"
+
+	# News section
+#	[[params.news.list]]
+#		icon = "medkit"
+#		headline    = "FAAST Team Safety Seminar"
+#		description = """October 6, 2018 - 10AM-12PM
+#
+#SANFORD SEACOAST REGIONAL AIRPORT (KSFM)
+#
+#Dr. Thomas Gross is a Senior Aviation Medical Examiner and will be at Southern Maine Aviation to discuss and answer questions regarding Basic Med, aeromedical factors, common drug interactions, and how to keep your aviation medical.
+#
+#Soup and Chowder Fest to follow. Bring your favorite soup or chowder for prizes. Donations of $7.00 will go to Americares, who provide disaster relief services around the globe.
+#
+#For more information call us at [207-324-8919](tel:207-324-8919)
+#"""
+#		buttonText  = "Call for more information"
+#		buttonAction = "tel:2073248919"
+#		buttonTarget = "_blank"
 
 	# News section
 	[[params.news.list]]
-		icon = "medkit"
-		headline    = "FAAST Team Safety Seminar"
-		description = """October 6, 2018 - 10AM-12PM
+		icon = "book"
+		headline    = "Private Pilot Ground School Is Starting!"
+		imageURL = "/img/news/Southern Maine Aviation LLC.jpg"
+		imageLink = "/PDF/Southern Maine Aviation LLC.pdf"
 
-SANFORD SEACOAST REGIONAL AIRPORT (KSFM)
-
-Dr. Thomas Gross is a Senior Aviation Medical Examiner and will be at Southern Maine Aviation to discuss and answer questions regarding Basic Med, aeromedical factors, common drug interactions, and how to keep your aviation medical.
-
-Soup and Chowder Fest to follow. Bring your favorite soup or chowder for prizes. Donations of $7.00 will go to Americares, who provide disaster relief services around the globe.
-
-For more information call us at [207-324-8919](tel:207-324-8919)
-"""
-		buttonText  = "Call for more information"
-		buttonAction = "tel:2073248919"
-		buttonTarget = "_blank"
+	# News section
+	[[params.news.list]]
+		icon = "graduation-cap"
+		headline    = "Instrument Ground School Is Starting!"
+		imageURL = "/img/news/Start Your Training Today.jpg"
+		imageLink = "/PDF/Start Your Training Today.pdf"
 
 	[params.instagram]
 		headline = "Instagram"

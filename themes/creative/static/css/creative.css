@@ -749,6 +749,15 @@ body {
     padding: 10px 10px 50px 10px;
 }
 
+.news-item--wide {
+    min-width: 100%;
+}
+
+.news-item__image {
+    max-width: calc(100% - 20px);
+    margin: 10px auto;
+}
+
 @media(max-width:768px) {
     .news-item,
     .service-item {
