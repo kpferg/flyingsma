@@ -345,7 +345,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 
 <a href='/PDF/G1000 Checkout Policy sheet.pdf' target='_blank')>G1000 Checkout Policy</a>"""
 		imageUrl = "N11682.jpg"
-		pricing = "$160/hour"
+		pricing = "$165/hour"
 
 	# Fleet
 	[[params.fleet.list]]
@@ -353,21 +353,21 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		description = """Our 2004 Citabria 7GCBC is a great taildragger, with awesome responsiveness and visibility. It is available for solo rental, tailwheel instruction and spin training endorsements
   <a href='http://static.garmin.com/pumac/GNC250XL_PilotsGuide.pdf' target='_blank'>Garmin 250XL manual</a>."""
 		imageUrl = "N291CA_plane.jpg"
-		pricing = "$135/hour"
+		pricing = "$140/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N53468"
 		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='http://www.n612sp.com/KAP%20140%20AUTOPILOT.pdf' target='_blank'>KAP140 autopilot</a>, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "N53468.jpg"
-		pricing = "$140/hour"
+		pricing = "$150/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N916BA"
 		description = """Our 2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='http://www.n612sp.com/KAP%20140%20AUTOPILOT.pdf' target='_blank'>KAP140 autopilot</a>, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "Skyhawk916BAExterior.jpg"
-		pricing = "$140/hour"
+		pricing = "$150/hour"
 
 	# Fleet
 	[[params.fleet.list]]
@@ -375,14 +375,14 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		description = """2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='http://www.n612sp.com/KAP%20140%20AUTOPILOT.pdf' target='_blank'>KAP140 autopilot</a>, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp. and <a href='https://www.jpinstruments.com/wp-content/uploads/2012/10/PG-EDM-800-Rev-W.pdf' target='_blank'>JPI-701</a>."""
 		imageUrl = "N172TG.jpg"
 		showImage = true
-		pricing = "$140/hour"
+		pricing = "$150/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C182 RG N7131S"
 		description = """Wow -- HSI, DME, KAP/KFC 200 autopilot w/ flight director, traffic, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a> and 150 kt cruise! Retractable gear and 235hp."""
 		imageUrl = "N7131S.jpg"
-		pricing = "$175/hour"
+		pricing = "$185/hour"
 
 
   	# Fleet
