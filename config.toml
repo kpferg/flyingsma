@@ -249,7 +249,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 			 title = "Maintenance"
 			 description = "Our award-winning mechanics can help give you the peace of mind that comes from knowing that your aircraft is in top notch condition and has been inspected thoroughly and professionally. "
 			[params.corporate_services.list.link]
-				 url = "#maintenance"
+				 url = "#aircraft-maintenance"
 				 title = "Learn More"
 
 
@@ -303,37 +303,99 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Instructors
 	[[params.instructors.list]]
 		title = "Andrew Button"
+		availability = "Full Time Monday-Friday"
 		description = """Andrew is the lead flight instructor at Southern Maine Aviation."""
 		imageUrl = "placeholder-person.png"
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "John Doe"
-		description = """John is an experienced flight instructor at Southern Maine Aviation."""
+		title = "Michael Burns"
+		availability = "Full Time Thursday-Monday"
+		description = """ """
 		imageUrl = "placeholder-person.png"
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "Jane Doe"
-		description = """Jane is an experienced flight instructor at Southern Maine Aviation."""
+		title = "Paul Hodak"
+		availability = "Tuesday and Wednesday"
+		description = """ """
 		imageUrl = "placeholder-person.png"
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "John Doe"
-		description = """John is an experienced flight instructor at Southern Maine Aviation."""
+		title = "Richard Whicker"
+		availability = "Saturdays and By Appointment"
+		description = """ """
 		imageUrl = "placeholder-person.png"
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "Jane Doe"
-		description = """Jane is an experienced flight instructor at Southern Maine Aviation."""
+		title = "Rich Curcio"
+		availability = "Variable and by appointment"
+		description = """ """
 		imageUrl = "placeholder-person.png"
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "John Doe"
-		description = """Jane is the newest flight instructor to join us at Southern Maine Aviation."""
+		title = "Mike Sachse"
+		availability = "Thursdays and by appointment"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Sue Tholan"
+		availability = "By appointment"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Matt Hunter"
+		availability = "Tuesday and Thursdays"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Kristi Johnson-Fenton"
+		availability = "Mondays and by appointment"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "James Stickney"
+		availability = "Weekends and by appointment"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Nick Mangino"
+		availability = "Tuesdays"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Jerry Fraiser"
+		availability = "Weekends"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Christian Hemenway"
+		availability = "Weekends"
+		description = """ """
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "John Gary"
+		availability = "By appointment"
+		description = """ """
 		imageUrl = "placeholder-person.png"
 
 	# Fleet
@@ -562,7 +624,7 @@ Saco, Maine 04072"""
 				along on the controls. At the end of the flight \
 				there will be a debriefing to go over the flight \
 				and to plan for your next lesson. Allow \
-				about one and a half hours. The cost is $99 \
+				about one and a half hours. The cost is $109 \
 				and includes your first logbook."
 
 	# FAQ
@@ -602,10 +664,10 @@ Saco, Maine 04072"""
     # FAQ
 	[[params.questions.list]]
 	question = "HOW MUCH DOES IT COST?"
-    answer = "Aircraft Rental $8,400 \
-				60 hrs @140.00/hr \
-				Flight Instructor Time $1,500 \
-				30 hours @$50/hr \
+    answer = "Aircraft Rental $9,600 \
+				60 hrs @160.00/hr \
+				Flight Instructor Time $1,800 \
+				30 hours @$60/hr \
 				Books, test fees, misc. $800 \
 				Total $10,700 \
 				Note: Cost shown are estimates and are based on typical \

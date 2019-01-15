@@ -844,6 +844,16 @@ body {
     }
 }
 
+.instructor__availability {
+    font-size: 14px;
+    color: #5e5e5e;
+    top: 30px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
 .instructor__description {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -1555,7 +1565,6 @@ table {
 .rates {
     margin: 30px auto;
     line-height: 25px;
-    display: inline-block;
     font-size: 16px;
 }
 

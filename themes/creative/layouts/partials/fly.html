@@ -179,30 +179,37 @@
         </div>
     </section>
     <section id="instructors" class="bg-primary full-height">
-        <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Instructors</h2>
-            <hr class="primary">
-        </div>
-        <div class="instructors">
-            {{ range .Site.Params.instructors.list }}
-            <div class="instructor">
-                {{ with .title }}
-                <div class="instructor__title">{{ . | markdownify }}</div>
-                {{ end }}
-                {{ if and .imageUrl (not (eq .showImage false)) }}
-                <div class="instructor__photo"><img src="../img/instructors/{{ .imageUrl }}"></div>
-                {{ end }}
-                {{ if or .title .description }}
-                <div class="instructor__details">
-                    {{ with .description }}
-                    <div class="instructor__description">{{ . | markdownify }}</div>
+        <div class="container" style="padding-bottom: 90px;">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Instructors</h2>
+                    <hr class="primary">
+                </div>
+                <div class="instructors">
+                    {{ range .Site.Params.instructors.list }}
+                    <div class="instructor">
+                        {{ with .title }}
+                        <div class="instructor__title">{{ . | markdownify }}</div>
+                        {{ end }}
+                        {{ with .availability }}
+                        <div class="instructor__availability">{{ . | markdownify }}</div>
+                        {{ end }}
+                        {{ if and .imageUrl (not (eq .showImage false)) }}
+                        <div class="instructor__photo"><img src="../img/instructors/{{ .imageUrl }}"></div>
+                        {{ end }}
+                        {{ if or .title .description }}
+                        <div class="instructor__details">
+                            {{ with .description }}
+                            <div class="instructor__description">{{ . | markdownify }}</div>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
                     {{ end }}
                 </div>
-                {{ end }}
+                <div class="down-button"><a href="#fleet" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
             </div>
-            {{ end }}
         </div>
-        <div class="down-button"><a href="#fleet" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
     </section>
     <section class="fleet" id="fleet">
         <div class="col-lg-12 text-center">
