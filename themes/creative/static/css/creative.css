@@ -847,9 +847,9 @@ body {
 .instructor__availability {
     font-size: 14px;
     color: #5e5e5e;
-    top: 30px;
+    top: -48px;
     left: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
 }
