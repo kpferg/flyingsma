@@ -344,7 +344,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "Sue Tholan"
+		title = "Sue Tholen"
 		availability = "By appointment"
 		description = """ """
 		imageUrl = "placeholder-person.png"
