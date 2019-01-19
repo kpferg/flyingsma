@@ -1632,3 +1632,7 @@ table {
     width: fit-content;
     line-height: 25px;
 }
+
+.aircraft-maintenance {
+    padding-top: 60px;
+}
