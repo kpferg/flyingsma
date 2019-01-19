@@ -199,7 +199,12 @@
                         <div class="instructor__availability">{{ . | markdownify }}</div>
                         {{ end }}
                         {{ if and .imageUrl (not (eq .showImage false)) }}
-                        <div class="instructor__photo"><img src="../img/instructors/{{ .imageUrl }}"></div>
+                            <div class="instructor__photo-container">
+                                <div class="instructor__photo"><img src="../img/instructors/{{ .imageUrl }}"></div>
+                                {{ if and .image2Url (not (eq .showImage2 false)) }}
+                                <div class="instructor__photo instructor__photo--overlay"><img src="../img/instructors/{{ .image2Url }}"></div>
+                                {{ end }}
+                            </div>
                         {{ end }}
                         {{ if or .title .description }}
                         <div class="instructor__details">
