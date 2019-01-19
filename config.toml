@@ -306,7 +306,6 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		availability = "Full Time Monday-Friday"
 		description = """Andrew Button has been flying since sixteen and has never grown tired of the view. He enjoys flying with a variety of people and different airplanes. He has a small family and enjoys hiking and lake life. Andrew is the Chief Instructor at Southern Maine Aviation and has diverse experience in aviation training and management. He dreams of ocean sailing."""
 		imageUrl = "placeholder-person.png"
-		image2Url = "placeholder-person2.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -457,6 +456,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		description = """Our FAA-approved advanced training device simulates a traditional Skyhawk as well as a G1000 Skyhawk."""
 		imageUrl = "rbinterior.jpg"
 		pricing = "$70/hour"
+		anchorId = "redbird"
 
 
 	[params.pilotPathway.form]
