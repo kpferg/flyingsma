@@ -348,7 +348,8 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Sue Tholen"
 		availability = "By appointment"
 		description = """Sue Tholen has been instructing at Southern Maine Aviation part-time for the last 15 years, while working in real life as a structural engineer and IT data analyst and whatever new career suits her fancy.  She loves flying taildraggers into interesting new places and has recently taken the plunge into attempting a kit built airplane."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "sue_tholen.png"
+		image2Url = "sue_tholen_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
