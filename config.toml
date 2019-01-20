@@ -369,7 +369,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	[[params.instructors.list]]
 		title = "James Stickney"
 		availability = "Weekends and by appointment"
-		description = """James Stickney was born and raised in Maine. He learned to fly in gliders and a taildragger and is no stranger to grass strip flying.  In his life outside Southern Maine Aviation, James is a mechanical engineer and has a small family. He is a master at fencing."""
+		description = """James Stickney earned his private pilot license in a taildragger then learned to fly aerobatics before continuing on with his other ratings. He currently works in the power generation industry but enjoys sharing his passion for aviation as a part time instructor at Southern Maine Aviation."""
 		imageUrl = "placeholder-person.png"
 
 	# Instructors
@@ -393,7 +393,8 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Christian Hemenway"
 		availability = "Weekends"
 		description = """Christian Hemenway started flying in 1985 and received his private pilot certificate in 1986. In 1989 he iced the cake with his Instrument, Commercial, CFI & CFII. He worked for a flight school out on Long Island, NY before returning home to Maine to work at his family’s business.   He have always loved flying and enjoy sharing that passion with everyone that he works and flies with!"""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "chris_hemenway.png"
+		image2Url = "chris_hemenway_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -401,6 +402,8 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		availability = "By appointment"
 		description = """John Gary has been a regular fixture at the Southern Maine Aviation and the Sanford Airport for the last twenty years. John is a designated pilot examiner and a great resource to the pilot population here at Southern Maine. John can build anything out of wood and is fairly skilled in the kitchen as well."""
 		imageUrl = "placeholder-person.png"
+
+
 
 	# Fleet
 	[[params.fleet.list]]
