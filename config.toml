@@ -313,7 +313,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Michael Burns"
 		availability = "Full Time Thursday-Monday"
 		description = """Michael Burns started his aviation career in his home state of sunny Florida in 2013. An artist at heart, Michael enjoys arts and crafts and is an amateur baker in his spare time. He is a tech guru and can fix anything with a CPU. He is living his dream working as full time professional flight instructor."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "blank.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -359,14 +359,14 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Matt Hunter"
 		availability = "Tuesday and Thursdays"
 		description = """Matt Hunter retired from the Air Force after 23 years of active duty service.  He is excited to bring the experience he gained during his career to the students at SMA. In his spare time he likes hunt, fish and exercise vigorously. Matt was born and raised in Maine and has a small family of his own."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "blank.png"
 
 	# Instructors
 	[[params.instructors.list]]
 		title = "Kristi Johnson-Fenton"
 		availability = "Mondays and by appointment"
 		description = """Kristy Johnson-Fenton has been involved in aviation since 1997.  She learned to fly in the St. Louis area and was an instructor and cargo pilot before moving to Maine. Kristi enjoys teaching at SMA. She has a passion for traveling and various arts and crafts."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "blank.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -389,7 +389,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Jerry Fraser"
 		availability = "Weekends"
 		description = """Jerry Fraser worked as a deckhand on fishing boats in his youth, and never thought for a moment about aviation growing up. That is, until he took his own “discovery” flight at Sanford Airport in 1990. He became an instructor in 1995 and now spends weekdays behind a desk in Portland, daydreaming about flight instructing at Southern Maine Aviation on the weekends."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "blank.png"
 		image2Url = "jerry_fraser_2.png"
 
 	# Instructors
