@@ -305,7 +305,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Andrew Button"
 		availability = "Full Time Monday-Friday"
 		description = """Andrew Button has been flying since sixteen and has never grown tired of the view. He enjoys flying with a variety of people and different airplanes. He has a small family and enjoys hiking and lake life. Andrew is the Chief Instructor at Southern Maine Aviation and has diverse experience in aviation training and management. He dreams of ocean sailing."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "andrew_button.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -319,7 +319,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Paul Hodak"
 		availability = "Tuesday and Wednesday"
 		description = """Paul Hodak is a retired American Airlines Captain and former flight instructor at Embry-Riddle Aeronautical University. He has more than twenty-eight thousand hours of flying experience, from Cessnas to wide-body commercial airliners. Instructing at Southern Maine Aviation has given Paul an opportunity to share his experience with recreational and professional aviation enthusiasts alike."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "paul_hodak.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -334,14 +334,16 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Rich Curcio"
 		availability = "Variable and by appointment"
 		description = """Rich Curcio is currently a first officer for an aircraft charter company. He has been working in aviation in one form or another for the past ten years. Rich enjoys spending time with his family, a good whiskey, and learning to fly various types of airplanes. Rich does not combine the last two activities and recommends you not doing so either."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "rich_curcio.png"
+		image2Url = "rich_curcio_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
 		title = "Mike Sachse"
 		availability = "Thursdays and by appointment"
 		description = """Mike Sachse is a former active duty and reserve Air Force pilot. Since retiring from the corporate sector he has been enjoying being an Instructor at Southern Maine Aviation. He is an avid sportsman and enjoys cycling, skiing, and carving decorative wood animals."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "mike_sachse.png"
+		image2Url = "mike_sachse_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -370,7 +372,8 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "James Stickney"
 		availability = "Weekends and by appointment"
 		description = """James Stickney earned his private pilot license in a taildragger then learned to fly aerobatics before continuing on with his other ratings. He currently works in the power generation industry but enjoys sharing his passion for aviation as a part time instructor at Southern Maine Aviation."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "james_stickney.png"
+		image2Url = "james_stickney_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -385,7 +388,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Jerry Fraser"
 		availability = "Weekends"
 		description = """Jerry Fraser worked as a deckhand on fishing boats in his youth, and never thought for a moment about aviation growing up. That is, until he took his own “discovery” flight at Sanford Airport in 1990. He became an instructor in 1995 and now spends weekdays behind a desk in Portland, daydreaming about flight instructing at Southern Maine Aviation on the weekends."""
-		imageUrl = "jerry_fraser.png"
+		imageUrl = "placeholder-person.png"
 		image2Url = "jerry_fraser_2.png"
 
 	# Instructors
