@@ -390,7 +390,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		title = "Jerry Fraser"
 		availability = "Weekends"
 		description = """Jerry Fraser worked as a deckhand on fishing boats in his youth, and never thought for a moment about aviation growing up. That is, until he took his own “discovery” flight at Sanford Airport in 1990. He became an instructor in 1995 and now spends weekdays behind a desk in Portland, daydreaming about flight instructing at Southern Maine Aviation on the weekends."""
-		imageUrl = "placeholder-person.png"
+		imageUrl = "jerry_fraser.png"
 		image2Url = "jerry_fraser_2.png"
 
 	# Instructors
