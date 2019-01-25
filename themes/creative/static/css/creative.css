@@ -749,6 +749,10 @@ body {
     padding: 10px 10px 50px 10px;
 }
 
+.news-item .fa {
+    margin: 20px auto;
+}
+
 .news-item--wide {
     min-width: 100%;
 }

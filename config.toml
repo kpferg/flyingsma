@@ -155,6 +155,13 @@ googleAnalytics = ""
 		imageURL = "/img/news/Start Your Training Today.jpg"
 		imageLink = "/PDF/Start Your Training Today.pdf"
 
+	# News section
+	[[params.news.list]]
+		icon = "medkit"
+		headline    = "Upcoming FAAST Team Safety Seminar"
+		imageURL = "/img/news/FAAST_team_safety_seminar.png"
+		imageLink = "/PDF/FAAST_team_safety_seminar.pdf"
+
 	[params.instagram]
 		headline = "Instagram"
 
@@ -295,7 +302,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Footer
 	[params.footer.copyright]
 		name = "Southern Maine Aviation LLC"
-		year = "2018"
+		year = "2019"
 
 	# Fly
 	[params.fly]
