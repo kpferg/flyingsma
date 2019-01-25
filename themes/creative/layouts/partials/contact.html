@@ -21,20 +21,20 @@
             {{ end }}
             {{ if .Site.Params.contact.email }}
               <div class="col-lg-4 text-center">
-                    <a href="mailto:{{ .Site.Params.contact.email }}"><i class="fa fa-envelope-o fa-3x wow bounceIn color-black hover-orange" data-wow-delay=".1s"></i></a>
+                    <a href="mailto:{{ .Site.Params.contact.email }}"><i class="far fa-envelope fa-3x wow bounceIn color-black hover-orange" data-wow-delay=".1s"></i></a>
                     <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.facebook }}
                 <div class="col-lg-4 text-center">
-                    <a href="{{ .Site.Params.contact.facebook }}"><i class="fa fa-facebook fa-3x wow bounceIn color-black hover-orange"></i></a>
+                    <a href="{{ .Site.Params.contact.facebook }}"><i class="fab fa-facebook-f fa-3x wow bounceIn color-black hover-orange"></i></a>
                     <p><a href="{{ .Site.Params.contact.facebook }}">Facebook</a></p>
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.streetAddressLine1 }}
             <div class="col-lg-12 text-center contact-address">
                 <a href="https://www.google.com/maps/dir/?api=1&destination={{ .Site.Params.contact.gmapsAddress }}'" target="_blank">
-                    <i class="fa fa-map-marker fa-3x wow bounceIn color-black hover-orange"></i>
+                    <i class="fas fa-map-marker-alt fa-3x wow bounceIn color-black hover-orange"></i>
                 </a>
                 <p>{{ .Site.Params.contact.streetAddressLine1 | markdownify }}
                 {{ if .Site.Params.contact.streetAddressLine2 }}
