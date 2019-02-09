@@ -1,5 +1,5 @@
-baseurl = "https://www.flyingsma.com/"
-#baseurl = "http://southern-maine-aviation.s3-website-us-east-1.amazonaws.com/"
+#baseurl = "https://www.flyingsma.com/"
+baseurl = "http://southern-maine-aviation.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Southern Maine Aviation"
 theme = "creative"
@@ -161,6 +161,13 @@ googleAnalytics = ""
 		headline    = "Upcoming FAAST Team Safety Seminar"
 		imageURL = "/img/news/FAAST_team_safety_seminar.png"
 		imageLink = "/PDF/FAAST_team_safety_seminar.pdf"
+
+	# News section
+	[[params.news.list]]
+		icon = "broadcast-tower"
+		headline    = "Drone 101 Class Is Starting!"
+		imageURL = "/img/news/Mar_2019_Drone_class.png"
+		imageLink = "/PDF/Mar_2019_Drone_class.pdf"
 
 	[params.instagram]
 		headline = "Instagram"

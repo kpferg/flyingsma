@@ -759,6 +759,7 @@ body {
 
 .news-item__image {
     max-width: calc(100% - 20px);
+    max-height: calc(100vh - 80px);
     margin: 10px auto;
 }
 
@@ -1519,6 +1520,11 @@ body {
     border-bottom: solid 2px #f98a14;
     text-align: center;
     padding: 5px 20px;
+}
+
+.fuel-note {
+    color: #ff5757;
+    font-weight: 600;
 }
 
 table {
