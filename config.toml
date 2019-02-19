@@ -141,26 +141,33 @@ googleAnalytics = ""
 #		buttonAction = "tel:2073248919"
 #		buttonTarget = "_blank"
 
-	# News section
-	[[params.news.list]]
-		icon = "book"
-		headline    = "Private Pilot Ground School Is Starting!"
-		imageURL = "/img/news/Southern Maine Aviation LLC.jpg"
-		imageLink = "/PDF/Southern Maine Aviation LLC.pdf"
+#	# News section
+#	[[params.news.list]]
+#		icon = "book"
+#		headline    = "Private Pilot Ground School Is Starting!"
+#		imageURL = "/img/news/Southern Maine Aviation LLC.jpg"
+#		imageLink = "/PDF/Southern Maine Aviation LLC.pdf"
+#
+#	# News section
+#	[[params.news.list]]
+#		icon = "graduation-cap"
+#		headline    = "Instrument Ground School Is Starting!"
+#		imageURL = "/img/news/Start Your Training Today.jpg"
+#		imageLink = "/PDF/Start Your Training Today.pdf"
+#
+#	# News section
+#	[[params.news.list]]
+#		icon = "medkit"
+#		headline    = "Upcoming FAAST Team Safety Seminar"
+#		imageURL = "/img/news/FAAST_team_safety_seminar.png"
+#		imageLink = "/PDF/FAAST_team_safety_seminar.pdf"
 
 	# News section
 	[[params.news.list]]
-		icon = "graduation-cap"
-		headline    = "Instrument Ground School Is Starting!"
-		imageURL = "/img/news/Start Your Training Today.jpg"
-		imageLink = "/PDF/Start Your Training Today.pdf"
-
-	# News section
-	[[params.news.list]]
-		icon = "medkit"
-		headline    = "Upcoming FAAST Team Safety Seminar"
-		imageURL = "/img/news/FAAST_team_safety_seminar.png"
-		imageLink = "/PDF/FAAST_team_safety_seminar.pdf"
+		icon = "snowflake"
+		headline    = "Look what you can do SOLO!"
+		imageURL = "/img/news/Look_what_you_can_do_SOLO.png"
+		imageLink = "/PDF/Look_what_you_can_do_SOLO.pdf"
 
 	# News section
 	[[params.news.list]]
