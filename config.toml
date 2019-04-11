@@ -169,12 +169,19 @@ googleAnalytics = ""
 		imageURL = "/img/news/Look_what_you_can_do_SOLO.png"
 		imageLink = "/PDF/Look_what_you_can_do_SOLO.pdf"
 
+#	# News section
+#	[[params.news.list]]
+#		icon = "broadcast-tower"
+#		headline    = "Drone 101 Class Is Starting!"
+#		imageURL = "/img/news/Mar_2019_Drone_class.png"
+#		imageLink = "/PDF/Mar_2019_Drone_class.pdf"
+
 	# News section
 	[[params.news.list]]
 		icon = "broadcast-tower"
-		headline    = "Drone 101 Class Is Starting!"
-		imageURL = "/img/news/Mar_2019_Drone_class.png"
-		imageLink = "/PDF/Mar_2019_Drone_class.pdf"
+		headline    = "Upcoming FAASTeam Safety Seminar!"
+		imageURL = "/img/news/4_27_19-FAASTeam-Seminar.jpg"
+		imageLink = "/PDF/4_27_19-FAASTeam-Seminar.pdf"
 
 	[params.instagram]
 		headline = "Instagram"
