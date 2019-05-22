@@ -1,5 +1,5 @@
-#baseurl = "https://www.flyingsma.com/"
-baseurl = "http://southern-maine-aviation.s3-website-us-east-1.amazonaws.com/"
+baseurl = "https://www.flyingsma.com/"
+#baseurl = "http://southern-maine-aviation.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Southern Maine Aviation"
 theme = "creative"
@@ -600,8 +600,8 @@ Saco, Maine 04072"""
 	# Dining
 	# Restaurants
 	[[params.restaurants.list]]
-		title = "Cockpit Cafe (on the field)"
-		url = "https://www.facebook.com/pages/Cockpit-Cafe/150465441662943"
+		title = "Pilots Cove Café (on the field)"
+		url = "https://www.pilotscovecafe.com"
 
 	# Restaurants
 	[[params.restaurants.list]]
@@ -625,9 +625,8 @@ Saco, Maine 04072"""
 
 	# Catering
 	[[params.catering.list]]
-		title = "CockPit Cafe"
-		phone = "207-324-7332"
-#		phone2 = "207-324-5717"
+		title = "Pilots Cove Café"
+		phone = "207-850-1183"
 
 
 
@@ -651,14 +650,14 @@ Saco, Maine 04072"""
 	[[params.taxis.list]]
 		title = "Frontline Taxi"
 		name = "William \"Bucky\" Collins owner operator"
-		description = "7 passengar Dodge Caravans"
+		description = "7 passenger Dodge Caravans"
 		phone = "207-490-1214"
 
 	# taxis
 	[[params.taxis.list]]
 		title = "J&M Taxi"
 		name = "Mark Bshara owner operator"
-		description = "7 passengar Dodge Caravans"
+		description = "7 passenger Dodge Caravans"
 		phone = "207-490-2222"
 
 
