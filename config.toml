@@ -1,5 +1,5 @@
-#baseurl = "https://www.flyingsma.com/"
-baseurl = "http://southern-maine-aviation.s3-website-us-east-1.amazonaws.com/"
+baseurl = "https://www.flyingsma.com/"
+#baseurl = "http://southern-maine-aviation.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
 title = "Southern Maine Aviation"
 theme = "creative"
