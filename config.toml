@@ -368,21 +368,21 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		imageUrl = "rich_whicker.png"
 		image2Url = "rich_whicker_2.png"
 
-	# Instructors
-	[[params.instructors.list]]
-		title = "Rich Curcio"
-		availability = "Variable and by appointment"
-		description = """Rich Curcio is currently a first officer for an aircraft charter company. He has been working in aviation in one form or another for the past ten years. Rich enjoys spending time with his family, a good whiskey, and learning to fly various types of airplanes. Rich does not combine the last two activities and recommends you not doing so either."""
-		imageUrl = "rich_curcio.png"
-		image2Url = "rich_curcio_2.png"
-
-	# Instructors
-	[[params.instructors.list]]
-		title = "Mike Sachse"
-		availability = "Thursdays and by appointment"
-		description = """Mike Sachse is a former active duty and reserve Air Force pilot. Since retiring from the corporate sector he has been enjoying being an Instructor at Southern Maine Aviation. He is an avid sportsman and enjoys cycling, skiing, and carving decorative wood animals."""
-		imageUrl = "mike_sachse.png"
-		image2Url = "mike_sachse_2.png"
+#	# Instructors
+#	[[params.instructors.list]]
+#		title = "Rich Curcio"
+#		availability = "Variable and by appointment"
+#		description = """Rich Curcio is currently a first officer for an aircraft charter company. He has been working in aviation in one form or another for the past ten years. Rich enjoys spending time with his family, a good whiskey, and learning to fly various types of airplanes. Rich does not combine the last two activities and recommends you not doing so either."""
+#		imageUrl = "rich_curcio.png"
+#		image2Url = "rich_curcio_2.png"
+#
+#	# Instructors
+#	[[params.instructors.list]]
+#		title = "Mike Sachse"
+#		availability = "Thursdays and by appointment"
+#		description = """Mike Sachse is a former active duty and reserve Air Force pilot. Since retiring from the corporate sector he has been enjoying being an Instructor at Southern Maine Aviation. He is an avid sportsman and enjoys cycling, skiing, and carving decorative wood animals."""
+#		imageUrl = "mike_sachse.png"
+#		image2Url = "mike_sachse_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -392,12 +392,12 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		imageUrl = "sue_tholen.png"
 		image2Url = "sue_tholen_2.png"
 
-	# Instructors
-	[[params.instructors.list]]
-		title = "Matt Hunter"
-		availability = "Tuesday and Thursdays"
-		description = """Matt Hunter retired from the Air Force after 23 years of active duty service.  He is excited to bring the experience he gained during his career to the students at SMA. In his spare time he likes hunt, fish and exercise vigorously. Matt was born and raised in Maine and has a small family of his own."""
-		imageUrl = "placeholder-person.png"
+#	# Instructors
+#	[[params.instructors.list]]
+#		title = "Matt Hunter"
+#		availability = "Tuesday and Thursdays"
+#		description = """Matt Hunter retired from the Air Force after 23 years of active duty service.  He is excited to bring the experience he gained during his career to the students at SMA. In his spare time he likes hunt, fish and exercise vigorously. Matt was born and raised in Maine and has a small family of his own."""
+#		imageUrl = "placeholder-person.png"
 
 	# Instructors
 	[[params.instructors.list]]
