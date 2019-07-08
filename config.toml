@@ -163,11 +163,11 @@ googleAnalytics = ""
 #		imageLink = "/PDF/FAAST_team_safety_seminar.pdf"
 
 # News section
-	[[params.news.list]]
-		icon = "book"
-		headline = "Private Pilot Ground School Is Starting!"
-		imageURL = "/img/news/summer_challenge_2019.png"
-		imageLink = "/PDF/summer_challenge_2019.pdf"
+#	[[params.news.list]]
+#		icon = "book"
+#		headline = "Private Pilot Ground School Is Starting!"
+#		imageURL = "/img/news/summer_challenge_2019.png"
+#		imageLink = "/PDF/summer_challenge_2019.pdf"
 
 	# News section
 	[[params.news.list]]
@@ -189,6 +189,13 @@ googleAnalytics = ""
 #		headline    = "Upcoming FAASTeam Safety Seminar!"
 #		imageURL = "/img/news/4_27_19-FAASTeam-Seminar.jpg"
 #		imageLink = "/PDF/4_27_19-FAASTeam-Seminar.pdf"
+
+	# News section
+	[[params.news.list]]
+		icon = "broadcast-tower"
+		headline    = "Upcoming FAASTeam Safety Seminar!"
+		imageURL = "/img/news/7_20_19-FAASTeam-Seminar.png"
+		imageLink = "/PDF/7_20_19-FAASTeam-Seminar.pdf"
 
 	[params.instagram]
 		headline = "Instagram"
