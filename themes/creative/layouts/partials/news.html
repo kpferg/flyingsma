@@ -32,7 +32,7 @@
                         {{ if .imageLink }}</a>{{ end }}
                     {{ end }}
                     {{ if and .buttonText .buttonAction }}
-                        <a href="{{ .buttonAction | safeURL }}" target="{{ .buttonTarget }}" class="btn btn-primary btn-xl wow bounceIn">{{ .buttonText }}</a>
+                    <p><a href="{{ .buttonAction | safeURL }}" target="{{ .buttonTarget }}" class="btn btn-primary btn-xl wow bounceIn">{{ .buttonText }}</a></p>
                     {{ end }}
                 </div>
             {{ end }}

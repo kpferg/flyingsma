@@ -141,6 +141,15 @@ googleAnalytics = ""
 #		buttonAction = "tel:2073248919"
 #		buttonTarget = "_blank"
 
+	# News section
+	[[params.news.list]]
+		icon = "tree"
+		headline    = "Backcountry Experience Training"
+		imageURL = "/img/news/Citabria_promo.png"
+		imageLink = "/PDF/Citabria_promo.pdf"
+		buttonText = "Cantact us for more information"
+		buttonAction = "#contact"
+
 #	# News section
 #	[[params.news.list]]
 #		icon = "book"
