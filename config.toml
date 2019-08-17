@@ -317,7 +317,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 				title = "Learn More"
 
 	 	[[params.corporate_services.list]]
-			icon = "fa-car"
+			icon = "fa-taxi"
 			title = "Transportation"
 			description = "Getting around once you get here."
 			[params.corporate_services.list.link]
