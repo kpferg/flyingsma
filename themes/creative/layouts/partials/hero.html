@@ -1,6 +1,6 @@
 {{ "<!-- HEADER -->" | safeHTML }}
 <header>
-    <div class="slick-carousel">
+    <div class="slick-carousel slick-carousel-hero">
         {{ range $index, $element := .Site.Params.hero.list }}
             <div class="hero-slide" style="background-image: url(../img/hero/{{ add $index 1 }}.jpg);">
                 <div class="header-content">
@@ -15,7 +15,7 @@
                             <p>{{ . | markdownify }}</p>
                         {{ end }}
                         {{ with $element.buttonText }}
-                            <a href="{{$element.buttonAction}}" class="btn btn-primary btn-xl page-scroll wow bounceIn">{{ . }}</a>
+                            <a href="{{$element.buttonAction}}" {{ if $element.buttonTarget }} target="{{ $element.buttonTarget }}" {{ end }} class="btn btn-primary btn-xl page-scroll wow bounceIn">{{ . }}</a>
                         {{ end }}
                     </div>
                 </div>

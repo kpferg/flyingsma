@@ -47,12 +47,24 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    // Initialize Slick Carousel
     $(document).ready(function(){
-        $('.slick-carousel').slick({
+        $('.slick-carousel-hero').slick({
             autoplay: true,
             autoplaySpeed: 5000,
             dots: true,
             fade: true,
+        });
+    });
+
+    // Initialize Slick Carousel for dashboard
+    $(document).ready(function(){
+        $('.slick-carousel-dashboard').slick({
+            autoplay: true,
+            autoplaySpeed: 60000,
+            dots: false,
+            fade: true,
+            arrows: false,
         });
     });
 

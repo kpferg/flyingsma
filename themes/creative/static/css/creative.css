@@ -658,6 +658,17 @@ body {
     min-height: 550px;
 }
 
+.slick-carousel-dashboard {
+    height: 100vh;
+    width: auto;
+}
+
+.slick-carousel-dashboard .hero-slide {
+    width: auto;
+    height: 100%;
+    background: #222;
+}
+
 @media(max-width:767px) {
     .slick-carousel {
         height: calc(100vh - 86px);
@@ -681,6 +692,12 @@ body {
 .slick-track,
 .slick-list {
     height:100%;
+}
+
+.slick-slide img {
+    object-fit: contain;
+    height: 100vh;
+    width: 100vw;
 }
 
 .slick-slide > div {

@@ -180,6 +180,34 @@ googleAnalytics = ""
 
 	# News section
 	[[params.news.list]]
+		icon = "hotdog"
+		headline    = "You are invited!"
+		imageURL = "/img/news/You are Invited!.png"
+		imageLink = "/PDF/You are Invited!.pdf"
+		buttonText = "RSVP Today"
+		buttonAction = "mailto:accounting@flyingsma.com"
+		buttonTarget = "_blank"
+
+	# News section
+	[[params.news.list]]
+		icon = "drone-alt"
+		headline    = "Drone Class Is Starting!"
+		imageURL = "/img/news/Part 107 Drone_UAV Class.png"
+		imageLink = "/PDF/Part 107 Drone_UAV Class.pdf"
+		buttonText = "Cantact us for more information"
+		buttonAction = "#contact"
+
+	# News section
+	[[params.news.list]]
+		icon = "graduation-cap"
+		headline    = "Private Pilot Ground School Is Starting!"
+		imageURL = "/img/news/Private Pilot Ground School.png"
+		imageLink = "/PDF/Private Pilot Ground School.pdf"
+		buttonText = "Cantact us for more information"
+		buttonAction = "#contact"
+
+	# News section
+	[[params.news.list]]
 		icon = "snowflake"
 		headline    = "Look what you can do SOLO!"
 		imageURL = "/img/news/Look_what_you_can_do_SOLO.png"
@@ -199,12 +227,12 @@ googleAnalytics = ""
 #		imageURL = "/img/news/4_27_19-FAASTeam-Seminar.jpg"
 #		imageLink = "/PDF/4_27_19-FAASTeam-Seminar.pdf"
 
-	# News section
-	[[params.news.list]]
-		icon = "broadcast-tower"
-		headline    = "Upcoming FAASTeam Safety Seminar!"
-		imageURL = "/img/news/7_20_19-FAASTeam-Seminar.png"
-		imageLink = "/PDF/7_20_19-FAASTeam-Seminar.pdf"
+#	# News section
+#	[[params.news.list]]
+#		icon = "broadcast-tower"
+#		headline    = "Upcoming FAASTeam Safety Seminar!"
+#		imageURL = "/img/news/7_20_19-FAASTeam-Seminar.png"
+#		imageLink = "/PDF/7_20_19-FAASTeam-Seminar.pdf"
 
 	[params.instagram]
 		headline = "Instagram"
@@ -265,7 +293,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 				 title = "Learn More"
 
 	 	[[params.corporate_services.list]]
-			icon = "fa-utensils"
+			icon = "fa-utensils-alt"
 			title = "Dining"
 			description = "Area dining options."
 			[params.corporate_services.list.link]
@@ -273,7 +301,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 				 title = "Learn More"
 
 		[[params.corporate_services.list]]
-			icon = "fa-tachometer-alt"
+			icon = "fa-gas-pump"
 			title = "Fuel"
 			description = "High quality aviation grade fuel options."
 			[params.corporate_services.list.link]
@@ -281,7 +309,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 				 title = "Learn More"
 
 	 	[[params.corporate_services.list]]
-			 icon = "fa-building"
+			 icon = "fa-bed"
 			 title = "Lodging"
 			 description = "Area lodging."
 			 [params.corporate_services.list.link]
@@ -817,6 +845,12 @@ Saco, Maine 04072"""
 				when you can and if the weather is outside \
 				your comfort zone (or ours), we’ll just cancel \
 				the lesson and fly on another day."
+
+
+	# Dashboard
+	[params.dashboard]
+	display = true
+
 
 	# Google Maps section
 	# [params.location]
