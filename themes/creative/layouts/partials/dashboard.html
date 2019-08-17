@@ -1,0 +1,10 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="slick-carousel slick-carousel-dashboard">
+        {{ range $index, $element := .Site.Params.news.list }}
+            <div class="hero-slide">
+                <img src="..{{ .imageURL }}"/>
+            </div>
+        {{ end }}
+    </div>
+</header>
