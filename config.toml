@@ -171,22 +171,22 @@ googleAnalytics = ""
 #		imageURL = "/img/news/FAAST_team_safety_seminar.png"
 #		imageLink = "/PDF/FAAST_team_safety_seminar.pdf"
 
-# News section
+# 	# News section
 #	[[params.news.list]]
 #		icon = "book"
 #		headline = "Private Pilot Ground School Is Starting!"
 #		imageURL = "/img/news/summer_challenge_2019.png"
 #		imageLink = "/PDF/summer_challenge_2019.pdf"
 
-	# News section
-	[[params.news.list]]
-		icon = "hotdog"
-		headline    = "You are invited!"
-		imageURL = "/img/news/You are Invited!.png"
-		imageLink = "/PDF/You are Invited!.pdf"
-		buttonText = "RSVP Today"
-		buttonAction = "mailto:accounting@flyingsma.com"
-		buttonTarget = "_blank"
+#	 # News section
+#	[[params.news.list]]
+#		icon = "hotdog"
+#		headline    = "You are invited!"
+#		imageURL = "/img/news/You are Invited!.png"
+#		imageLink = "/PDF/You are Invited!.pdf"
+#		buttonText = "RSVP Today"
+#		buttonAction = "mailto:accounting@flyingsma.com"
+#		buttonTarget = "_blank"
 
 	# News section
 	[[params.news.list]]
