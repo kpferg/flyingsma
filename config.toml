@@ -188,23 +188,32 @@ googleAnalytics = ""
 #		buttonAction = "mailto:accounting@flyingsma.com"
 #		buttonTarget = "_blank"
 
-	# News section
-	[[params.news.list]]
-		icon = "drone-alt"
-		headline    = "Drone Class Is Starting!"
-		imageURL = "/img/news/Part 107 Drone_UAV Class.png"
-		imageLink = "/PDF/Part 107 Drone_UAV Class.pdf"
-		buttonText = "Cantact us for more information"
-		buttonAction = "#contact"
+#	# News section
+#	[[params.news.list]]
+#		icon = "drone-alt"
+#		headline    = "Drone Class Is Starting!"
+#		imageURL = "/img/news/Part 107 Drone_UAV Class.png"
+#		imageLink = "/PDF/Part 107 Drone_UAV Class.pdf"
+#		buttonText = "Cantact us for more information"
+#		buttonAction = "#contact"
 
 	# News section
 	[[params.news.list]]
-		icon = "graduation-cap"
-		headline    = "Private Pilot Ground School Is Starting!"
-		imageURL = "/img/news/Private Pilot Ground School.png"
-		imageLink = "/PDF/Private Pilot Ground School.pdf"
-		buttonText = "Cantact us for more information"
+		icon = "mefkit"
+		headline    = "Upcoming FAASTeam Safety Seminar"
+		imageURL = "/img/news/FAASTeam Safety Seminar Ad 10-12-19.jpg"
+		imageLink = "/PDF/FAASTeam Safety Seminar Ad 10-12-19.pdf"
+		buttonText = "Cantact us for more details"
 		buttonAction = "#contact"
+
+#	# News section
+#	[[params.news.list]]
+#		icon = "graduation-cap"
+#		headline    = "Private Pilot Ground School Is Starting!"
+#		imageURL = "/img/news/Private Pilot Ground School.png"
+#		imageLink = "/PDF/Private Pilot Ground School.pdf"
+#		buttonText = "Cantact us for more information"
+#		buttonAction = "#contact"
 
 	# News section
 	[[params.news.list]]
@@ -502,7 +511,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	[[params.fleet.list]]
 		title = "C172SP G1000 N11682"
 		description = """New to our fleet! 2006 Skyhawk G1000 glass panel is here!
-IFR certified with <a href='http://www.n612sp.com/KAP%20140%20AUTOPILOT.pdf' target='_blank'>KAP140 autopilot</a> will make an easy transation from our other SPs.
+IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a> will make an easy transation from our other SPs.
 For students seeking to become a professional pilot, the G1000 is the most widely used glass trainer platform.
 
 <a href='/PDF/G1000 Checkout Policy sheet.pdf' target='_blank')>G1000 Checkout Policy</a>"""
@@ -520,21 +529,21 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N53468"
-		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='http://www.n612sp.com/KAP%20140%20AUTOPILOT.pdf' target='_blank'>KAP140 autopilot</a>, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
+		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "N53468.jpg"
 		pricing = "$150/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N916BA"
-		description = """Our 2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='http://www.n612sp.com/KAP%20140%20AUTOPILOT.pdf' target='_blank'>KAP140 autopilot</a>, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
+		description = """Our 2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "Skyhawk916BAExterior.jpg"
 		pricing = "$150/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N172TG"
-		description = """2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='http://www.n612sp.com/KAP%20140%20AUTOPILOT.pdf' target='_blank'>KAP140 autopilot</a>, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp. and <a href='https://www.jpinstruments.com/wp-content/uploads/2012/10/PG-EDM-800-Rev-W.pdf' target='_blank'>JPI-701</a>."""
+		description = """2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp. and <a href='https://www.jpinstruments.com/wp-content/uploads/2012/10/PG-EDM-800-Rev-W.pdf' target='_blank'>JPI-701</a>."""
 		imageUrl = "N172TG.jpg"
 		showImage = true
 		pricing = "$150/hour"
@@ -542,7 +551,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 	# Fleet
 	[[params.fleet.list]]
 		title = "C182 RG N7131S"
-		description = """Wow -- HSI, DME, KAP/KFC 200 autopilot w/ flight director, traffic, <a href='http://www.n612sp.com/KLN94UserGuide.pdf' target='_blank'>King KLN94 GPS</a> and 150 kt cruise! Retractable gear and 235hp."""
+		description = """Wow -- HSI, DME, KAP/KFC 200 autopilot w/ flight director, traffic, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a> and 150 kt cruise! Retractable gear and 235hp."""
 		imageUrl = "N7131S.jpg"
 		pricing = "$185/hour"
 
