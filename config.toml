@@ -507,6 +507,14 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		imageUrl = "nicholas_heyland.png"
 		image2Url = "nicholas_heyland_2.png"
 
+	# Instructors
+	[[params.instructors.list]]
+		title = "James Hanley"
+#		availability = "Seasonal by appointment"
+		description = """James Hanley's passion for aviation began at a young age when he started flying with his dad. He earned his private pilot certificate and most of his other ratings here at Southern Maine Aviation. When he is not at work, James like to spend time with his wife and pets, reading, and enjoying the great Maine outdoors."""
+		imageUrl = "james_hanley.png"
+		image2Url = "james_hanley_2.png"
+
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172SP G1000 N11682"
