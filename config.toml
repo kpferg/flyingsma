@@ -217,6 +217,24 @@ googleAnalytics = ""
 
 	# News section
 	[[params.news.list]]
+		icon = "graduation-cap"
+		headline    = "Private Pilot Ground School Is Starting!"
+		imageURL = "/img/news/Private_Pilot_Ground_School.png"
+		imageLink = "/PDF/Private_Pilot_Ground_School.pdf"
+		buttonText = "Cantact us for more information"
+		buttonAction = "#contact"
+
+	# News section
+	[[params.news.list]]
+		icon = "tachometer-alt"
+		headline    = "Instrument Ground School Is Starting!"
+		imageURL = "/img/news/Instrument_Ground_School.png"
+		imageLink = "/PDF/Instrument_Ground_School.pdf"
+		buttonText = "Cantact us for more information"
+		buttonAction = "#contact"
+
+	# News section
+	[[params.news.list]]
 		icon = "snowflake"
 		headline    = "Look what you can do SOLO!"
 		imageURL = "/img/news/Look_what_you_can_do_SOLO.png"
