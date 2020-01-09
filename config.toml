@@ -147,7 +147,7 @@ googleAnalytics = ""
 #		headline    = "Backcountry Experience Training"
 #		imageURL = "/img/news/Citabria_promo.png"
 #		imageLink = "/PDF/Citabria_promo.pdf"
-#		buttonText = "Cantact us for more information"
+#		buttonText = "Contact us for more information"
 #		buttonAction = "#contact"
 
 #	# News section
@@ -194,7 +194,7 @@ googleAnalytics = ""
 #		headline    = "Drone Class Is Starting!"
 #		imageURL = "/img/news/Part 107 Drone_UAV Class.png"
 #		imageLink = "/PDF/Part 107 Drone_UAV Class.pdf"
-#		buttonText = "Cantact us for more information"
+#		buttonText = "Contact us for more information"
 #		buttonAction = "#contact"
 
 #	# News section
@@ -203,7 +203,7 @@ googleAnalytics = ""
 #		headline    = "Upcoming FAASTeam Safety Seminar"
 #		imageURL = "/img/news/FAASTeam Safety Seminar Ad 10-12-19.jpg"
 #		imageLink = "/PDF/FAASTeam Safety Seminar Ad 10-12-19.pdf"
-#		buttonText = "Cantact us for more details"
+#		buttonText = "Contact us for more details"
 #		buttonAction = "#contact"
 
 #	# News section
@@ -212,7 +212,7 @@ googleAnalytics = ""
 #		headline    = "Private Pilot Ground School Is Starting!"
 #		imageURL = "/img/news/Private Pilot Ground School.png"
 #		imageLink = "/PDF/Private Pilot Ground School.pdf"
-#		buttonText = "Cantact us for more information"
+#		buttonText = "Contact us for more information"
 #		buttonAction = "#contact"
 
 	# News section
@@ -221,7 +221,7 @@ googleAnalytics = ""
 		headline    = "Private Pilot Ground School Is Starting!"
 		imageURL = "/img/news/Private_Pilot_Ground_School.png"
 		imageLink = "/PDF/Private_Pilot_Ground_School.pdf"
-		buttonText = "Cantact us for more information"
+		buttonText = "Contact us for more information"
 		buttonAction = "#contact"
 
 	# News section
@@ -230,7 +230,7 @@ googleAnalytics = ""
 		headline    = "Instrument Ground School Is Starting!"
 		imageURL = "/img/news/Instrument_Ground_School.png"
 		imageLink = "/PDF/Instrument_Ground_School.pdf"
-		buttonText = "Cantact us for more information"
+		buttonText = "Contact us for more information"
 		buttonAction = "#contact"
 
 	# News section
