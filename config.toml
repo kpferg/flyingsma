@@ -215,6 +215,13 @@ googleAnalytics = ""
 #		buttonText = "Contact us for more information"
 #		buttonAction = "#contact"
 
+# News section
+	[[params.news.list]]
+		icon = "pepper-hot"
+		headline    = "Winter 2020 Seminar"
+		imageURL = "/img/news/winter_2020_seminar.png"
+		imageLink = "/PDF/winter_2020_seminar.pdf"
+
 	# News section
 	[[params.news.list]]
 		icon = "graduation-cap"
