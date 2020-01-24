@@ -215,21 +215,30 @@ googleAnalytics = ""
 #		buttonText = "Contact us for more information"
 #		buttonAction = "#contact"
 
-# News section
+		# News section
+    	[[params.news.list]]
+    		icon = "drone-alt"
+    		headline    = "Upcoming Drone Training Classes!"
+    		imageURL = "/img/news/Drone_Class_2020.png"
+    		imageLink = "/PDF/Drone_Class_2020.pdf"
+    		buttonText = "Contact us for more information"
+    		buttonAction = "#contact"
+
+	# News section
 	[[params.news.list]]
 		icon = "pepper-hot"
 		headline    = "Winter 2020 Seminar"
 		imageURL = "/img/news/winter_2020_seminar.png"
 		imageLink = "/PDF/winter_2020_seminar.pdf"
 
-	# News section
-	[[params.news.list]]
-		icon = "graduation-cap"
-		headline    = "Private Pilot Ground School Is Starting!"
-		imageURL = "/img/news/Private_Pilot_Ground_School_update.png"
-		imageLink = "/PDF/Private_Pilot_Ground_School.pdf"
-		buttonText = "Contact us for more information"
-		buttonAction = "#contact"
+#	# News section
+#	[[params.news.list]]
+#		icon = "graduation-cap"
+#		headline    = "Private Pilot Ground School Is Starting!"
+#		imageURL = "/img/news/Private_Pilot_Ground_School_update.png"
+#		imageLink = "/PDF/Private_Pilot_Ground_School.pdf"
+#		buttonText = "Contact us for more information"
+#		buttonAction = "#contact"
 
 	# News section
 	[[params.news.list]]
