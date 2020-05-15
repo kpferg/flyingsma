@@ -215,14 +215,23 @@ googleAnalytics = ""
 #		buttonText = "Contact us for more information"
 #		buttonAction = "#contact"
 
+#		# News section
+#    	[[params.news.list]]
+#    		icon = "drone-alt"
+#    		headline    = "Upcoming Drone Training Classes!"
+#    		imageURL = "/img/news/Drone_Class_2020.png"
+#    		imageLink = "/PDF/Drone_Class_2020.pdf"
+#    		buttonText = "Contact us for more information"
+#    		buttonAction = "#contact"
+
 		# News section
-    	[[params.news.list]]
-    		icon = "drone-alt"
-    		headline    = "Upcoming Drone Training Classes!"
-    		imageURL = "/img/news/Drone_Class_2020.png"
-    		imageLink = "/PDF/Drone_Class_2020.pdf"
-    		buttonText = "Contact us for more information"
-    		buttonAction = "#contact"
+		[[params.news.list]]
+			icon = "drone-alt"
+			headline    = "Upcoming Remote Pilot Training!"
+			imageURL = "/img/news/Remote_Pilot_Training.png"
+			imageLink = "/PDF/Remote_Pilot_Training.pdf"
+			buttonText = "Contact us for more information"
+			buttonAction = "#contact"
 
 #	# News section
 #	[[params.news.list]]
