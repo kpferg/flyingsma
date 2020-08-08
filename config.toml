@@ -511,12 +511,12 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		image2Url = "james_stickney_2.png"
 
 	# Instructors
-	[[params.instructors.list]]
-		title = "Nick Mangino"
-		availability = "Tuesdays"
-		description = """Nick Mangino is a full time Patrol Deputy for the Cumberland County Sheriff's Office and has been flying since he was 17 years old. Nick flies with SMA on his days off and is very excited to be able to share and teach his passion with others.  When Nick is not flying, you can find him in the gym doing Crossfit, recreating in the Maine Woods hunting and fishing, and spending time with his wife and dogs."""
-		imageUrl = "nick_mangino.png"
-		image2Url = "nick_mangino_2.png"
+#	[[params.instructors.list]]
+#		title = "Nick Mangino"
+#		availability = "Tuesdays"
+#		description = """Nick Mangino is a full time Patrol Deputy for the Cumberland County Sheriff's Office and has been flying since he was 17 years old. Nick flies with SMA on his days off and is very excited to be able to share and teach his passion with others.  When Nick is not flying, you can find him in the gym doing Crossfit, recreating in the Maine Woods hunting and fishing, and spending time with his wife and dogs."""
+#		imageUrl = "nick_mangino.png"
+#		image2Url = "nick_mangino_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -557,6 +557,16 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		description = """James Hanley's passion for aviation began at a young age when he started flying with his dad. He earned his private pilot certificate and most of his other ratings here at Southern Maine Aviation. When he is not at work, James like to spend time with his wife and pets, reading, and enjoying the great Maine outdoors."""
 		imageUrl = "james_hanley.png"
 		image2Url = "james_hanley_2.png"
+
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Cindy Daigle"
+		availability = "Part Time"
+		description = """Cindy Daigle is a part-time instructor that started flying 20 years ago. Her day job is a Business Systems Manager but she feels that sharing her passion for aviation as an instructor is a dream come true!   When not flying taildraggers, light sport aircraft and gliders, you may find her in her hanger working on her Aeronca Champ. The next dream is aerobatics! Cindy enjoys camping, kayaking, and hiking with family and friends."""
+		imageUrl = "cindy_daigle.png"
+		image2Url = "cindy_daigle_2.png"
+
 
 	# Fleet
 	[[params.fleet.list]]
