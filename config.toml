@@ -577,7 +577,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 
 <a href='/PDF/G1000 Checkout Policy sheet.pdf' target='_blank')>G1000 Checkout Policy</a>"""
 		imageUrl = "N11682.jpg"
-		pricing = "$165/hour"
+		pricing = "$160/hour"
 
 	# Fleet
 	[[params.fleet.list]]
@@ -592,14 +592,14 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		title = "C172 SP N53468"
 		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "N53468.jpg"
-		pricing = "$150/hour"
+		pricing = "$155/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N916BA"
 		description = """Our 2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "Skyhawk916BAExterior.jpg"
-		pricing = "$150/hour"
+		pricing = "$155/hour"
 
 	# Fleet
 	[[params.fleet.list]]
@@ -607,7 +607,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		description = """2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp. and <a href='https://www.jpinstruments.com/wp-content/uploads/2012/10/PG-EDM-800-Rev-W.pdf' target='_blank'>JPI-701</a>."""
 		imageUrl = "N172TG.jpg"
 		showImage = true
-		pricing = "$150/hour"
+		pricing = "$155/hour"
 
 	# Fleet
 	[[params.fleet.list]]
