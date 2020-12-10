@@ -1,5 +1,6 @@
-baseurl = "https://www.flyingsma.com/"
+#baseurl = "https://www.flyingsma.com/"
 #baseurl = "http://southern-maine-aviation.s3-website-us-east-1.amazonaws.com/" #handled in AWS Lambda
+baseurl = "https://suspicious-perlman-3218fa.netlify.app/"
 languageCode = "en-us"
 title = "Southern Maine Aviation"
 theme = "creative"
