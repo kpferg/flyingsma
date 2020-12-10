@@ -222,10 +222,9 @@ aside {
 header {
     position: relative;
     width: 100%;
-    mmin-height: calc(100% - 86px);
+    min-height: calc(100% - 86px);
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1480,7 +1479,7 @@ body {
     display: inline-block;
     height: 250px;
     width: calc(33% - 45px);
-    margin: 20px;
+    margin: 40px 15px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1492,11 +1491,17 @@ body {
 }
 
 .flight-img--single-wide {
-    width: calc(75% - 40px);
+    width: calc(75% - 30px);
 }
 
 .flight-img--tall {
     height: 350px;
+    max-height: 60vw;
+}
+
+.flight-img--taller {
+    height: 550px;
+    max-height: 60vw;
 }
 
 .bg-primary .flight-img {
@@ -1522,8 +1527,8 @@ body {
     }
 
     .flight-img {
-        width: calc(100% - 40px);
-        margin: 0;
+        width: calc(100% - 30px);
+        margin: 20px 0;
         box-shadow: none;
     }
 
