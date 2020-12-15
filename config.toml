@@ -83,7 +83,7 @@ googleAnalytics = ""
 
 	[[params.hero.list]]
 		# To change the background of the hero section, replace the '4.jpg' at './static/img/hero' with your own.
-		slogan     = "New Twin Engine Trainer"
+		slogan     = "Multi-Engine Training Now Available!"
 		subtitle   = "Our beautiful twin engine trainer has arrived! For more information or to make training reservations call us. It is booking up fast!"
 		buttonText = "Find Out More"
 		buttonAction = "/multi-engine"
