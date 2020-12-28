@@ -818,7 +818,7 @@ body {
 }
 
 .slick-dots li button:before {
-    width: 80px;
+    width: 60px;
     height: 6px;
     content: ' ';
     background-color: #ffffff;
@@ -827,11 +827,11 @@ body {
 }
 
 .slick-dots li button {
-    width: 80px;
+    width: 60px;
 }
 
 .slick-dots li {
-    width: 80px;
+    width: 60px;
 }
 
 .slick-dotted.slick-slider {
@@ -1022,6 +1022,10 @@ body {
     }
 }
 
+.fleet-item__photo-container {
+    position: relative;
+}
+
 .fleet-item__photo {
     width: 100%;
     margin-top: -30px;
@@ -1030,6 +1034,18 @@ body {
 .fleet-item__photo img {
     width: 100%;
     border-radius: 3px;
+}
+
+.fleet-item__photo--overlay {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.fleet-item__photo--overlay:hover {
+    opacity: 100;
 }
 
 .fleet-item__details {
@@ -1735,6 +1751,7 @@ table {
     vertical-align: top;
     margin: 0 auto;
     padding: 0 20px;
+    font-size: 18px;
 }
 
 @media(max-width:1000px) {

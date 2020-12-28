@@ -243,7 +243,12 @@
                         <div class="fleet-item__title">{{ . | markdownify }}</div>
                         {{ end }}
                         {{ if and .imageUrl (not (eq .showImage false)) }}
-                        <div class="fleet-item__photo"><img src="../img/fleet/{{ .imageUrl }}"></div>
+                        <div class="fleet-item__photo-container">
+                            <div class="fleet-item__photo"><img src="../img/fleet/{{ .imageUrl }}"></div>
+                            {{ if and .image2Url (not (eq .showImage2 false)) }}
+                            <div class="fleet-item__photo fleet-item__photo--overlay"><img src="../img/fleet/{{ .image2Url }}"></div>
+                            {{ end }}
+                        </div>
                         {{ end }}
                         {{ if .description }}
                         <div class="fleet-item__details">

@@ -434,7 +434,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Footer
 	[params.footer.copyright]
 		name = "Southern Maine Aviation LLC"
-		year = "2020"
+		year = "2021"
 
 	# Fly
 	[params.fly]
@@ -575,6 +575,13 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		imageUrl = "cindy_daigle.png"
 		image2Url = "cindy_daigle_2.png"
 
+	# Fleet
+	[[params.fleet.list]]
+		title = "Beechcraft Duchess N6928H"
+		description = """Immaculate low time 1984 Beechcraft Duchess with new interior, paint, and engines. Counter rotating 180 HP engines. Garmin G5 glass equipped flight instruments and Garmin 530 / 430 avionics, autopilot."""
+		imageUrl = "N6928H-ext.jpg"
+		image2Url = "N6928H-int.jpg"
+		pricing = "$400/hour and $75/hour for multi-engine instruction.<br/>This aircraft is currently dual only."
 
 	# Fleet
 	[[params.fleet.list]]
