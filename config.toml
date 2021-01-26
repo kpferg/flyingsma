@@ -235,6 +235,15 @@ googleAnalytics = ""
 
 		# News section
 		[[params.news.list]]
+			icon = "plane-alt"
+			headline    = "Multi-Engine Training Now Available!"
+			imageURL = "/img/news/Multi-Ad v2.png"
+			imageLink = "/PDF/Multi-Ad v2.pdf"
+			buttonText = "Find Out More"
+			buttonAction = "/multi-engine"
+
+		# News section
+		[[params.news.list]]
 			icon = "drone-alt"
 			headline    = "Upcoming Remote Pilot Training!"
 			imageURL = "/img/news/Remote_Pilot_Training.png"
