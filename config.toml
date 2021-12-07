@@ -233,14 +233,24 @@ googleAnalytics = ""
 #    		buttonText = "Contact us for more information"
 #    		buttonAction = "#contact"
 
-		# News section
-		[[params.news.list]]
-			icon = "drone-alt"
-			headline    = "Upcoming Remote Pilot Training!"
-			imageURL = "/img/news/Remote_Pilot_Training.png"
-			imageLink = "/PDF/Remote_Pilot_Training.pdf"
-			buttonText = "Contact us for more information"
-			buttonAction = "#contact"
+
+	# News section
+	[[params.news.list]]
+		icon = "plane-alt"
+		headline    = "Multi-Engine Training Now Available!"
+		imageURL = "/img/news/Multi-Ad v2.png"
+		imageLink = "/PDF/Multi-Ad v2.pdf"
+		buttonText = "Find Out More"
+		buttonAction = "/multi-engine"
+
+#	# News section
+#	[[params.news.list]]
+#		icon = "drone-alt"
+#		headline    = "Upcoming Remote Pilot Training!"
+#		imageURL = "/img/news/Remote_Pilot_Training.png"
+#		imageLink = "/PDF/Remote_Pilot_Training.pdf"
+#		buttonText = "Contact us for more information"
+#		buttonAction = "#contact"
 
 #	# News section
 #	[[params.news.list]]
@@ -451,14 +461,6 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "Michael Burns"
-		availability = "Full Time Thursday-Monday"
-		description = """Michael Burns started his aviation career in his home state of sunny Florida in 2013. An artist at heart, Michael enjoys arts and crafts and is an amateur baker in his spare time. He is a tech guru and can fix anything with a CPU. He is living his dream working as full time professional flight instructor."""
-		imageUrl = "michael_burns.png"
-		image2Url = "michael_burns_2.png"
-
-	# Instructors
-	[[params.instructors.list]]
 		title = "Paul Hodak"
 		availability = "Tuesday and Wednesday"
 		description = """Paul Hodak is a retired American Airlines Captain and former flight instructor at Embry-Riddle Aeronautical University. He has more than twenty-eight thousand hours of flying experience, from Cessnas to wide-body commercial airliners. Instructing at Southern Maine Aviation has given Paul an opportunity to share his experience with recreational and professional aviation enthusiasts alike."""
@@ -562,8 +564,8 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Instructors
 	[[params.instructors.list]]
 		title = "James Hanley"
-		availability = "Tuesday - Saturday"
-		description = """James Hanley's passion for aviation began at a young age when he started flying with his dad. He earned his private pilot certificate and most of his other ratings here at Southern Maine Aviation. When he is not at work, James like to spend time with his wife and pets, reading, and enjoying the great Maine outdoors."""
+		availability = "By appointment"
+		description = """James Hanley began flying right here at Sanford in the early 2000s. He earned most of his ratings at Southern Maine Aviation and began instructing for the school in 2019. James is now a corporate pilot, and part-time instructor. When he isn't flying he can usually be found enjoying the great Maine outdoors."""
 		imageUrl = "james_hanley.png"
 		image2Url = "james_hanley_2.png"
 
@@ -575,6 +577,36 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		description = """Cindy Daigle is a part-time instructor that started flying 20 years ago. Her day job is a Business Systems Manager but she feels that sharing her passion for aviation as an instructor is a dream come true!   When not flying taildraggers, light sport aircraft and gliders, you may find her in her hanger working on her Aeronca Champ. The next dream is aerobatics! Cindy enjoys camping, kayaking, and hiking with family and friends."""
 		imageUrl = "cindy_daigle.png"
 		image2Url = "cindy_daigle_2.png"
+
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Chad Rassmussen"
+		availability = "Full Time Tuesday-Saturday"
+		description = """Chad joins us from Louisville Kentucky. As the son of a UPS pilot he has been exposed to aviation his whole life. After graduating college from Franciscna University he trained with ATP, and then taught as a multi-engine instructor for FlightSafety Academy. Chad joins us as a full-time instructor excited to continue sharing his passion for aviation to new and seasoned pilots alike. Chad enjoys riding motorcycles, cooking, and the outdoors among many other things."""
+		imageUrl = "chad_rassmussen.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Richard Peterson III"
+		availability = "Full Time Friday-Tuesday"
+		description = """Richard is a native New Englander and  joins us from New Hampshire. He trained at ATP and is excited to join the local aviation community and train new pilots. Richard enjoys his family, outdoor activities and playing with his pet ferret, Ricardo."""
+		imageUrl = "richard_peterson_iii.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "John Tiplady"
+		availability = "Full Time Monday-Friday"
+		description = """John Tiplady started flying at the ripe age of 11 at his hometown airport of Beverly, MA. He attended Embry-Riddle Aeronautical University where he obtained most of his ratings. He has a passion for teaching, taildraggers, and flying aerobatics. When John isn’t flying, he enjoys nature walks with his dog, Piper, and photography."""
+		imageUrl = "john_tiplady.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Michael Burns"
+		availability = "By appointment"
+		description = """Michael Burns started his aviation career in his home state of sunny Florida in 2013. An artist at heart, Michael enjoys arts and crafts and is an amateur baker in his spare time. He is a tech guru and can fix anything with a CPU. He is living his dream working as full time professional flight instructor."""
+		imageUrl = "michael_burns.png"
+		image2Url = "michael_burns_2.png"
 
 	# Fleet
 	[[params.fleet.list]]
