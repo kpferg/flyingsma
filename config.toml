@@ -24,7 +24,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Southern Maine Aviation"
-	description = "Flight Training, Instruction and Services in Southern Maine FBO, Scenic Flights, Learn to Fly, Pilot Pathway, Sanford, Maine"
+	description = "Flight Training, Instruction and Services in Southern Maine, Scenic Flights, Learn to Fly, Multi-engine, Sanford, Maine, New England"
 
 	# The path must be relative to the static folder
 	favicon = "favicon_1.0.ico"
@@ -579,10 +579,13 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Fleet
 	[[params.fleet.list]]
 		title = "Beechcraft Duchess N6928H"
-		description = """Immaculate low time 1984 Beechcraft Duchess with new interior, paint, and engines. Counter rotating 180 HP engines. Garmin G5 glass equipped flight instruments and Garmin 530 / 430 avionics, autopilot."""
+		description = """Immaculate low time 1984 Beechcraft Duchess with new interior, paint, and engines. Counter rotating 180 HP engines. Garmin G5 glass equipped flight instruments and Garmin 530 / 430 avionics, autopilot.
+
+  This aircraft is currently dual only.</br>
+  </br>"""
 		imageUrl = "N6928H-ext.jpg"
 		image2Url = "N6928H-int.jpg"
-		pricing = "$400/hour and $75/hour for multi-engine instruction.<br/>This aircraft is currently dual only."
+		pricing = "$400/hour and $75/hour for multi-engine instruction."
 
 	# Fleet
 	[[params.fleet.list]]
