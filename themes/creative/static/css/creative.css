@@ -54,6 +54,11 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -1655,6 +1660,39 @@ body {
     font-weight: 600;
 }
 
+.plan-table {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.plan-table table {
+    margin: 30px auto;
+}
+
+.plan-table table td {
+    border-bottom: solid 1px #999;
+    text-align: left;
+    padding: 15px 20px;
+}
+
+.plan-table table td:first-of-type {
+    text-align: left;
+}
+
+.plan-table table th {
+    border-bottom: solid 2px #f98a14;
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.multi-engine-plan {
+    margin-top: 40px;
+}
+
+.multi-engine-plan li {
+    margin-bottom: 8px;
+}
+
 table {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-size: 17px;
@@ -1770,6 +1808,10 @@ table {
     margin: 20px auto;
     width: fit-content;
     line-height: 25px;
+}
+
+.bullet-list-container--left {
+    width: auto;
 }
 
 .aircraft-maintenance {

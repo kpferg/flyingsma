@@ -4,6 +4,10 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MBBK54R"
+                          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
         {{ if or .Site.Params.navigation.links.news .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
             {{ partial "nav.html" . }}
         {{ end }}
