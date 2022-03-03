@@ -636,7 +636,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		description = """Our 2004 Citabria 7GCBC is a great taildragger, with awesome responsiveness and visibility. It is available for solo rental, tailwheel instruction and spin training endorsements
   <a href='http://static.garmin.com/pumac/GNC250XL_PilotsGuide.pdf' target='_blank'>Garmin 250XL manual</a>."""
 		imageUrl = "N291CA_plane.jpg"
-		pricing = "$150/hour"
+		pricing = "$170/hour"
 
 	# Fleet
 	[[params.fleet.list]]
