@@ -233,6 +233,12 @@ googleAnalytics = ""
 #    		buttonText = "Contact us for more information"
 #    		buttonAction = "#contact"
 
+	# News section
+	[[params.news.list]]
+		icon = "gas-pump"
+		headline    = "Aircraft Rental Increase Notice"
+		imageURL = "/img/news/aircraft_rental_increase_notice.png"
+		imageLink = "/PDF/Aircraft Rental Increase Notice.pdf"
 
 	# News section
 	[[params.news.list]]
@@ -554,12 +560,12 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		image2Url = "john_gary_2.png"
 
 	# Instructors
-	[[params.instructors.list]]
-		title = "Nicholas Heyland"
-		availability = "Seasonal by appointment"
-		description = """Nicholas Heyland is a college student graduating in May 2019 from Bridgewater State University with a degree in Aviation science and a concentration in flight training. Nick is one of our seasonal flight instructors, who spends his spare time surfing, skiing and camping. He started flying at SMA back in 2013 at the age of 16 and now teaches for the flight school."""
-		imageUrl = "nicholas_heyland.png"
-		image2Url = "nicholas_heyland_2.png"
+#	[[params.instructors.list]]
+#		title = "Nicholas Heyland"
+#		availability = "Seasonal by appointment"
+#		description = """Nicholas Heyland is a college student graduating in May 2019 from Bridgewater State University with a degree in Aviation science and a concentration in flight training. Nick is one of our seasonal flight instructors, who spends his spare time surfing, skiing and camping. He started flying at SMA back in 2013 at the age of 16 and now teaches for the flight school."""
+#		imageUrl = "nicholas_heyland.png"
+#		image2Url = "nicholas_heyland_2.png"
 
 	# Instructors
 #	[[params.instructors.list]]
@@ -594,11 +600,11 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 #		imageUrl = "richard_peterson_iii.png"
 
 	# Instructors
-	[[params.instructors.list]]
-		title = "John Tiplady"
-		availability = "Full Time Monday-Friday"
-		description = """John Tiplady started flying at the ripe age of 11 at his hometown airport of Beverly, MA. He attended Embry-Riddle Aeronautical University where he obtained most of his ratings. He has a passion for teaching, taildraggers, and flying aerobatics. When John isn’t flying, he enjoys nature walks with his dog, Piper, and photography."""
-		imageUrl = "john_tiplady.png"
+#	[[params.instructors.list]]
+#		title = "John Tiplady"
+#		availability = "Full Time Monday-Friday"
+#		description = """John Tiplady started flying at the ripe age of 11 at his hometown airport of Beverly, MA. He attended Embry-Riddle Aeronautical University where he obtained most of his ratings. He has a passion for teaching, taildraggers, and flying aerobatics. When John isn’t flying, he enjoys nature walks with his dog, Piper, and photography."""
+#		imageUrl = "john_tiplady.png"
 
 	# Instructors
 #	[[params.instructors.list]]
@@ -607,6 +613,27 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 #		description = """Michael Burns started his aviation career in his home state of sunny Florida in 2013. An artist at heart, Michael enjoys arts and crafts and is an amateur baker in his spare time. He is a tech guru and can fix anything with a CPU. He is living his dream working as full time professional flight instructor."""
 #		imageUrl = "michael_burns.png"
 #		image2Url = "michael_burns_2.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Tijani Marou"
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Payton Powers"
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Jamie Dernbach"
+		imageUrl = "placeholder-person.png"
+
+	# Instructors
+	[[params.instructors.list]]
+		title = "Joshua Harder"
+		imageUrl = "placeholder-person.png"
+
 
 	# Fleet
 	[[params.fleet.list]]
@@ -617,7 +644,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
   </br>"""
 		imageUrl = "N6928H-ext.jpg"
 		image2Url = "N6928H-int.jpg"
-		pricing = "$425/hour and $80/hour for multi-engine instruction."
+		pricing = "$460/hour and $80/hour for multi-engine instruction."
 
 	# Fleet
 	[[params.fleet.list]]
@@ -628,7 +655,7 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 
 <a href='/PDF/G1000 Checkout Policy sheet.pdf' target='_blank')>G1000 Checkout Policy</a>"""
 		imageUrl = "N11682.jpg"
-		pricing = "$175/hour"
+		pricing = "$195/hour"
 
 	# Fleet
 	[[params.fleet.list]]
@@ -636,21 +663,21 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		description = """Our 2004 Citabria 7GCBC is a great taildragger, with awesome responsiveness and visibility. It is available for solo rental, tailwheel instruction and spin training endorsements
   <a href='http://static.garmin.com/pumac/GNC250XL_PilotsGuide.pdf' target='_blank'>Garmin 250XL manual</a>."""
 		imageUrl = "N291CA_plane.jpg"
-		pricing = "$170/hour"
+		pricing = "$190/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N53468"
 		description = """Our 2003 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "N53468.jpg"
-		pricing = "$170/hour"
+		pricing = "$190/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C172 SP N916BA"
 		description = """Our 2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp."""
 		imageUrl = "Skyhawk916BAExterior.jpg"
-		pricing = "$170/hour"
+		pricing = "$190/hour"
 
 	# Fleet
 	[[params.fleet.list]]
@@ -658,14 +685,14 @@ For students seeking to become a professional pilot, the G1000 is the most widel
 		description = """2002 Skyhawk SPs are the backbone of our training fleet. IFR certified with <a href='/PDF/006-18034-0000_KAP-140_Pilot-Guide.pdf' target='_blank'>KAP140 autopilot</a>, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a>, and 180hp. and <a href='https://www.jpinstruments.com/wp-content/uploads/2012/10/PG-EDM-800-Rev-W.pdf' target='_blank'>JPI-701</a>."""
 		imageUrl = "N172TG.jpg"
 		showImage = true
-		pricing = "$170/hour"
+		pricing = "$190/hour"
 
 	# Fleet
 	[[params.fleet.list]]
 		title = "C182 RG N7131S"
 		description = """Wow -- HSI, DME, KAP/KFC 200 autopilot w/ flight director, traffic, <a href='/PDF/bendixking_kln_94.pdf' target='_blank'>King KLN94 GPS</a> and 150 kt cruise! Retractable gear and 235hp."""
 		imageUrl = "N7131S.jpg"
-		pricing = "$200/hour"
+		pricing = "$220/hour"
 
 
   	# Fleet
@@ -885,12 +912,12 @@ two lessons a month."""
     # FAQ
 	[[params.questions.list]]
 		question = "HOW MUCH DOES IT COST?"
-		answer = """Aircraft Rental $10,200 \n
-60 hrs @170.00/hr \n
+		answer = """Aircraft Rental $11,400 \n
+60 hrs @190.00/hr \n
 Flight Instructor Time $2,100 \n
 30 hours @$70/hr \n
 Books, test fees, misc. $800 \n
-Total $13,100\n
+Total $14,300\n
 
 Note: Cost shown are estimates and are based on typical
 hours, not minimum requirements. Prices are subject to
