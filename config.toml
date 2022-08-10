@@ -235,6 +235,15 @@ googleAnalytics = ""
 
 	# News section
 	[[params.news.list]]
+		icon = "graduation-cap"
+		headline    = "Private Pilot Ground School Is Starting!"
+		imageURL = "/img/news/Private_Pilot_Ground_School_2022.png"
+		imageLink = "/PDF/Private_Pilot_Ground_School_2022.pdf"
+		buttonText = "Contact us for more information"
+		buttonAction = "#contact"
+
+	# News section
+	[[params.news.list]]
 		icon = "gas-pump"
 		headline    = "Aircraft Rental Increase Notice"
 		imageURL = "/img/news/aircraft_rental_increase_notice.png"
@@ -617,7 +626,10 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Instructors
 	[[params.instructors.list]]
 		title = "Tijani Marou"
-		imageUrl = "placeholder-person.png"
+		availability = "Tuesday-Saturday"
+		description = """Tijani Marou is a full time instructor (CFI/CFII). He is a graduate of the University of Vermont and is a former Mechanical Engineer. He is an avid sailor, and when not flying you can typically find him windsurfing or skiing if the water is too cold."""
+		imageUrl = "tijani_marou.png"
+		image2Url = "tijani_marou_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
@@ -627,13 +639,16 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Instructors
 	[[params.instructors.list]]
 		title = "Jamie Dernbach"
-		imageUrl = "placeholder-person.png"
+		description = """Jamie Dernbach started flying in 2019, following his childhood dream. Before becoming a pilot he was a tricycle tour guide and U.S. Marine. Jamie’s favorite thing about flying is getting a perfect landing. While he isn’t instructing Jamie enjoys playing board games with his fiancée Kelly and his cat Chubbs. His favorite music genre is metal. He can kick a kickball at least 50 yards. """
+		imageUrl = "jamie_dernbach.png"
+		image2Url = "jamie_dernbach_2.png"
 
 	# Instructors
 	[[params.instructors.list]]
-		title = "Joshua Harder"
-		imageUrl = "placeholder-person.png"
-
+		title = "Josh Harder"
+		description = """Josh Harder started flying in 2015 out of the Portland International Jetport and in college continued his training in the busy Central Florida airspace. Josh’s favorite season is Fall. When he is not flying you can find him in Portland, hiking, or watching the Boston Red Sox. """
+		imageUrl = "josh_harder.png"
+		image2Url = "josh_harder_2.png"
 
 	# Fleet
 	[[params.fleet.list]]
