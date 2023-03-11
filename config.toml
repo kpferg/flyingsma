@@ -233,21 +233,21 @@ googleAnalytics = ""
 #    		buttonText = "Contact us for more information"
 #    		buttonAction = "#contact"
 
-	# News section
-	[[params.news.list]]
-		icon = "graduation-cap"
-		headline    = "Private Pilot Ground School Is Starting!"
-		imageURL = "/img/news/Private_Pilot_Ground_School_2022.png"
-		imageLink = "/PDF/Private_Pilot_Ground_School_2022.pdf"
-		buttonText = "Contact us for more information"
-		buttonAction = "#contact"
+#	# News section
+#	[[params.news.list]]
+#		icon = "graduation-cap"
+#		headline    = "Private Pilot Ground School Is Starting!"
+#		imageURL = "/img/news/Private_Pilot_Ground_School_2022.png"
+#		imageLink = "/PDF/Private_Pilot_Ground_School_2022.pdf"
+#		buttonText = "Contact us for more information"
+#		buttonAction = "#contact"
 
-	# News section
-	[[params.news.list]]
-		icon = "gas-pump"
-		headline    = "Aircraft Rental Increase Notice"
-		imageURL = "/img/news/aircraft_rental_increase_notice.png"
-		imageLink = "/PDF/Aircraft Rental Increase Notice.pdf"
+#	# News section
+#	[[params.news.list]]
+#		icon = "gas-pump"
+#		headline    = "Aircraft Rental Increase Notice"
+#		imageURL = "/img/news/aircraft_rental_increase_notice.png"
+#		imageLink = "/PDF/Aircraft Rental Increase Notice.pdf"
 
 	# News section
 	[[params.news.list]]
