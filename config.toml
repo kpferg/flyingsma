@@ -815,7 +815,7 @@ Saco, Maine 04072"""
 	# Restaurants
 	[[params.restaurants.list]]
 		title = "Shains of Maine"
-		url = "http://www.shainsofmaine.com/"
+		url = "https://www.facebook.com/pages/Shains-of-Maine-Restaurant/418009144997295"
 
 	# Restaurants
 	[[params.restaurants.list]]
