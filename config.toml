@@ -251,6 +251,13 @@ googleAnalytics = ""
 
 	# News section
 	[[params.news.list]]
+		icon = "shield-plus"
+		headline    = "Spring 2023 Safety Seminar"
+		imageURL = "/img/news/Spring 2023 Safety Seminar Flyer.png"
+		imageLink = "/PDF/Spring 2023 Safety Seminar Flyer.pdf"
+
+	# News section
+	[[params.news.list]]
 		icon = "plane-alt"
 		headline    = "Multi-Engine Training Now Available!"
 		imageURL = "/img/news/Multi-Ad v2.png"
