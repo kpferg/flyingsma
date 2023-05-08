@@ -249,12 +249,27 @@ googleAnalytics = ""
 #		imageURL = "/img/news/aircraft_rental_increase_notice.png"
 #		imageLink = "/PDF/Aircraft Rental Increase Notice.pdf"
 
+#	# News section
+#	[[params.news.list]]
+#		icon = "shield-plus"
+#		headline    = "Spring 2023 Safety Seminar"
+#		imageURL = "/img/news/Spring 2023 Safety Seminar Flyer.png"
+#		imageLink = "/PDF/Spring 2023 Safety Seminar Flyer.pdf"
+
 	# News section
 	[[params.news.list]]
-		icon = "shield-plus"
-		headline    = "Spring 2023 Safety Seminar"
-		imageURL = "/img/news/Spring 2023 Safety Seminar Flyer.png"
-		imageLink = "/PDF/Spring 2023 Safety Seminar Flyer.pdf"
+		icon = "hand-holding-heart"
+		headline    = "Operation Screaming Eagle"
+		imageURL = "/img/news/Operation Screaming Eagle Poster.png"
+		imageLink = "/PDF/Operation Screaming Eagle Poster.pdf"
+
+	# News section
+	[[params.news.list]]
+		icon = "plane-prop"
+		headline    = "Multi-Engine Training Available!"
+		imageURL = "/img/news/Multi-Ad v3.png"
+		buttonText = "Find Out More"
+		buttonAction = "/multi-engine"
 
 	# News section
 	[[params.news.list]]
