@@ -197,31 +197,8 @@
                     <hr class="primary">
                 </div>
                 <div class="instructors">
-                    {{ range .Site.Params.instructors.list }}
-                    <div class="instructor">
-                        {{ with .title }}
-                        <div class="instructor__title">{{ . | markdownify }}</div>
-                        {{ end }}
-                        {{ with .availability }}
-                        <div class="instructor__availability">{{ . | markdownify }}</div>
-                        {{ end }}
-                        {{ if and .imageUrl (not (eq .showImage false)) }}
-                            <div class="instructor__photo-container">
-                                <div class="instructor__photo"><img src="../img/instructors/{{ .imageUrl }}"></div>
-                                {{ if and .image2Url (not (eq .showImage2 false)) }}
-                                <div class="instructor__photo instructor__photo--overlay"><img src="../img/instructors/{{ .image2Url }}"></div>
-                                {{ end }}
-                            </div>
-                        {{ end }}
-                        {{ if or .title .description }}
-                        <div class="instructor__details">
-                            {{ with .description }}
-                            <div class="instructor__description">{{ . | markdownify }}</div>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-                    </div>
-                    {{ end }}
+                    <p>Our experienced and qualified instructors are here to help you achieve the best possible pilot training experience!</p>
+                    <p>Check back soon for more information about our team of instructors.</p>
                 </div>
                 <div class="down-button"><a href="#fleet" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
             </div>
