@@ -256,12 +256,12 @@ googleAnalytics = ""
 #		imageURL = "/img/news/Spring 2023 Safety Seminar Flyer.png"
 #		imageLink = "/PDF/Spring 2023 Safety Seminar Flyer.pdf"
 
-	# News section
-	[[params.news.list]]
-		icon = "hand-holding-heart"
-		headline    = "Operation Screaming Eagle"
-		imageURL = "/img/news/Operation Screaming Eagle Poster.png"
-		imageLink = "/PDF/Operation Screaming Eagle Poster.pdf"
+#	# News section
+#	[[params.news.list]]
+#		icon = "hand-holding-heart"
+#		headline    = "Operation Screaming Eagle"
+#		imageURL = "/img/news/Operation Screaming Eagle Poster.png"
+#		imageLink = "/PDF/Operation Screaming Eagle Poster.pdf"
 
 	# News section
 	[[params.news.list]]
