@@ -83,14 +83,68 @@
     </div>
     {{ "<!-- /.container-fluid -->" | safeHTML }}
 </nav>
-<div class="header-hours">
-    {{ with .Site.Params.hero.phoneNumber }}
-    <i class="fa fa-phone"></i> Phone: <a href="tel:{{.}}">{{ . }}</a>
-    {{ end }}
-    {{ with .Site.Params.hero.businessHours }}
-    <div>{{ . | markdownify  }}</div>
-    {{ end }}
-    {{ with .Site.Params.hero.altBusinessHours }}
-    <div>{{ . | markdownify  }}</div>
-    {{ end }}
+<div class="header-banner">
+    <div class="header-contact">
+        <div>
+        {{ with .Site.Params.hero.contactOne.description }}
+        {{ . | markdownify  }}
+        {{ end }}
+        </div>
+        <div>
+        {{ with .Site.Params.hero.contactOne.label }}
+        {{ . | markdownify  }}:
+        {{ end }}
+        {{ with .Site.Params.hero.contactOne.phone }}
+        <a href="tel:{{.}}">{{ . }}</a> /
+        {{ end }}
+        {{ with .Site.Params.hero.contactOne.email }}
+        <a href="mailto:{{.}}">{{ . }}</a>
+        {{ end }}
+        </div>
+        <div>
+        {{ with .Site.Params.hero.contactOne.altLabel }}
+        {{ . | markdownify  }}:
+        {{ end }}
+        {{ with .Site.Params.hero.contactOne.altEmail }}
+        <a href="mailto:{{.}}">{{ . }}</a>
+        {{ end }}
+        </div>
+    </div>
+    <div class="header-contact">
+        <div>
+            {{ with .Site.Params.hero.contactTwo.description }}
+            {{ . | markdownify  }}
+            {{ end }}
+        </div>
+        <div>
+            {{ with .Site.Params.hero.contactTwo.label }}
+            {{ . | markdownify  }}:
+            {{ end }}
+            {{ with .Site.Params.hero.contactTwo.phone }}
+            <a href="tel:{{.}}">{{ . }}</a> /
+            {{ end }}
+            {{ with .Site.Params.hero.contactTwo.email }}
+            <a href="mailto:{{.}}">{{ . }}</a>
+            {{ end }}
+        </div>
+        <div>
+            {{ with .Site.Params.hero.contactTwo.altLabel }}
+            {{ . | markdownify  }}:
+            {{ end }}
+            {{ with .Site.Params.hero.contactTwo.altEmail }}
+            <a href="mailto:{{.}}">{{ . }}</a>
+            {{ end }}
+        </div>
+    </div>
+    <div class="header-hours">
+        {{ with .Site.Params.hero.phoneNumber }}
+        <i class="fa fa-phone"></i> Phone: <a href="tel:{{.}}">{{ . }}</a>
+        {{ end }}
+        {{ with .Site.Params.hero.businessHours }}
+        <div>{{ . | markdownify  }}</div>
+        {{ end }}
+        {{ with .Site.Params.hero.altBusinessHours }}
+        <div>{{ . | markdownify  }}</div>
+        {{ end }}
+    </div>
 </div>

@@ -52,7 +52,22 @@ googleAnalytics = ""
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		businessHours = "Open 7 days a week from 7 AM to 5 PM"
         altBusinessHours = "Open until 7 PM Memorial Day - Labor Day"
-        phoneNumber = "207-324-8919"
+#        phoneNumber = "207-324-8919"
+		[params.hero.contactOne]
+			description = "For all FBO Inquiries, including corporate arrivals, accounting, or aircaft maintenance"
+			label = "Desk Phone"
+			phone = "207-324-8919"
+			email = "fly@flyingsma.com"
+			altLabel = "Maintenance"
+			altEmail = "mx@flyingsma.com"
+
+		[params.hero.contactTwo]
+			description = "For all flight training or flight related questions, aircraft rentals and scheduling, scenic and discovery flights"
+			label = "call or text"
+			phone = "207-569-4017"
+			email = "flightdept@flyingsma.com"
+			altLabel = "Admissions"
+			altEmail = "admissions@flyingsma.com"
 
 	[[params.hero.list]]
 		# To change the background of the hero section, replace the '1.jpg' at './static/img/hero' with your own.
