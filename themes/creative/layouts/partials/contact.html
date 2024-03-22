@@ -15,14 +15,32 @@
             </div>
             {{ if .Site.Params.contact.phone }}
                 <div class="col-lg-4 text-center">
-                    <a href="tel:'{{ .Site.Params.contact.phone }}'"><i class="fa fa-phone fa-3x wow bounceIn color-black hover-orange"></i></a>
-                    <p><a href="tel:'{{ .Site.Params.contact.phone }}'">{{ .Site.Params.contact.phone }}</a></p>
+                    <i class="fa fa-phone fa-3x wow bounceIn color-black"></i>
+                    {{ range .Site.Params.contact.phone.list }}
+                    <p>
+                        {{ with .label }}
+                        {{.}}:
+                        {{ end }}<br/>
+                        {{ with .number }}
+                        <a href="tel:{{ . }}">{{ . }}</a>
+                        {{ end }}
+                    </p>
+                    {{ end }}
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.email }}
               <div class="col-lg-4 text-center">
-                    <a href="mailto:{{ .Site.Params.contact.email }}"><i class="far fa-envelope fa-3x wow bounceIn color-black hover-orange" data-wow-delay=".1s"></i></a>
-                    <p><a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a></p>
+                    <i class="far fa-envelope fa-3x wow bounceIn color-black" data-wow-delay=".1s"></i>
+                    {{ range .Site.Params.contact.email.list }}
+                        <p>
+                            {{ with .label }}
+                            {{.}}:
+                            {{ end }}
+                            {{ with .email }}
+                            <a href="mailto:{{ . }}">{{ . }}</a>
+                            {{ end }}
+                        </p>
+                    {{ end }}
                 </div>
             {{ end }}
             {{ if .Site.Params.contact.facebook }}

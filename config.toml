@@ -486,13 +486,34 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	[params.contact]
 		headline = "Let's Get In Touch!"
 		description = "Ready to start flying with us? That's great! Give us a call or send us an email and we will get back to you soon!"
-		phone = "207-324-8919"
-		email = "fly@flyingsma.com"
 		facebook = "https://www.facebook.com/SouthernMaineAviation/"
 		streetAddressLine1 = "199 Airport Road"
 		streetAddressLine2 = "Sanford, Maine 04073"
 		gmapsAddress = "Southern Maine Aviation, 199 Airport Rd, Sanford, ME 04073, USA"
 		gmapsEmbedURL = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2898.8488587129677!2d-70.71279048432662!3d43.40108837671419!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb2b440a2eb5a67%3A0xa3a092f530c9d102!2sSouthern+Maine+Aviation!5e0!3m2!1sen!2spe!4v1525538071837"
+
+	[[params.contact.phone.list]]
+		number = "207-324-8919"
+		label = "FBO Inquiries and Maintenance"
+	[[params.contact.phone.list]]
+		number = "207-569-4017"
+		label = "Flight Questions and Admissions"
+
+	[[params.contact.email.list]]
+		email = "fly@flyingsma.com"
+		label = "FBO Inquiries"
+
+	[[params.contact.email.list]]
+		email = "flightdept@flyingsma.com"
+		label = "Flight Questions"
+
+	[[params.contact.email.list]]
+		email = "mx@flyingsma.com"
+		label = "Maintenance"
+
+	[[params.contact.email.list]]
+		email = "admissions@flyingsma.com"
+		label = "Admissions"
 
 	# Footer
 	[params.footer.copyright]
