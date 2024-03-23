@@ -10,7 +10,13 @@
                     <p>After-hours services are available upon request (call <a href="tel:207-651-9308">207-651-9308</a>).</p>
                 </div>
                 <div class="fuel-table">
-                <table>
+                    <table x-data=" {
+                                        result: null,
+                                        async retrieveData() {
+                                            this.result = JSON.parse(await (await fetch('https://cdn.contentful.com/spaces/qr23cy1vyouv/environments/master/entries/4sJWjsWAoM8Rb26wqSTEBH?access_token=FAY5QqTMobpE56bVhfeIbwmm6mJLHup1-SDvxQ6o8Ao')).text());
+                                        }
+                                    }"
+                           x-init="retrieveData()">
                     <tr>
                         <th></th>
                         <th>Full-Service</th>
@@ -18,18 +24,18 @@
                     </tr>
                     <tr>
                         <td>Jet A (premix)</td>
-                        <td>$5.75</td>
-                        <td>$5.75</td>
+                        <td x-text="(result?.fields?.jetASelfService || '').toLocaleString('en-US', {style: 'currency', currency: 'USD'})">$</td>
+                        <td x-text="(result?.fields?.jetASelfService || '').toLocaleString('en-US', {style: 'currency', currency: 'USD'})">$</td>
                     </tr>
                     <tr>
                         <td>Avgas 100LL</td>
-                        <td>$6.75</td>
-                        <td>$6.25</td>
+                        <td x-text="(result?.fields?.avgasFullService || '').toLocaleString('en-US', {style: 'currency', currency: 'USD'})">$</td>
+                        <td x-text="(result?.fields?.avgasSelfService || '').toLocaleString('en-US', {style: 'currency', currency: 'USD'})">$</td>
                     </tr>
                     <tr>
                         <td>Mogas (91-oct. ethanol free)</td>
                         <td>N/A</td>
-                        <td>$6.50</td>
+                        <td x-text="(result?.fields?.mogasSelfService || '').toLocaleString('en-US', {style: 'currency', currency: 'USD'})">$</td>>
                     </tr>
                 </table>
                 We also offer Phillips 66 Partners-Into-Plane contract fuel.<br/>
