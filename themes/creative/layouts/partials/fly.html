@@ -210,6 +210,38 @@
                     <h2 class="section-heading">Our Fleet</h2>
                     <hr class="primary">
                 </div>
+
+                <div class="fleet-items"
+                     x-data="   {
+                                    result: null,
+                                    async retrieveData() {
+                                        this.result = JSON.parse(await (await fetch('https://cdn.contentful.com/spaces/gf6i9onr9mz0/environments/master/entries?access_token=hx8ZbAb984moIf6MxQ_3ZmqvbtEiENQt5tqh_E846EM&content_type=fleet')).text());
+                                    }
+                                }"
+                     x-init="retrieveData()">
+                    <template x-for="aircraft in result?.items">
+                        <div class="fleet-item">
+                            <div class="fleet-item__title" x-text="aircraft.fields.title"></div>
+                            <div class="fleet-item__photo-container">
+                                <div class="fleet-item__photo"><img :src="'https:' + result.includes.Asset.find((asset) => asset.sys.id === aircraft.fields.image.sys.id).fields.file.url"></div>
+                                <div class="fleet-item__photo fleet-item__photo--overlay" x-if="aircraft.fields.image2 !== undefined"><img :src="'https:' + result.includes.Asset.find((asset) => asset.sys.id === aircraft.fields.image2.sys.id).fields.file.url"></div>
+                            </div>
+                            <template x-for="paragraph in aircraft.fields.description.content">
+                                <div class="fleet-item__details">
+                                    <p class="fleet-item__description">
+                                        <template x-for="line in paragraph.content">
+                                            <span :style="(line.marks.find((element) => element.type==='bold') !== undefined) ? 'font-weight:bold' : ''" x-text="line.value"></span>
+                                        </template>
+                                    </p>
+                                </div>
+                            </template>
+                            <div class="pricing">
+                                Pricing: <span class="price" x-text="aircraft.fields.pricing"></span>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+
                 <div class="fleet-items">
                     {{ range .Site.Params.fleet.list }}
                     <div class="fleet-item" {{ if .anchorId }}id="{{ .anchorId }}"{{ end }}>
