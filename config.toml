@@ -509,9 +509,9 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 		email = "mx@flyingsma.com"
 		label = "Maintenance"
 
-	[[params.contact.email.list]]
-		email = "admissions@flyingsma.com"
-		label = "Admissions"
+#	[[params.contact.email.list]]
+#		email = "admissions@flyingsma.com"
+#		label = "Admissions"
 
 	# Footer
 	[params.footer.copyright]
