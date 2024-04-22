@@ -42,7 +42,7 @@ googleAnalytics = ""
 		contact   = "Contact"
 
 	[params.navigation.links.schedule]
-			  title = "Schedule a Flight!"
+			  title = "Scheduling for Current Customers"
 			  link = "https://prod.myfbo.com/link.asp?fbo=paos"
 			  icon = "fa-calendar-alt"
 
