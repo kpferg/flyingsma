@@ -22,6 +22,11 @@
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
+                {{ if .Site.Params.navigation.links.schedule }}
+                    <li>
+                        <a href="{{ .Site.Params.navigation.links.schedule.link }}" target="_blank">{{ if .Site.Params.navigation.links.schedule.icon }}<i class="fa {{ .Site.Params.navigation.links.schedule.icon }} color-white"></i> {{ end }}{{ .Site.Params.navigation.links.schedule.title }}</a>
+                    </li>
+                {{ end }}
                 {{ if and .Site.Params.news .Site.Params.navigation.links.news }}
                     <li>
                     {{ if .IsHome }}
