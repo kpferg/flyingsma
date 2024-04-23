@@ -195,9 +195,28 @@
                     <h2 class="section-heading">Instructors</h2>
                     <hr class="primary">
                 </div>
-                <div class="instructors">
+                <div class="instructors"
+                     x-data="   {
+                                    result: null,
+                                    async retrieveData() {
+                                        this.result = JSON.parse(await (await fetch('https://cdn.contentful.com/spaces/gf6i9onr9mz0/environments/master/entries?access_token=hx8ZbAb984moIf6MxQ_3ZmqvbtEiENQt5tqh_E846EM&content_type=instructor&order=sys.createdAt')).text());
+                                    }
+                                }"
+                     x-init="retrieveData()">
                     <p>Our experienced and qualified instructors are here to help you achieve the best possible pilot training experience!</p>
-                    <p>Check back soon for more information about our team of instructors.</p>
+                    <template x-for="instructor in result?.items">
+                        <div class="instructor">
+                            <div class="instructor__title" x-text="instructor.fields.name"></div>
+                            <div class="instructor__availability" x-text="instructor.fields.availability"></div>
+                            <div class="instructor__photo-container">
+                                <div class="instructor__photo"><img :src="'https:' + result.includes.Asset.find((asset) => asset.sys.id === instructor.fields.image.sys.id).fields.file.url"></div>
+                                <div class="instructor__photo instructor__photo--overlay"><img :src="'https:' + result.includes.Asset.find((asset) => asset.sys.id === instructor.fields.image2.sys.id).fields.file.url"></div>
+                            </div>
+                            <div class="instructor__details">
+                                <div class="instructor__description" x-text="instructor.fields.description"></div>
+                            </div>
+                        </div>
+                    </template>
                 </div>
                 <div class="down-button"><a href="#fleet" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
             </div>
