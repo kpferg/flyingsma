@@ -516,7 +516,7 @@ Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span s
 	# Footer
 	[params.footer.copyright]
 		name = "Southern Maine Aviation LLC"
-		year = "2023"
+		year = "2024"
 
 	# Fly
 	[params.fly]
