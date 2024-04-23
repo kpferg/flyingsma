@@ -232,14 +232,7 @@
                                 <div class="fleet-item__details">
                                     <p class="fleet-item__description">
                                         <template x-for="line in paragraph.content">
-                                            <span>
-                                                <template x-if="line.nodeType === 'hyperlink'">
-                                                    <a :href="line.data.uri" x-text="line.content[0].value" target="_blank"></a>
-                                                </template>
-                                                <template x-if="line.nodeType === 'text'">
-                                                    <span :style="(line.marks.find((element) => element.type === 'bold') !== undefined) ? 'font-weight: bold' : (line.marks.find((element) => element.type === 'italic') !== undefined) ? 'font-style: italic' : ''" x-text="line.value"></span>
-                                                </template>
-                                            </span>
+                                            <span><template x-if="line.nodeType === 'hyperlink'"><a :href="line.data.uri" x-text="line.content[0].value" target="_blank"></a></template><template x-if="line.nodeType === 'text'"><span :style="(line.marks.find((element) => element.type === 'bold') !== undefined) ? 'font-weight: bold' : (line.marks.find((element) => element.type === 'italic') !== undefined) ? 'font-style: italic' : ''" x-text="line.value"></span></template></span>
                                         </template>
                                     </p>
                                 </div>
@@ -249,36 +242,6 @@
                             </div>
                         </div>
                     </template>
-                </div>
-
-                <div class="fleet-items">
-                    {{ range .Site.Params.fleet.list }}
-                    <div class="fleet-item" {{ if .anchorId }}id="{{ .anchorId }}"{{ end }}>
-                        {{ with .title }}
-                        <div class="fleet-item__title">{{ . | markdownify }}</div>
-                        {{ end }}
-                        {{ if and .imageUrl (not (eq .showImage false)) }}
-                        <div class="fleet-item__photo-container">
-                            <div class="fleet-item__photo"><img src="../img/fleet/{{ .imageUrl }}"></div>
-                            {{ if and .image2Url (not (eq .showImage2 false)) }}
-                            <div class="fleet-item__photo fleet-item__photo--overlay"><img src="../img/fleet/{{ .image2Url }}"></div>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-                        {{ if .description }}
-                        <div class="fleet-item__details">
-                            {{ with .description }}
-                            <div class="fleet-item__description">{{ . | markdownify }}</div>
-                            {{ end }}
-                        </div>
-                        {{ end }}
-                        {{ with .pricing }}
-                        <div class="pricing">
-                            Pricing: <span class="price">{{ . | markdownify }}</span>
-                        </div>
-                        {{ end }}
-                    </div>
-                    {{ end }}
                 </div>
                 <div class="down-button"><a href="#questions" class="btn"><i class="fa fa-arrow-circle-down fa-4x wow bounceInUp page-scroll"></i></a></div>
             </div>
