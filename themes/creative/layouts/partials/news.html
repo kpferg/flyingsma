@@ -11,7 +11,35 @@
     </div>
     {{ end }}
     <div class="container">
-        <div class="news-container">
+        <div class="news-container"
+             x-data="   {
+                                    result: null,
+                                    async retrieveData() {
+                                        this.result = JSON.parse(await (await fetch('https://cdn.contentful.com/spaces/gf6i9onr9mz0/environments/master/entries?access_token=hx8ZbAb984moIf6MxQ_3ZmqvbtEiENQt5tqh_E846EM&content_type=news-events&order=fields.order')).text());
+                                    }
+                                }"
+             x-init="retrieveData()">
+            <template x-for="news in result?.items">
+            <div class="news-item text-center news-item--wide">
+                <i :class="'fa fa-' + news.fields.icon + ' fa-4x wow bounceIn'"></i>
+                <h2 class="section-heading" x-text="news.fields.headline"></h2>
+                <template x-if="news.fields.description !== undefined">
+                    <div>
+                    <hr class="primary">
+                    <template x-for="paragraph in news.fields.description.content">
+                        <div>
+                            <p :class="paragraph.nodeType">
+                                <template x-for="line in paragraph.content">
+                                    <span><template x-if="line.nodeType === 'hyperlink'"><a :href="line.data.uri" x-text="line.content[0].value" target="_blank"></a></template><template x-if="line.nodeType === 'text'"><span :style="(line.marks.find((element) => element.type === 'bold') !== undefined) ? 'font-weight: bold' : (line.marks.find((element) => element.type === 'italic') !== undefined) ? 'font-style: italic' : ''" x-text="line.value"></span></template></span>
+                                </template>
+                            </p>
+                        </div>
+                    </template>
+                    </div>
+                </template>
+            </div>
+            </template>
+
             {{ range .Site.Params.news.list }}
                 <div class="news-item text-center {{ if .imageURL }}news-item--wide{{ end }}">
                     {{ if .icon }}
