@@ -1805,6 +1805,10 @@ table {
     text-align: left;
 }
 
+.answer p {
+    font-size: 14px;
+}
+
 @media(max-width:768px) {
     .question-and-answer {
         flex-basis: 100%;
