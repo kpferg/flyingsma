@@ -15,7 +15,7 @@
              x-data="   {
                                     result: null,
                                     async retrieveData() {
-                                        this.result = JSON.parse(await (await fetch('https://cdn.contentful.com/spaces/gf6i9onr9mz0/environments/master/entries?access_token=hx8ZbAb984moIf6MxQ_3ZmqvbtEiENQt5tqh_E846EM&content_type=news-events&order=sys.updatedAt')).text());
+                                        this.result = JSON.parse(await (await fetch('https://cdn.contentful.com/spaces/gf6i9onr9mz0/environments/master/entries?access_token=hx8ZbAb984moIf6MxQ_3ZmqvbtEiENQt5tqh_E846EM&content_type=news-events&order=-sys.updatedAt')).text());
                                     }
                                 }"
              x-init="retrieveData()">
