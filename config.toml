@@ -917,12 +917,12 @@ two lessons a month."""
     # FAQ
 	[[params.questions.list]]
 		question = "HOW MUCH DOES IT COST?"
-		answer = """Aircraft Rental $12,000 \n
-60 hrs @200.00/hr \n
-Flight Instructor Time $2,250 \n
-30 hours @$75/hr \n
-Books, test fees, misc. $800 \n
-Total $15,050\n
+		answer = """Aircraft Rental $13,200 \n
+60 hrs @220.00/hr \n
+Flight Instructor Time $3,000 \n
+40 hours @$80/hr \n
+Books, test fees, misc. $1,000 \n
+Total $17,200\n
 
 Note: Cost shown are estimates and are based on typical
 hours, not minimum requirements. Prices are subject to

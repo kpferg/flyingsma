@@ -11,31 +11,46 @@
     </div>
     {{ end }}
     <div class="container">
-        <div class="news-container">
-            {{ range .Site.Params.news.list }}
-                <div class="news-item text-center {{ if .imageURL }}news-item--wide{{ end }}">
-                    {{ if .icon }}
-                        <i class="fa fa-{{ .icon }} fa-4x wow bounceIn"></i>
-                    {{ end }}
-                    {{ with .headline }}
-                        <h2 class="section-heading">{{ . }}</h2>
-                    {{ end }}
-                    {{ if and .headline .description }}
-                        <hr class="primary">
-                    {{ end }}
-                    {{ with .description }}
-                        <p class="text-faded">{{ . | markdownify }}</p>
-                    {{ end }}
-                    {{ if .imageURL }}
-                        {{ if .imageLink }}<a href="{{ .imageLink }}" target="_blank">{{ end }}
-                            <img class="news-item__image" src="{{ .imageURL }}"/>
-                        {{ if .imageLink }}</a>{{ end }}
-                    {{ end }}
-                    {{ if and .buttonText .buttonAction }}
-                    <p><a href="{{ .buttonAction | safeURL }}" target="{{ .buttonTarget }}" class="btn btn-primary btn-xl wow bounceIn">{{ .buttonText }}</a></p>
-                    {{ end }}
-                </div>
-            {{ end }}
+        <div class="news-container"
+             x-data="   {
+                                    result: null,
+                                    async retrieveData() {
+                                        this.result = JSON.parse(await (await fetch('https://cdn.contentful.com/spaces/gf6i9onr9mz0/environments/master/entries?access_token=hx8ZbAb984moIf6MxQ_3ZmqvbtEiENQt5tqh_E846EM&content_type=news-events&order=-sys.updatedAt')).text());
+                                    }
+                                }"
+             x-init="retrieveData()">
+            <template x-for="news in result?.items">
+            <div class="news-item text-center news-item--wide">
+                <i :class="'fa fa-' + news.fields.icon + ' fa-4x wow bounceIn'"></i>
+                <h2 class="section-heading" x-text="news.fields.headline"></h2>
+                <template x-if="news.fields.description !== undefined">
+                    <div>
+                    <hr class="primary">
+                    <template x-for="paragraph in news.fields.description.content">
+                        <div>
+                            <p :class="paragraph.nodeType">
+                                <template x-for="line in paragraph.content">
+                                    <span><template x-if="line.nodeType === 'hyperlink'"><a :href="line.data.uri" x-text="line.content[0].value" target="_blank"></a></template><template x-if="line.nodeType === 'text'"><span :style="(line.marks.find((element) => element.type === 'bold') !== undefined) ? 'font-weight: bold' : (line.marks.find((element) => element.type === 'italic') !== undefined) ? 'font-style: italic' : ''" x-text="line.value"></span></template></span>
+                                </template>
+                            </p>
+                        </div>
+                    </template>
+                    </div>
+                </template>
+                <template x-if="news.fields.document !== undefined && news.fields.image !== undefined">
+                    <a :href="'https:' + result.includes.Asset.find((asset) => asset.sys.id === news.fields.document.sys.id).fields.file.url" target="_blank">
+                        <img class="news-item__image" :src="'https:' + result.includes.Asset.find((asset) => asset.sys.id === news.fields.image.sys.id).fields.file.url"/>
+                    </a>
+                </template>
+                <template x-if="news.fields.document === undefined && news.fields.image !== undefined">
+                    <img class="news-item__image" :src="'https:' + result.includes.Asset.find((asset) => asset.sys.id === news.fields.image.sys.id).fields.file.url"/>
+                </template>
+                <template x-if="news.fields.buttonAction !== undefined && news.fields.buttonText !== undefined">
+                    <p><a :href="news.fields.buttonAction" :target="news.fields.buttonTarget" class="btn btn-primary btn-xl wow bounceIn" x-text="news.fields.buttonText"></a></p>
+                </template>
+            </div>
+            </template>
+
         </div>
         <div style="text-align: center;">
             <div class="fb-page" data-href="{{ .Site.Params.contact.facebook }}" data-tabs="events" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"></div>

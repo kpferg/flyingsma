@@ -83,6 +83,24 @@ p {
     color: rgba(255,255,255,.7);
 }
 
+.heading-3 {
+    font-size: 24px;
+    color: rgb(255,255,255) !important;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.heading-2 {
+    font-size: 30px;
+    color: rgb(255,255,255) !important;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.heading-1 {
+    font-size: 36px;
+    color: rgb(255,255,255) !important;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
 section {
     padding: 100px 0;
     position: relative;
@@ -1803,6 +1821,10 @@ table {
 
 .answer {
     text-align: left;
+}
+
+.answer p {
+    font-size: 14px;
 }
 
 @media(max-width:768px) {
