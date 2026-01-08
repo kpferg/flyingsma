@@ -400,7 +400,7 @@ googleAnalytics = ""
 	 # Corporate Service section
 	[params.corporate_services]
 		headline = "Corporate Arrival Services"
-		description = """After hours available on request, $160.00/hour.
+		description = """After hours available on request, $90/hour, with a 2-hour minimum.
 
 Call <a href='tel:2073248919'>207-324-8919</a> during business hours.<br/>
 Call <a href='tel:2076519308'>207-651-9308</a> after hours emergency for <span style='white-space:nowrap;'> Mark Damuth - General Manager</span>"""
