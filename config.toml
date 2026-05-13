@@ -7,6 +7,11 @@ title = "Southern Maine Aviation"
 theme = "creative"
 googleAnalytics = ""
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
